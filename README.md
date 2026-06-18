@@ -1,8 +1,12 @@
 <div align="center">
 
-# PRISM
+# PRIZM
 
-### One message. Twelve realities. One rewrite that closes the gap.
+<p align="center">
+  <img src="assets/logo.jpeg" height="180">
+</p>
+
+### One message. Twelve realities (or more). 
 
 [![Status](https://img.shields.io/badge/status-pre--build-orange)]()
 [![Stage](https://img.shields.io/badge/stage-hackathon%20prototype-blue)]()
@@ -18,7 +22,7 @@
 
 ##  What is it about?
 
-> Paste any post or headline — Prism splits it through 12 real-world audience lenses, shows you the interpretations you never saw coming, and rewrites it to close the gap.
+> Paste any post or headline — prizm splits it through 12 real-world audience lenses, shows you the interpretations you never saw coming, and rewrites it to close the gap.
 
 ---
 
@@ -28,27 +32,27 @@
 
 ```
 ┌─────────────────────────────────────────────────┐
-│  INPUT                                           │
+│  INPUT                                          │
 │  "Govt announces new farm loan waiver scheme"   │
-└─────────────────┬─────────────────────────────────┘
+└─────────────────┬───────────────────────────────┘
                    │
                    ▼
    ┌───────────────────────────────────┐
-   │   12 SIMULATED READINGS            │
-   │   appear side-by-side, live        │
+   │   12 SIMULATED READINGS           │
+   │   appear side-by-side, live       │
    └───────────────────────────────────┘
 
-   Punjab farmer        →  "Finally, relief."
-   Mumbai banker        →  "Fiscal irresponsibility."
-   Delhi student        →  "Why not education loans?"
-   Patna shop owner     →  "Where's MY waiver?"
+   A farmer        →  "Finally, relief."
+   Some banker        →  "Fiscal irresponsibility."
+   College student student        →  "Why not education loans?"
+   Shop owner     →  "Where's MY waiver?"
    ... (8 more)
 
                    │
                    ▼
    ┌───────────────────────────────────┐
-   │   SUGGESTED REWRITE                │
-   │   reduces interpretation variance  │
+   │   SUGGESTED REWRITE               │
+   │   reduces interpretation variance │
    └───────────────────────────────────┘
 ```
 
@@ -58,7 +62,7 @@
 
 Every public message collapses the moment it leaves its intended audience. The words don't change. The meaning explodes.
 
-This isn't rare — it's the **default condition** of public communication today, and almost all of the damage it causes is unintentional.
+This isn't rare it's the **default condition** of public communication today, and almost all of the damage it causes is unintentional.
 
 | Stat | Source |
 |---|---|
@@ -72,21 +76,20 @@ This isn't rare — it's the **default condition** of public communication today
 - Starbucks' #SpreadTheCheer campaign was hijacked live, on a public screen, by a UK tax backlash nobody on the team anticipated.
 - Entenmann's tweeted a trending hashtag without checking it was a murder trial verdict.
 
-None of these were bad actors. They were good-faith communicators who never saw the gap coming. **That's the 84% Prism is built for.**
+None of these were bad actors. They were good-faith communicators who never saw the gap coming. **That's the 84% prizm is built for.**
 
 ---
 
 ## The Solution
 
-Prism is a three-stage pipeline. Each stage answers a question the previous one can't.
-
+Prizm is a three-stage pipeline. 
 | Stage | Answers | Status |
 |---|---|---|
 | **1. Source Check** | Is this claim well-supported, contested, or unverifiable? | 🔨 Planned |
 | **2. Context Collapse Map** | How will this land across 12 different real-world audiences? | 🔨 Planned — core build focus |
 | **3. Safe Rewrite** | How do I phrase this to shrink the gap, without losing the message? | 🔨 Planned |
 
-Stage 1 never gates Stage 2 — even unverified or false claims get run through all 12 segments, because knowing how misinformation *lands* is exactly what journalists and policy teams need to counter it.
+Stage 1 never gates Stage 2 - even unverified or false claims get run through all 12 segments, because knowing how misinformation *lands* is exactly what journalists and policy teams need to counter it.
 
 ---
 
@@ -96,7 +99,7 @@ Stage 1 never gates Stage 2 — even unverified or false claims get run through 
 - **Source-signal check** — a sourcing indicator (well-supported / contested / no credible source), not a fabricated confidence score
 - **Safe phrasing rewrite** — a second-pass suggestion engineered to reduce variance across segments while preserving intent
 - **Editable persona set** — default segments are India-representative (geography, age, occupation, one psychographic marker each); swappable per use case
-- **Built-in ethical disclaimer** — *"This tool helps you understand impact, not avoid accountability"* is shown on every analysis, by design
+
 
 ---
 
@@ -105,32 +108,32 @@ Stage 1 never gates Stage 2 — even unverified or false claims get run through 
 > Reflects the system we are building toward over the next two weeks — this is the spec, not a description of completed infrastructure.
 
 ```
-                    ┌──────────────────┐
+                    ┌───────────────────┐
                     │   User Input      │
                     │ (post/headline)   │
                     └─────────┬─────────┘
                               │
               ┌───────────────┴───────────────┐
               ▼                               ▼
-   ┌─────────────────────┐         ┌─────────────────────────┐
+   ┌──────────────────-───┐         ┌──────────────────────────┐
    │  STAGE 1             │         │  STAGE 2                 │
-   │  Source Check         │         │  12-Persona Simulation   │
-   │  (web search +        │         │  (parallel LLM calls,     │
-   │   credibility signal) │         │   one prompt per persona) │
-   └──────────┬───────────┘         └───────────┬─────────────┘
-              │                                  │
-              └───────────────┬──────────────────┘
-                               ▼
+   │  Source Check        │         │  12-Persona Simulation   │
+   │  (web search +       │         │  (parallel LLM calls,    │
+   │   credibility signal)│         │   one prompt per persona)│
+   └──────────┬───────────┘         └───────────┬──────────────┘
+              │                                 │
+              └───────────────┬─────────────────┘
+                              ▼
                   ┌─────────────────────────┐
-                  │  Divergence Visualizer    │
-                  │  (spatial UI layer)        │
-                  └─────────────┬─────────────┘
-                                 ▼
-                  ┌─────────────────────────┐
+                  │  Divergence Visualizer  │
+                  │  (spatial UI layer)     │
+                  └─────────────┬───────────┘
+                                ▼
+                  ┌───────────────────────────┐
                   │  STAGE 3                  │
-                  │  Safe Rewrite Engine       │
-                  │  (variance-reducing pass)  │
-                  └─────────────────────────┘
+                  │  Safe Rewrite Engine      │
+                  │  (variance-reducing pass) │
+                  └───────────────────────────┘
 ```
 
 ---
@@ -151,9 +154,7 @@ Stage 1 never gates Stage 2 — even unverified or false claims get run through 
 
 ##  Why This Is Different
 
-Most LLM hackathon projects are wrappers — paste text, get one output, done.
-
-Prism's differentiator is **structural, not stylistic**: the same input produces 12 simultaneous divergent outputs, shown comparatively, so the *gap itself* becomes visible. That comparative structure — not the underlying model call — is the actual product.
+Prizm's differentiator is **structural, not stylistic**: the same input produces 12 simultaneous divergent outputs, shown comparatively, so the *gap itself* becomes visible. That comparative structure — not the underlying model call — is the actual product.
 
 We are explicit about what this does **not** solve: it does not stop deliberate bad actors. No communication tool ever has. It is built for the much larger population of good-faith communicators who cause harm without knowing it — by the numbers, roughly 5 times the size of the deliberate-harm population.
 
@@ -168,7 +169,7 @@ We are explicit about what this does **not** solve: it does not stop deliberate 
 | **NGOs & policy communicators** | Stress-test messaging before public campaigns |
 | **Brand & PR teams** | Catch the next #SpreadTheCheer before it goes live |
 
-**Why someone would pay:** the cost of one mishandled message — a PR crisis, a policy backlash, a viral misstep — is orders of magnitude higher than the cost of a tool subscription. This is a prevention product sold against a known, expensive failure mode.
+**Why someone would pay:** the cost of one mishandled message — a PR crisis, a policy backlash, a viral misstep - is orders of magnitude higher than the cost of a tool subscription. This is a prevention product sold against a known, expensive failure mode.
 
 ---
 
@@ -196,8 +197,8 @@ We are explicit about what this does **not** solve: it does not stop deliberate 
 
 ```bash
 # Clone the repo
-git clone https://github.com/<your-org>/prism.git
-cd prism
+git clone https://github.com/<your-org>/.git
+cd 
 
 # Install dependencies
 npm install
@@ -222,6 +223,6 @@ npm run dev
 
 <div align="center">
 
-**Prism** —
+**** —
 
 </div>
