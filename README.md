@@ -14,7 +14,7 @@
 
 **An AI tool that shows communicators exactly how their words will be misread *before* they post.**
 
-[Problem](#-the-problem) · [Solution](#-the-solution) · [Demo](#-demo) · [Architecture](#-architecture) · [Roadmap](#-roadmap)
+
 
 </div>
 
