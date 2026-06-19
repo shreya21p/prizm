@@ -22,7 +22,7 @@
 
 ##  What is it about?
 
-> Paste any post or headline — prizm splits it through 12 real-world audience lenses, shows you the interpretations you never saw coming, and rewrites it to close the gap.
+> Paste any post or headline  prizm splits it through 12 real-world audience lenses, shows you the interpretations you never saw coming, and rewrites it to close the gap.
 
 ---
 
