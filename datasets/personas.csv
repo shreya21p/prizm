@@ -1,0 +1,1001 @@
+id,archetype,age,gender,location,urban_rural,education,income_band,trust_govt,trust_media,trust_academia,trust_local,trust_social_media,trust_influencers,trust_religious_leaders,youtube_usage,whatsapp_usage,newspaper_usage,tv_news_usage,regional_media_exposure,english_media_exposure,political_interest,economic_optimism,traditionalism
+1,Retired Government Officer,64,Male,"Kolkata, West Bengal",Urban,Graduate,₹5L-10L,8,5,7,7,2,2,7,4,5,8,9,6,6,8,7,7
+2,Small Business Owner,33,Male,"Bangalore, Karnataka",Urban,Secondary,₹5L-10L,5,6,4,9,6,4,6,5,8,6,6,6,4,5,6,6
+3,Homemaker,51,Female,"Ahmedabad, Gujarat",Urban,Primary,₹2.5L-5L,5,5,4,8,6,5,6,5,9,5,7,7,4,4,6,6
+4,Urban Student,24,Male,"Hyderabad, Telangana",Urban,Undergraduate,₹5L-10L,5,5,8,6,7,7,4,9,7,3,3,4,9,6,7,4
+5,Corporate Employee,39,Male,"Gurugram, Haryana",Urban,Graduate,₹10L-20L,5,6,5,5,6,4,4,6,7,5,5,5,8,4,7,5
+6,Corporate Employee,37,Female,"Jaipur, Rajasthan",Urban,Postgraduate,₹10L-20L,5,5,6,5,6,5,4,5,6,5,5,5,9,5,6,5
+7,Homemaker,65,Female,"Jamshedpur, Jharkhand",Semi-Urban,Higher Secondary,Below ₹2.5L,6,5,4,8,7,5,7,6,9,4,7,8,4,4,5,7
+8,Retired Government Officer,70,Female,"Ujjain, Madhya Pradesh",Semi-Urban,Doctorate,₹10L-20L,8,6,7,7,3,2,7,2,5,8,8,5,7,7,6,7
+9,Startup Founder,44,Male,Delhi,Urban,Graduate,Above ₹50L,3,4,6,4,7,7,3,7,7,6,4,3,9,6,9,3
+10,Retired Government Officer,75,Female,"Tirupati, Andhra Pradesh",Semi-Urban,Graduate,₹10L-20L,8,7,7,8,2,1,7,3,5,8,8,6,7,8,7,7
+11,Startup Founder,41,Male,"Bangalore, Karnataka",Urban,Graduate,Above ₹50L,4,4,6,5,7,7,3,8,6,5,4,3,10,4,9,3
+12,Startup Founder,42,Female,"Hyderabad, Telangana",Urban,Postgraduate,₹20L-50L,5,4,6,5,7,7,3,7,7,5,4,3,10,5,9,3
+13,Homemaker,41,Female,"Bhubaneswar, Odisha",Urban,Higher Secondary,Below ₹2.5L,5,5,4,7,6,5,7,5,9,4,7,7,3,4,5,7
+14,Regional Language Aspirant,35,Female,"Aligarh, Uttar Pradesh",Semi-Urban,Graduate,₹5L-10L,6,5,8,6,5,4,6,6,6,7,6,9,3,8,4,6
+15,Small Business Owner,57,Female,"Bilaspur, Chhattisgarh",Semi-Urban,Undergraduate,₹5L-10L,5,5,4,8,5,4,6,5,8,6,6,7,4,6,6,6
+16,Startup Founder,40,Male,"Pune, Maharashtra",Urban,Graduate,₹20L-50L,4,4,7,5,8,6,3,7,7,5,4,3,10,5,9,4
+17,Regional Language Aspirant,32,Other,"Bhagalpur rural, Bihar",Rural,Graduate,Below ₹2.5L,5,4,8,7,5,4,6,6,7,7,6,10,2,8,5,7
+18,Startup Founder,33,Female,"Bangalore, Karnataka",Urban,Graduate,₹20L-50L,5,4,6,5,7,6,4,7,6,5,4,3,10,5,9,3
+19,Startup Founder,34,Male,"Pune, Maharashtra",Urban,Graduate,₹10L-20L,3,4,5,4,8,6,3,7,7,5,4,4,10,5,9,3
+20,Small Business Owner,60,Female,"Jaipur, Rajasthan",Urban,Undergraduate,₹5L-10L,5,6,4,8,5,4,6,5,8,7,6,6,3,5,5,6
+21,Small Business Owner,35,Male,"Noida, Uttar Pradesh",Urban,Higher Secondary,₹5L-10L,6,4,4,7,4,4,7,5,7,6,7,8,4,6,7,5
+22,Small Business Owner,47,Male,"Surat, Gujarat",Urban,Higher Secondary,₹2.5L-5L,5,5,4,8,5,4,6,5,9,5,6,7,5,5,6,7
+23,Corporate Employee,28,Female,"Vadodara, Gujarat",Urban,Postgraduate,₹10L-20L,5,6,6,5,6,5,5,6,7,5,5,6,7,4,6,5
+24,Homemaker,65,Female,"Warangal rural, Telangana",Rural,Secondary,Below ₹2.5L,5,5,4,8,6,6,7,4,9,5,7,7,3,4,5,8
+25,Small Business Owner,30,Male,"Gurugram, Haryana",Urban,Undergraduate,₹10L-20L,6,5,4,8,4,4,7,5,8,6,6,7,4,5,6,6
+26,Rural Farmer,34,Male,"Sangrur district, Punjab",Rural,Illiterate,₹2.5L-5L,5,3,3,7,4,3,7,4,7,4,6,9,2,6,5,9
+27,Startup Founder,39,Male,"Mumbai, Maharashtra",Urban,Doctorate,₹10L-20L,4,3,6,4,7,6,3,7,6,5,3,3,10,5,9,3
+28,Small Business Owner,34,Male,"Kolkata, West Bengal",Urban,Undergraduate,₹2.5L-5L,5,5,4,8,6,4,6,5,7,6,6,7,4,5,6,6
+29,Homemaker,48,Female,"Rajahmundry, Andhra Pradesh",Semi-Urban,Graduate,Below ₹2.5L,5,5,4,8,6,5,7,5,10,4,7,8,3,4,5,8
+30,Homemaker,47,Female,"Ahmedabad, Gujarat",Urban,Secondary,₹2.5L-5L,6,5,5,8,6,5,7,5,10,4,8,7,3,6,5,7
+31,Homemaker,43,Female,"Gurugram, Haryana",Urban,Undergraduate,₹2.5L-5L,5,6,3,7,6,6,7,6,9,5,7,8,2,5,5,6
+32,Rural Farmer,39,Female,"Murshidabad district, West Bengal",Rural,Primary,₹2.5L-5L,5,5,3,8,4,3,7,4,6,4,5,9,3,6,5,8
+33,Regional Language Aspirant,33,Female,"Erode, Tamil Nadu",Semi-Urban,Postgraduate,₹2.5L-5L,5,4,8,7,5,4,6,6,7,7,5,9,3,9,5,7
+34,Rural Farmer,55,Male,"Sundargarh district, Odisha",Rural,Illiterate,Below ₹2.5L,5,4,3,8,3,3,7,5,6,4,6,8,2,6,5,8
+35,Small Business Owner,54,Female,"Erode, Tamil Nadu",Semi-Urban,Higher Secondary,₹5L-10L,5,5,4,9,5,4,5,5,8,6,7,8,4,5,7,6
+36,Small Business Owner,40,Male,"Belgaum, Karnataka",Semi-Urban,Higher Secondary,₹2.5L-5L,4,6,4,8,5,4,5,5,7,5,6,6,3,6,6,6
+37,Startup Founder,33,Female,"Noida, Uttar Pradesh",Urban,Postgraduate,₹10L-20L,4,4,7,6,7,6,3,8,7,5,4,3,10,5,9,3
+38,Regional Language Aspirant,18,Male,"Ujjain, Madhya Pradesh",Semi-Urban,Graduate,₹5L-10L,6,5,8,7,6,4,6,6,7,7,6,9,3,8,6,7
+39,Homemaker,47,Female,"Pune, Maharashtra",Urban,Graduate,₹2.5L-5L,5,5,5,8,6,5,7,5,9,4,7,7,3,4,5,7
+40,Small Business Owner,34,Female,"Kolkata, West Bengal",Urban,Secondary,₹10L-20L,5,5,4,8,5,4,6,6,9,5,7,7,4,5,6,5
+41,Small Business Owner,46,Male,"Coimbatore, Tamil Nadu",Urban,Undergraduate,₹10L-20L,5,6,4,8,6,4,6,6,8,7,6,7,4,6,5,6
+42,Regional Language Aspirant,28,Male,"Nellore, Andhra Pradesh",Semi-Urban,Undergraduate,₹2.5L-5L,5,5,8,6,5,4,6,7,7,8,6,8,3,8,6,7
+43,Urban Student,16,Other,"Kolkata, West Bengal",Urban,Higher Secondary,Below ₹2.5L,5,5,8,6,7,7,4,10,7,3,3,3,9,4,8,2
+44,Regional Language Aspirant,31,Male,"Ratnagiri district, Maharashtra",Rural,Undergraduate,₹5L-10L,5,5,8,7,5,3,6,6,7,7,6,9,2,8,5,7
+45,Urban Student,22,Male,"Thiruvananthapuram, Kerala",Urban,Postgraduate,Below ₹2.5L,5,5,8,6,7,6,3,8,8,3,3,4,9,5,7,3
+46,Urban Student,17,Male,"Kolkata, West Bengal",Urban,Undergraduate,Below ₹2.5L,5,5,8,6,7,8,4,10,7,3,3,4,9,3,7,3
+47,Urban Student,23,Male,"Thiruvananthapuram, Kerala",Urban,Higher Secondary,₹2.5L-5L,5,5,7,6,7,7,4,9,8,4,3,4,9,5,7,3
+48,Regional Language Aspirant,19,Male,"Bhagalpur rural, Bihar",Rural,Undergraduate,₹2.5L-5L,5,5,8,7,5,4,6,5,7,8,5,9,3,8,5,7
+49,Homemaker,35,Female,"Jaipur, Rajasthan",Urban,Higher Secondary,₹2.5L-5L,5,5,4,8,5,5,6,5,8,4,8,8,4,5,5,7
+50,Urban Student,18,Male,"Kochi, Kerala",Urban,Undergraduate,Below ₹2.5L,4,6,8,6,7,7,4,9,7,3,4,4,10,4,7,2
+51,Homemaker,62,Female,"Village near Varanasi, Uttar Pradesh",Rural,Undergraduate,₹2.5L-5L,5,5,4,7,6,6,7,5,10,4,7,7,4,5,5,7
+52,Startup Founder,25,Male,"Chennai, Tamil Nadu",Urban,Postgraduate,Above ₹50L,4,4,6,5,7,6,3,7,6,5,4,3,10,6,9,3
+53,Startup Founder,26,Female,"Pune, Maharashtra",Urban,Postgraduate,₹20L-50L,4,4,5,5,6,7,3,7,7,4,4,3,9,5,9,3
+54,Retired Government Officer,64,Female,"Visakhapatnam, Andhra Pradesh",Urban,Postgraduate,₹10L-20L,8,6,7,6,3,2,7,3,5,9,8,6,7,7,6,7
+55,Retired Government Officer,68,Female,"Bilaspur, Chhattisgarh",Semi-Urban,Postgraduate,₹5L-10L,8,7,8,7,3,3,6,3,5,8,7,6,7,8,6,7
+56,Rural Farmer,55,Male,"Warangal rural, Telangana",Rural,Higher Secondary,Below ₹2.5L,5,4,3,8,4,3,8,4,6,4,6,9,2,6,5,7
+57,Homemaker,65,Female,"Sitamarhi district, Bihar",Rural,Secondary,Below ₹2.5L,5,4,4,8,6,5,7,5,9,4,7,7,3,4,5,7
+58,Small Business Owner,45,Female,"Kolhapur, Maharashtra",Semi-Urban,Secondary,₹2.5L-5L,5,6,4,8,5,4,6,6,8,6,6,7,4,5,6,6
+59,Small Business Owner,48,Male,Delhi,Urban,Undergraduate,₹2.5L-5L,5,6,4,8,5,4,6,5,8,5,6,7,4,5,6,6
+60,Retired Government Officer,67,Male,"Siliguri, West Bengal",Semi-Urban,Graduate,₹20L-50L,8,6,7,7,3,3,7,3,5,8,8,6,7,8,6,8
+61,Small Business Owner,34,Male,"Bilaspur, Chhattisgarh",Semi-Urban,Graduate,₹2.5L-5L,4,6,3,8,4,4,6,5,8,6,6,7,4,5,6,6
+62,Retired Government Officer,67,Female,"Bilaspur, Chhattisgarh",Semi-Urban,Postgraduate,₹20L-50L,8,5,7,7,3,1,7,2,5,8,8,6,7,8,5,7
+63,Startup Founder,44,Female,"Pune, Maharashtra",Urban,Postgraduate,₹20L-50L,5,4,6,5,7,6,3,7,7,5,4,3,10,4,9,3
+64,Startup Founder,31,Male,"Gurugram, Haryana",Urban,Postgraduate,₹20L-50L,5,4,6,5,7,7,3,8,7,5,3,2,10,5,9,3
+65,Urban Student,21,Female,"Noida, Uttar Pradesh",Urban,Higher Secondary,₹2.5L-5L,5,5,8,6,8,7,4,10,8,3,3,4,9,5,8,3
+66,Urban Student,16,Male,"Bangalore, Karnataka",Urban,Postgraduate,Below ₹2.5L,5,5,8,6,7,7,4,9,7,3,4,4,9,5,7,4
+67,Corporate Employee,38,Male,"Hyderabad, Telangana",Urban,Postgraduate,₹10L-20L,5,5,6,5,6,5,4,6,7,5,5,5,8,5,6,5
+68,Urban Student,22,Female,"Guwahati, Assam",Urban,Undergraduate,₹2.5L-5L,5,5,8,7,7,7,3,9,6,3,3,4,9,5,6,2
+69,Regional Language Aspirant,21,Male,"Hubli, Karnataka",Semi-Urban,Graduate,₹2.5L-5L,5,5,7,7,5,4,6,6,7,8,6,9,4,9,6,7
+70,Urban Student,21,Male,"Thiruvananthapuram, Kerala",Urban,Higher Secondary,₹2.5L-5L,5,5,8,7,7,7,3,9,8,2,3,4,8,4,7,4
+71,Homemaker,54,Female,"Bhagalpur rural, Bihar",Rural,Undergraduate,₹2.5L-5L,5,5,4,9,6,5,7,4,9,4,7,7,5,4,5,7
+72,Startup Founder,42,Male,"Bangalore, Karnataka",Urban,Postgraduate,Above ₹50L,5,4,7,5,7,6,3,7,7,6,3,3,9,5,9,4
+73,Small Business Owner,59,Female,"Bhubaneswar, Odisha",Urban,Undergraduate,₹5L-10L,5,5,4,8,5,4,5,4,7,6,6,7,4,7,6,6
+74,Small Business Owner,50,Male,"Rajahmundry, Andhra Pradesh",Semi-Urban,Higher Secondary,₹10L-20L,5,5,3,8,4,4,6,5,8,5,6,7,4,6,6,5
+75,Regional Language Aspirant,19,Male,"Murshidabad district, West Bengal",Rural,Graduate,Below ₹2.5L,5,5,8,6,5,4,6,6,7,7,5,10,3,8,6,7
+76,Corporate Employee,47,Male,"Chennai, Tamil Nadu",Urban,Graduate,₹5L-10L,5,4,6,6,6,5,5,6,7,4,5,5,9,5,6,6
+77,Small Business Owner,32,Female,Chandigarh,Urban,Graduate,₹2.5L-5L,6,5,5,8,5,4,6,4,8,7,6,7,3,5,5,7
+78,Startup Founder,38,Male,Delhi,Urban,Graduate,Above ₹50L,4,4,6,5,8,6,3,7,7,6,4,2,9,4,9,3
+79,Regional Language Aspirant,21,Male,"Tirupati, Andhra Pradesh",Semi-Urban,Graduate,₹5L-10L,5,4,8,8,5,4,6,6,7,7,6,8,3,8,5,7
+80,Regional Language Aspirant,20,Male,"Sangli district, Maharashtra",Rural,Graduate,₹2.5L-5L,5,5,8,7,5,4,6,5,7,7,6,9,3,7,5,7
+81,Urban Student,16,Female,"Hyderabad, Telangana",Urban,Undergraduate,Below ₹2.5L,5,6,8,6,8,7,4,9,7,3,3,4,9,4,7,4
+82,Regional Language Aspirant,20,Female,"Kolhapur, Maharashtra",Semi-Urban,Postgraduate,₹2.5L-5L,6,5,7,7,5,4,6,6,7,7,6,9,4,8,5,7
+83,Retired Government Officer,71,Male,"Patna, Bihar",Urban,Graduate,₹20L-50L,8,7,6,6,2,3,6,2,5,7,9,5,6,8,7,7
+84,Regional Language Aspirant,26,Male,"Bilaspur, Chhattisgarh",Semi-Urban,Postgraduate,₹2.5L-5L,5,5,8,7,5,3,6,6,7,8,6,9,3,9,6,7
+85,Corporate Employee,32,Female,"Gurugram, Haryana",Urban,Postgraduate,₹20L-50L,5,5,6,4,6,6,4,7,7,5,5,4,8,5,6,5
+86,Corporate Employee,48,Female,"Pune, Maharashtra",Urban,Graduate,₹20L-50L,5,5,6,5,6,5,5,6,7,5,5,5,8,5,7,5
+87,Corporate Employee,47,Male,"Bhubaneswar, Odisha",Urban,Graduate,₹5L-10L,6,5,6,5,6,5,4,6,7,5,5,6,8,5,6,5
+88,Homemaker,50,Female,"Kolar district, Karnataka",Rural,Undergraduate,Below ₹2.5L,5,4,4,8,7,5,8,5,8,5,7,7,4,3,5,7
+89,Regional Language Aspirant,31,Female,"Bikaner rural, Rajasthan",Rural,Undergraduate,₹5L-10L,4,5,9,6,5,3,6,5,7,7,6,9,3,8,4,7
+90,Homemaker,42,Female,"Kannur rural, Kerala",Rural,Graduate,₹2.5L-5L,5,5,4,9,6,5,7,6,9,4,7,6,4,4,5,7
+91,Startup Founder,35,Male,"Chennai, Tamil Nadu",Urban,Postgraduate,₹10L-20L,4,4,6,5,7,7,3,7,7,5,5,4,9,5,9,4
+92,Small Business Owner,44,Female,"Lucknow, Uttar Pradesh",Urban,Secondary,₹2.5L-5L,5,4,4,8,5,4,6,5,8,5,5,7,4,5,6,6
+93,Regional Language Aspirant,24,Female,"Sundargarh district, Odisha",Rural,Postgraduate,Below ₹2.5L,5,6,8,7,5,4,6,6,7,8,7,9,3,8,5,7
+94,Regional Language Aspirant,21,Male,"Mehsana district, Gujarat",Rural,Postgraduate,Below ₹2.5L,5,4,8,8,5,4,5,6,7,7,6,9,4,8,4,7
+95,Retired Government Officer,65,Male,"Vadodara, Gujarat",Urban,Postgraduate,₹20L-50L,8,6,7,8,3,2,6,3,6,8,8,6,6,8,6,7
+96,Small Business Owner,51,Male,"Surat, Gujarat",Urban,Undergraduate,₹2.5L-5L,6,6,3,8,4,5,6,5,8,6,7,7,3,5,6,6
+97,Urban Student,16,Male,"Bhubaneswar, Odisha",Urban,Undergraduate,Below ₹2.5L,6,4,8,6,7,7,4,9,7,3,3,4,9,5,7,3
+98,Startup Founder,37,Female,"Pune, Maharashtra",Urban,Postgraduate,₹20L-50L,4,4,6,4,7,5,3,8,7,6,4,3,9,4,9,3
+99,Homemaker,28,Female,"Thiruvananthapuram, Kerala",Urban,Higher Secondary,Below ₹2.5L,5,5,4,8,5,5,7,5,9,4,6,7,3,5,5,8
+100,Rural Farmer,49,Female,"Ratnagiri district, Maharashtra",Rural,Secondary,Below ₹2.5L,5,3,3,8,4,3,7,4,6,4,6,9,2,6,5,8
+101,Regional Language Aspirant,23,Male,"Ujjain, Madhya Pradesh",Semi-Urban,Graduate,₹5L-10L,5,5,8,7,5,3,6,7,8,7,5,9,4,9,4,7
+102,Regional Language Aspirant,25,Male,"Rohtak, Haryana",Semi-Urban,Postgraduate,Below ₹2.5L,5,5,8,8,5,4,6,6,7,7,6,9,3,8,5,7
+103,Retired Government Officer,72,Female,"Guntur, Andhra Pradesh",Semi-Urban,Postgraduate,₹10L-20L,8,6,7,7,4,2,6,3,4,9,8,7,7,8,6,8
+104,Retired Government Officer,62,Male,"Surat, Gujarat",Urban,Graduate,₹10L-20L,8,6,7,8,4,2,7,3,5,8,8,6,7,8,6,7
+105,Urban Student,17,Female,"Visakhapatnam, Andhra Pradesh",Urban,Higher Secondary,₹2.5L-5L,5,5,8,6,6,7,2,9,8,3,3,4,8,5,8,3
+106,Urban Student,21,Male,"Pune, Maharashtra",Urban,Higher Secondary,₹2.5L-5L,5,6,8,6,7,7,3,9,6,3,4,4,9,3,7,3
+107,Retired Government Officer,78,Female,"Jamshedpur, Jharkhand",Semi-Urban,Postgraduate,₹10L-20L,7,6,6,7,3,1,6,4,5,8,8,6,7,8,6,7
+108,Corporate Employee,42,Male,"Chennai, Tamil Nadu",Urban,Graduate,₹5L-10L,5,5,6,5,7,6,4,7,6,5,4,5,7,5,6,5
+109,Rural Farmer,52,Male,"Anantapur district, Andhra Pradesh",Rural,Illiterate,Below ₹2.5L,5,4,3,8,4,3,7,4,6,4,6,9,2,6,5,8
+110,Urban Student,18,Other,"Patna, Bihar",Urban,Postgraduate,Below ₹2.5L,4,5,8,7,7,7,4,9,7,3,3,3,9,4,7,3
+111,Corporate Employee,41,Other,"Indore, Madhya Pradesh",Urban,Graduate,₹20L-50L,5,5,5,4,7,5,5,6,7,5,4,5,8,5,7,5
+112,Retired Government Officer,66,Female,"Ahmedabad, Gujarat",Urban,Doctorate,₹5L-10L,8,6,8,7,3,1,7,4,6,8,8,6,7,8,6,7
+113,Urban Student,18,Female,"Bhubaneswar, Odisha",Urban,Undergraduate,₹2.5L-5L,5,5,9,6,7,7,4,9,8,3,3,4,9,5,7,3
+114,Rural Farmer,65,Female,"Hoshiarpur district, Punjab",Rural,Illiterate,Below ₹2.5L,6,4,3,8,4,3,8,4,6,3,6,8,3,5,5,8
+115,Urban Student,22,Male,"Lucknow, Uttar Pradesh",Urban,Higher Secondary,Below ₹2.5L,5,4,8,5,7,7,3,10,6,3,3,4,9,5,7,3
+116,Small Business Owner,57,Female,"Bhopal, Madhya Pradesh",Urban,Secondary,₹10L-20L,5,5,4,8,5,4,6,5,8,5,6,7,4,6,6,5
+117,Regional Language Aspirant,32,Male,"Bastar district, Chhattisgarh",Rural,Graduate,₹5L-10L,5,6,8,7,5,4,6,7,7,7,6,8,3,8,6,7
+118,Startup Founder,26,Male,"Chennai, Tamil Nadu",Urban,Graduate,Above ₹50L,4,4,6,5,7,5,3,8,7,5,4,3,9,4,8,3
+119,Corporate Employee,44,Male,"Ahmedabad, Gujarat",Urban,Postgraduate,₹20L-50L,5,5,5,5,6,5,4,7,7,5,4,5,8,5,6,5
+120,Rural Farmer,48,Male,"Mehsana district, Gujarat",Rural,Higher Secondary,Below ₹2.5L,6,4,3,8,4,4,8,4,6,4,6,9,2,6,5,8
+121,Urban Student,24,Male,"Indore, Madhya Pradesh",Urban,Higher Secondary,₹5L-10L,5,4,7,6,6,7,4,9,7,3,3,4,9,4,7,3
+122,Urban Student,18,Male,"Lucknow, Uttar Pradesh",Urban,Higher Secondary,Below ₹2.5L,5,5,8,6,7,7,3,9,8,4,3,4,9,4,6,3
+123,Urban Student,24,Female,"Thiruvananthapuram, Kerala",Urban,Higher Secondary,₹2.5L-5L,5,6,7,6,7,7,4,8,7,3,3,4,9,3,7,3
+124,Retired Government Officer,68,Male,"Vadodara, Gujarat",Urban,Graduate,₹10L-20L,7,6,7,7,2,2,7,3,5,7,8,7,7,8,6,6
+125,Urban Student,22,Male,"Bhopal, Madhya Pradesh",Urban,Undergraduate,₹2.5L-5L,5,6,8,6,8,6,3,9,7,3,2,4,9,5,6,3
+126,Regional Language Aspirant,18,Male,"Thanjavur rural, Tamil Nadu",Rural,Undergraduate,₹2.5L-5L,5,4,8,7,5,4,6,6,7,8,6,9,3,8,5,7
+127,Urban Student,23,Male,"Jaipur, Rajasthan",Urban,Higher Secondary,₹2.5L-5L,5,5,8,6,7,7,5,10,6,3,3,3,9,4,8,3
+128,Homemaker,54,Female,"Nellore, Andhra Pradesh",Semi-Urban,Undergraduate,₹2.5L-5L,5,5,4,8,6,5,6,5,10,4,7,7,4,4,5,7
+129,Retired Government Officer,69,Male,"Madurai, Tamil Nadu",Semi-Urban,Graduate,₹10L-20L,8,6,6,7,3,2,7,3,5,8,7,7,7,7,6,7
+130,Regional Language Aspirant,19,Male,"Bikaner rural, Rajasthan",Rural,Postgraduate,Below ₹2.5L,5,4,7,7,5,4,6,5,7,6,6,8,3,8,6,7
+131,Homemaker,56,Male,"Kochi, Kerala",Urban,Higher Secondary,Below ₹2.5L,5,5,4,8,5,5,6,4,9,4,7,7,2,5,5,7
+132,Startup Founder,37,Male,"Bangalore, Karnataka",Urban,Postgraduate,₹10L-20L,4,4,6,5,7,6,3,7,7,5,4,3,9,5,9,2
+133,Startup Founder,30,Female,Delhi,Urban,Graduate,₹20L-50L,5,4,7,5,7,6,4,7,7,4,4,3,10,5,9,3
+134,Homemaker,61,Female,"Coimbatore, Tamil Nadu",Urban,Secondary,Below ₹2.5L,4,6,4,7,7,5,7,5,9,4,7,8,3,5,5,7
+135,Regional Language Aspirant,27,Female,"Rohtak, Haryana",Semi-Urban,Graduate,Below ₹2.5L,5,5,8,7,5,4,6,6,8,6,6,9,4,7,5,7
+136,Rural Farmer,61,Male,"Sitamarhi district, Bihar",Rural,Secondary,Below ₹2.5L,5,4,4,8,4,3,9,4,6,3,6,10,2,6,5,8
+137,Startup Founder,37,Male,"Hyderabad, Telangana",Urban,Graduate,₹20L-50L,4,4,6,5,7,6,3,7,6,5,4,3,10,5,9,4
+138,Regional Language Aspirant,34,Male,"Sundargarh district, Odisha",Rural,Graduate,₹5L-10L,5,5,8,7,5,4,6,6,7,7,6,9,3,8,5,7
+139,Small Business Owner,56,Female,"Bangalore, Karnataka",Urban,Secondary,₹10L-20L,5,5,4,7,6,4,6,5,8,6,6,7,3,6,6,6
+140,Homemaker,33,Female,"Pune, Maharashtra",Urban,Higher Secondary,₹5L-10L,6,5,4,7,6,6,7,5,9,4,7,7,4,4,5,7
+141,Homemaker,33,Female,"Kolar district, Karnataka",Rural,Higher Secondary,Below ₹2.5L,6,5,4,8,7,5,7,5,9,4,7,6,4,4,4,6
+142,Retired Government Officer,76,Female,"Mumbai, Maharashtra",Urban,Graduate,₹5L-10L,8,6,7,7,3,1,7,3,5,8,8,7,7,8,7,7
+143,Corporate Employee,34,Female,"Bhubaneswar, Odisha",Urban,Graduate,₹10L-20L,5,5,6,5,5,5,4,6,7,5,5,4,8,5,6,5
+144,Startup Founder,41,Male,"Gurugram, Haryana",Urban,Graduate,₹10L-20L,4,4,7,5,7,6,3,6,7,4,5,3,10,5,9,3
+145,Regional Language Aspirant,19,Male,"Bastar district, Chhattisgarh",Rural,Postgraduate,₹2.5L-5L,4,4,8,6,5,4,6,6,7,7,6,9,3,8,5,7
+146,Urban Student,24,Male,"Indore, Madhya Pradesh",Urban,Undergraduate,Below ₹2.5L,6,5,8,6,7,7,2,9,8,3,3,5,9,4,6,4
+147,Rural Farmer,54,Male,"Karimnagar district, Telangana",Rural,Primary,₹2.5L-5L,5,4,3,8,4,3,6,4,5,4,6,8,2,6,5,8
+148,Corporate Employee,29,Male,"Ahmedabad, Gujarat",Urban,Postgraduate,₹20L-50L,5,5,5,6,6,6,4,6,7,5,5,4,7,4,6,5
+149,Small Business Owner,53,Female,"Aligarh, Uttar Pradesh",Semi-Urban,Undergraduate,₹5L-10L,4,6,4,8,5,3,6,5,8,6,7,7,3,5,6,6
+150,Urban Student,22,Female,"Chennai, Tamil Nadu",Urban,Higher Secondary,₹2.5L-5L,5,5,8,6,7,7,4,10,7,3,3,4,8,5,7,3
+151,Urban Student,18,Male,Chandigarh,Urban,Undergraduate,₹2.5L-5L,5,6,8,6,7,6,4,9,7,2,3,4,9,4,8,3
+152,Urban Student,18,Male,"Patna, Bihar",Urban,Undergraduate,Below ₹2.5L,5,5,7,5,7,7,3,9,8,3,3,4,9,3,7,3
+153,Retired Government Officer,64,Male,"Ujjain, Madhya Pradesh",Semi-Urban,Postgraduate,₹20L-50L,8,6,7,7,3,2,6,2,5,8,7,6,6,8,6,7
+154,Rural Farmer,53,Female,"Thanjavur rural, Tamil Nadu",Rural,Primary,₹2.5L-5L,5,4,3,8,4,3,7,4,6,4,6,9,2,5,5,8
+155,Retired Government Officer,73,Male,Chandigarh,Urban,Graduate,₹10L-20L,9,6,7,7,4,2,5,3,5,9,8,6,7,7,6,7
+156,Rural Farmer,47,Male,"Dhar district, Madhya Pradesh",Rural,Primary,₹2.5L-5L,5,4,3,8,4,3,7,5,7,4,6,9,2,6,5,8
+157,Small Business Owner,43,Male,"Hubli, Karnataka",Semi-Urban,Undergraduate,₹5L-10L,5,5,3,8,5,4,6,5,9,6,6,7,5,5,6,6
+158,Corporate Employee,31,Male,"Bhopal, Madhya Pradesh",Urban,Postgraduate,₹20L-50L,5,5,7,6,6,5,5,5,7,5,5,5,7,5,6,5
+159,Retired Government Officer,64,Male,"Tirupati, Andhra Pradesh",Semi-Urban,Doctorate,₹10L-20L,9,6,7,7,3,2,8,4,5,8,7,6,7,7,7,7
+160,Retired Government Officer,70,Female,"Jhansi, Uttar Pradesh",Semi-Urban,Doctorate,₹20L-50L,8,5,7,7,3,1,7,2,5,8,7,6,6,9,6,7
+161,Urban Student,20,Female,"Bhubaneswar, Odisha",Urban,Postgraduate,Below ₹2.5L,4,5,8,5,6,7,3,9,7,3,3,5,9,4,8,3
+162,Retired Government Officer,64,Male,Delhi,Urban,Graduate,₹10L-20L,8,6,7,7,4,1,8,3,5,8,7,6,7,8,7,6
+163,Regional Language Aspirant,18,Male,"Ujjain, Madhya Pradesh",Semi-Urban,Undergraduate,₹2.5L-5L,6,5,8,7,6,4,6,7,7,7,6,10,3,8,5,7
+164,Homemaker,42,Female,"Bikaner rural, Rajasthan",Rural,Higher Secondary,₹10L-20L,5,5,4,8,6,5,6,4,8,4,8,7,4,6,4,8
+165,Startup Founder,34,Male,Delhi,Urban,Postgraduate,₹20L-50L,4,4,6,5,7,7,3,6,7,4,5,3,9,6,10,2
+166,Small Business Owner,57,Male,"Belgaum, Karnataka",Semi-Urban,Graduate,₹5L-10L,5,6,4,8,5,4,5,6,8,6,5,6,4,7,6,5
+167,Startup Founder,40,Male,"Noida, Uttar Pradesh",Urban,Postgraduate,₹20L-50L,5,4,7,5,7,7,3,7,7,5,4,3,10,5,9,3
+168,Startup Founder,27,Male,"Gurugram, Haryana",Urban,Graduate,Above ₹50L,4,4,6,5,8,6,3,7,7,5,4,3,9,5,8,3
+169,Corporate Employee,33,Male,"Pune, Maharashtra",Urban,Graduate,₹10L-20L,5,5,5,5,6,5,5,6,7,5,6,4,9,5,5,5
+170,Rural Farmer,58,Male,"Kannur rural, Kerala",Rural,Secondary,₹2.5L-5L,5,5,2,7,4,3,8,4,6,4,5,8,2,5,5,8
+171,Retired Government Officer,71,Female,"Hubli, Karnataka",Semi-Urban,Postgraduate,₹5L-10L,8,6,7,7,3,2,7,2,5,8,8,6,8,8,6,7
+172,Regional Language Aspirant,23,Male,"Aligarh, Uttar Pradesh",Semi-Urban,Graduate,₹2.5L-5L,5,5,8,7,4,4,6,6,7,7,6,10,3,9,5,7
+173,Rural Farmer,30,Male,"Dhar district, Madhya Pradesh",Rural,Primary,Below ₹2.5L,5,4,3,8,3,2,8,5,5,4,6,8,1,5,4,8
+174,Homemaker,46,Female,"Amravati, Maharashtra",Semi-Urban,Graduate,₹10L-20L,5,5,4,8,6,5,6,5,9,4,7,6,3,4,5,7
+175,Rural Farmer,39,Female,"Murshidabad district, West Bengal",Rural,Higher Secondary,₹2.5L-5L,4,4,3,8,4,3,8,4,6,4,6,9,1,6,5,8
+176,Regional Language Aspirant,27,Male,"Amravati, Maharashtra",Semi-Urban,Graduate,₹2.5L-5L,5,5,9,8,5,5,6,5,7,7,7,9,4,8,4,7
+177,Homemaker,44,Female,"Mumbai, Maharashtra",Urban,Secondary,₹10L-20L,5,5,3,9,6,5,7,5,9,4,7,6,4,5,5,7
+178,Regional Language Aspirant,22,Female,"Kolar district, Karnataka",Rural,Graduate,₹2.5L-5L,5,5,8,7,6,5,6,6,7,7,6,9,3,8,5,7
+179,Startup Founder,38,Male,"Pune, Maharashtra",Urban,Graduate,₹20L-50L,3,4,6,5,8,5,3,6,8,5,4,3,10,5,9,3
+180,Regional Language Aspirant,30,Male,"Hubli, Karnataka",Semi-Urban,Graduate,Below ₹2.5L,5,5,7,6,4,3,6,7,7,7,6,9,3,9,5,6
+181,Regional Language Aspirant,23,Female,"Siliguri, West Bengal",Semi-Urban,Graduate,₹2.5L-5L,5,5,8,7,5,4,6,7,7,7,6,9,4,8,5,7
+182,Corporate Employee,29,Female,Delhi,Urban,Graduate,₹5L-10L,5,5,5,5,6,5,4,7,7,5,4,4,8,6,7,5
+183,Corporate Employee,40,Female,"Pune, Maharashtra",Urban,Postgraduate,₹10L-20L,5,5,6,5,6,5,5,6,8,5,5,5,8,5,6,6
+184,Retired Government Officer,69,Male,"Thiruvananthapuram, Kerala",Urban,Postgraduate,₹20L-50L,7,6,7,7,4,2,8,3,5,8,7,6,7,8,7,8
+185,Corporate Employee,32,Male,Chandigarh,Urban,Undergraduate,₹10L-20L,5,5,7,5,6,5,4,6,7,6,4,6,9,5,6,5
+186,Rural Farmer,57,Male,"Sitamarhi district, Bihar",Rural,Primary,₹2.5L-5L,5,4,3,8,4,4,8,4,5,4,7,8,2,5,5,8
+187,Urban Student,24,Female,"Indore, Madhya Pradesh",Urban,Undergraduate,₹5L-10L,6,4,8,6,8,7,5,9,7,3,3,4,9,4,7,4
+188,Startup Founder,32,Female,Delhi,Urban,Graduate,Above ₹50L,5,4,6,5,7,6,2,7,6,5,4,3,9,5,10,3
+189,Urban Student,24,Male,"Hyderabad, Telangana",Urban,Undergraduate,Below ₹2.5L,5,5,8,6,7,7,2,8,7,3,3,3,9,3,7,3
+190,Corporate Employee,31,Male,"Lucknow, Uttar Pradesh",Urban,Graduate,₹10L-20L,5,4,6,5,6,5,5,6,7,5,5,5,7,5,6,5
+191,Small Business Owner,46,Male,"Bhubaneswar, Odisha",Urban,Higher Secondary,₹5L-10L,5,5,5,8,6,3,6,5,8,6,6,8,4,5,6,6
+192,Retired Government Officer,72,Male,"Jamshedpur, Jharkhand",Semi-Urban,Postgraduate,₹10L-20L,8,6,7,7,3,3,8,4,4,8,8,7,7,7,6,6
+193,Corporate Employee,38,Male,"Mumbai, Maharashtra",Urban,Graduate,₹20L-50L,5,5,6,5,7,5,4,6,7,5,6,4,8,5,5,5
+194,Small Business Owner,33,Male,"Surat, Gujarat",Urban,Graduate,₹10L-20L,4,4,4,8,6,4,6,5,8,6,6,6,4,6,5,6
+195,Rural Farmer,35,Male,"Sundargarh district, Odisha",Rural,Illiterate,Below ₹2.5L,5,4,3,8,4,2,7,4,6,4,6,10,2,6,5,7
+196,Retired Government Officer,67,Female,"Indore, Madhya Pradesh",Urban,Postgraduate,₹20L-50L,8,6,7,6,3,3,6,3,5,8,7,6,7,7,6,7
+197,Rural Farmer,45,Male,"Bikaner rural, Rajasthan",Rural,Illiterate,₹2.5L-5L,5,3,3,8,4,3,8,4,6,4,6,9,2,6,5,8
+198,Corporate Employee,43,Female,Chandigarh,Urban,Postgraduate,₹5L-10L,5,5,6,5,5,5,5,7,7,5,5,6,8,5,5,5
+199,Rural Farmer,61,Female,"Murshidabad district, West Bengal",Rural,Illiterate,₹2.5L-5L,6,4,3,8,4,3,8,4,6,4,5,10,3,6,5,8
+200,Rural Farmer,40,Male,"Karimnagar district, Telangana",Rural,Secondary,Below ₹2.5L,5,5,3,8,4,3,8,5,7,4,7,9,3,6,6,8
+201,Small Business Owner,49,Female,"Guntur, Andhra Pradesh",Semi-Urban,Higher Secondary,₹5L-10L,4,6,4,8,4,4,6,5,7,5,6,7,5,6,7,6
+202,Regional Language Aspirant,21,Male,"Kolhapur, Maharashtra",Semi-Urban,Postgraduate,₹2.5L-5L,5,5,8,7,5,3,6,6,7,7,6,9,3,7,4,7
+203,Corporate Employee,31,Male,Delhi,Urban,Graduate,₹5L-10L,4,6,6,5,6,5,5,5,7,4,5,5,8,5,5,5
+204,Small Business Owner,56,Female,"Coimbatore, Tamil Nadu",Urban,Graduate,₹5L-10L,5,5,4,8,5,4,5,5,7,5,6,8,4,6,6,6
+205,Corporate Employee,41,Female,"Chennai, Tamil Nadu",Urban,Undergraduate,₹10L-20L,5,4,6,5,6,5,5,7,7,5,5,5,8,5,6,5
+206,Retired Government Officer,75,Male,"Tirupati, Andhra Pradesh",Semi-Urban,Postgraduate,₹20L-50L,8,6,8,6,3,1,5,2,4,8,8,7,7,8,6,6
+207,Corporate Employee,40,Female,"Indore, Madhya Pradesh",Urban,Postgraduate,₹5L-10L,5,4,6,5,6,5,4,6,7,5,4,5,8,6,6,6
+208,Homemaker,49,Female,"Erode, Tamil Nadu",Semi-Urban,Secondary,₹10L-20L,5,4,4,8,6,6,8,5,9,3,7,7,3,4,6,7
+209,Small Business Owner,55,Male,"Madurai, Tamil Nadu",Semi-Urban,Undergraduate,₹2.5L-5L,5,5,5,8,5,4,6,5,8,6,7,7,4,6,6,6
+210,Urban Student,24,Female,"Indore, Madhya Pradesh",Urban,Postgraduate,₹5L-10L,6,6,8,6,7,6,3,9,8,3,2,4,9,5,7,3
+211,Small Business Owner,34,Male,"Ahmedabad, Gujarat",Urban,Undergraduate,₹5L-10L,5,5,4,7,5,3,7,6,8,6,6,7,3,6,6,6
+212,Small Business Owner,52,Male,"Thiruvananthapuram, Kerala",Urban,Undergraduate,₹10L-20L,5,5,4,8,5,4,6,5,7,5,7,7,5,6,6,6
+213,Urban Student,18,Female,"Patna, Bihar",Urban,Undergraduate,₹5L-10L,5,5,8,6,7,7,3,9,7,3,3,3,10,5,7,4
+214,Regional Language Aspirant,19,Male,"Tirupati, Andhra Pradesh",Semi-Urban,Graduate,₹2.5L-5L,5,5,8,7,6,4,6,6,8,7,6,9,3,8,5,8
+215,Urban Student,19,Male,Chandigarh,Urban,Undergraduate,Below ₹2.5L,4,5,8,6,8,6,4,9,8,3,3,4,9,5,7,2
+216,Urban Student,21,Male,"Nagpur, Maharashtra",Urban,Undergraduate,₹2.5L-5L,5,5,8,6,7,7,4,9,7,3,4,4,10,4,7,3
+217,Homemaker,40,Female,"Karimnagar district, Telangana",Rural,Undergraduate,₹2.5L-5L,6,5,4,8,6,5,7,5,9,4,6,7,5,4,5,7
+218,Corporate Employee,41,Male,"Chennai, Tamil Nadu",Urban,Postgraduate,₹10L-20L,4,5,6,5,6,4,4,6,7,5,6,5,7,5,6,5
+219,Homemaker,53,Female,"Mehsana district, Gujarat",Rural,Graduate,₹5L-10L,6,4,3,9,6,4,6,5,10,5,6,7,2,4,5,7
+220,Rural Farmer,30,Male,"Bikaner rural, Rajasthan",Rural,Primary,Below ₹2.5L,5,4,3,7,5,3,8,3,6,4,6,9,3,6,5,8
+221,Corporate Employee,32,Male,"Lucknow, Uttar Pradesh",Urban,Postgraduate,₹10L-20L,5,5,6,4,7,5,4,6,7,4,4,5,8,5,7,4
+222,Corporate Employee,27,Male,"Patna, Bihar",Urban,Undergraduate,₹10L-20L,5,5,6,5,6,5,3,6,7,5,5,6,7,5,6,5
+223,Rural Farmer,42,Male,"Hoshiarpur district, Punjab",Rural,Primary,Below ₹2.5L,5,4,4,9,4,2,7,4,6,4,7,10,2,6,5,9
+224,Regional Language Aspirant,27,Female,"Nellore, Andhra Pradesh",Semi-Urban,Undergraduate,₹5L-10L,5,5,8,6,5,3,6,6,6,7,6,9,4,8,5,7
+225,Urban Student,20,Female,Chandigarh,Urban,Postgraduate,₹2.5L-5L,5,5,8,6,7,7,3,9,7,3,3,4,9,4,8,3
+226,Regional Language Aspirant,21,Female,"Kannur rural, Kerala",Rural,Postgraduate,₹5L-10L,5,6,8,7,5,4,6,6,7,7,6,9,2,8,5,7
+227,Corporate Employee,26,Male,"Vadodara, Gujarat",Urban,Postgraduate,₹10L-20L,6,5,6,5,6,6,6,6,7,5,6,4,8,4,6,5
+228,Small Business Owner,32,Male,Chandigarh,Urban,Secondary,₹5L-10L,4,5,4,8,5,4,6,5,8,6,6,6,3,5,6,6
+229,Small Business Owner,36,Male,"Visakhapatnam, Andhra Pradesh",Urban,Secondary,₹10L-20L,6,5,4,8,5,4,6,5,8,6,5,7,4,6,6,6
+230,Rural Farmer,46,Male,"Sangrur district, Punjab",Rural,Primary,Below ₹2.5L,5,3,3,8,4,3,8,4,6,4,7,9,2,6,5,8
+231,Regional Language Aspirant,29,Male,"Siliguri, West Bengal",Semi-Urban,Graduate,₹2.5L-5L,5,5,9,6,5,4,6,6,8,6,5,9,3,8,5,8
+232,Rural Farmer,63,Male,"Nashik rural, Maharashtra",Rural,Secondary,Below ₹2.5L,5,4,3,8,4,3,8,3,7,3,5,9,2,6,5,7
+233,Small Business Owner,34,Male,"Lucknow, Uttar Pradesh",Urban,Secondary,₹5L-10L,5,5,4,8,6,4,6,5,8,6,6,6,4,5,6,5
+234,Rural Farmer,37,Female,"Warangal rural, Telangana",Rural,Secondary,₹2.5L-5L,5,4,3,8,5,3,8,3,6,4,6,9,1,6,5,8
+235,Startup Founder,45,Male,"Pune, Maharashtra",Urban,Postgraduate,₹20L-50L,5,4,6,5,7,6,4,7,7,5,5,4,10,4,9,3
+236,Urban Student,21,Female,"Pune, Maharashtra",Urban,Higher Secondary,Below ₹2.5L,5,5,7,6,7,8,3,10,6,3,3,4,10,5,7,3
+237,Urban Student,18,Female,"Lucknow, Uttar Pradesh",Urban,Postgraduate,Below ₹2.5L,4,5,8,7,7,7,3,10,7,4,3,4,9,5,7,3
+238,Small Business Owner,41,Male,"Belgaum, Karnataka",Semi-Urban,Graduate,₹10L-20L,5,5,4,9,5,4,6,5,9,6,5,7,4,6,5,6
+239,Urban Student,17,Male,"Kolkata, West Bengal",Urban,Undergraduate,₹2.5L-5L,5,5,8,6,7,7,3,9,7,3,4,5,10,5,7,3
+240,Urban Student,21,Female,"Pune, Maharashtra",Urban,Undergraduate,₹2.5L-5L,5,5,8,6,7,7,4,9,7,4,2,4,9,4,6,3
+241,Startup Founder,33,Male,Delhi,Urban,Graduate,Above ₹50L,3,4,5,5,7,6,4,7,6,5,5,3,10,4,9,2
+242,Regional Language Aspirant,29,Male,"Ratnagiri district, Maharashtra",Rural,Graduate,Below ₹2.5L,4,5,8,7,5,5,7,6,6,8,6,9,3,8,5,8
+243,Urban Student,19,Male,"Lucknow, Uttar Pradesh",Urban,Higher Secondary,Below ₹2.5L,5,5,8,6,6,7,3,8,7,3,3,5,10,4,7,3
+244,Corporate Employee,32,Male,"Bhubaneswar, Odisha",Urban,Graduate,₹20L-50L,5,5,6,5,6,5,5,6,7,5,6,5,8,6,7,5
+245,Corporate Employee,33,Male,"Bhopal, Madhya Pradesh",Urban,Graduate,₹5L-10L,5,5,6,4,6,5,4,6,7,5,5,5,8,5,6,5
+246,Retired Government Officer,63,Male,"Indore, Madhya Pradesh",Urban,Graduate,₹10L-20L,8,6,8,7,3,1,6,3,6,8,9,6,7,8,6,7
+247,Corporate Employee,34,Male,"Kolkata, West Bengal",Urban,Graduate,₹20L-50L,5,5,6,5,6,5,4,6,7,6,5,6,7,5,7,6
+248,Homemaker,61,Female,"Guntur, Andhra Pradesh",Semi-Urban,Higher Secondary,₹2.5L-5L,5,5,4,8,6,4,7,5,10,4,7,7,4,4,5,7
+249,Corporate Employee,35,Male,"Indore, Madhya Pradesh",Urban,Graduate,₹5L-10L,5,5,5,5,6,4,4,6,6,5,5,5,8,5,6,5
+250,Urban Student,18,Male,"Visakhapatnam, Andhra Pradesh",Urban,Undergraduate,Below ₹2.5L,5,5,7,6,7,7,2,9,7,3,3,4,9,4,6,3
+251,Regional Language Aspirant,26,Male,"Madurai, Tamil Nadu",Semi-Urban,Undergraduate,₹5L-10L,5,5,8,7,5,5,6,5,7,8,6,9,4,8,5,7
+252,Small Business Owner,57,Female,"Guwahati, Assam",Urban,Undergraduate,₹10L-20L,5,5,3,9,5,5,6,5,9,6,6,7,4,4,6,6
+253,Regional Language Aspirant,20,Male,"Nashik rural, Maharashtra",Rural,Undergraduate,Below ₹2.5L,4,5,8,7,5,5,6,6,7,7,6,9,3,8,5,7
+254,Homemaker,59,Female,"Dhar district, Madhya Pradesh",Rural,Secondary,Below ₹2.5L,5,5,4,8,6,6,7,4,9,3,7,7,3,4,6,7
+255,Homemaker,60,Male,"Tirupati, Andhra Pradesh",Semi-Urban,Undergraduate,₹2.5L-5L,5,5,4,8,6,5,7,5,8,5,7,7,4,5,5,7
+256,Retired Government Officer,70,Female,"Thiruvananthapuram, Kerala",Urban,Doctorate,₹10L-20L,8,7,7,6,3,2,7,3,5,9,8,6,7,9,6,7
+257,Homemaker,42,Female,"Dhar district, Madhya Pradesh",Rural,Undergraduate,₹2.5L-5L,5,5,3,7,7,6,7,4,9,4,7,7,4,5,5,6
+258,Rural Farmer,54,Female,"Nashik rural, Maharashtra",Rural,Secondary,₹5L-10L,5,4,4,8,4,3,7,4,7,4,6,9,3,6,5,8
+259,Small Business Owner,45,Female,"Kolkata, West Bengal",Urban,Undergraduate,₹10L-20L,6,4,4,8,5,4,6,5,8,6,7,7,4,4,6,6
+260,Regional Language Aspirant,25,Male,"Thanjavur rural, Tamil Nadu",Rural,Graduate,₹5L-10L,4,5,7,7,5,4,5,6,7,7,6,9,3,8,6,7
+261,Urban Student,16,Male,"Jaipur, Rajasthan",Urban,Postgraduate,Below ₹2.5L,5,5,8,6,7,6,4,9,8,3,3,5,9,5,7,3
+262,Regional Language Aspirant,25,Male,"Belgaum, Karnataka",Semi-Urban,Graduate,₹5L-10L,5,5,7,7,4,4,6,6,7,7,6,10,3,8,5,8
+263,Corporate Employee,27,Female,Chandigarh,Urban,Graduate,₹10L-20L,5,5,6,5,6,5,5,6,7,5,5,5,9,5,6,5
+264,Homemaker,34,Female,"Bhopal, Madhya Pradesh",Urban,Secondary,₹2.5L-5L,6,4,4,8,6,5,6,5,10,3,7,7,4,4,5,7
+265,Corporate Employee,46,Female,"Bangalore, Karnataka",Urban,Graduate,₹20L-50L,6,5,6,5,7,5,4,6,7,5,5,4,8,5,7,5
+266,Startup Founder,34,Male,"Mumbai, Maharashtra",Urban,Graduate,₹20L-50L,4,4,6,5,7,6,3,6,6,5,4,3,9,5,8,3
+267,Homemaker,58,Female,"Sundargarh district, Odisha",Rural,Undergraduate,₹5L-10L,5,5,3,9,6,5,8,5,9,4,7,6,3,6,5,8
+268,Corporate Employee,36,Male,"Mumbai, Maharashtra",Urban,Graduate,₹10L-20L,5,5,6,6,6,5,4,6,7,5,5,6,8,5,6,6
+269,Small Business Owner,46,Male,"Jaipur, Rajasthan",Urban,Graduate,₹5L-10L,5,5,4,9,6,4,6,5,8,6,6,8,4,5,6,7
+270,Corporate Employee,48,Male,"Pune, Maharashtra",Urban,Undergraduate,₹10L-20L,6,5,6,5,6,5,4,6,7,5,5,5,9,5,6,6
+271,Retired Government Officer,77,Female,"Madurai, Tamil Nadu",Semi-Urban,Doctorate,₹20L-50L,8,6,7,7,3,2,7,2,5,7,8,6,7,9,6,6
+272,Rural Farmer,40,Male,"Bastar district, Chhattisgarh",Rural,Higher Secondary,Below ₹2.5L,5,4,3,9,4,4,8,4,6,4,6,10,1,5,4,8
+273,Corporate Employee,33,Female,"Visakhapatnam, Andhra Pradesh",Urban,Graduate,₹5L-10L,5,5,6,5,6,5,5,7,7,5,6,6,8,5,6,5
+274,Startup Founder,29,Female,"Hyderabad, Telangana",Urban,Doctorate,₹10L-20L,4,4,6,5,7,5,2,7,7,5,4,4,10,6,9,3
+275,Startup Founder,26,Male,"Chennai, Tamil Nadu",Urban,Postgraduate,Above ₹50L,4,5,5,6,7,6,3,7,8,5,4,3,10,5,10,3
+276,Rural Farmer,32,Female,"Mehsana district, Gujarat",Rural,Primary,Below ₹2.5L,5,4,3,8,5,3,7,4,6,3,6,8,2,6,4,8
+277,Regional Language Aspirant,29,Female,"Siliguri, West Bengal",Semi-Urban,Postgraduate,Below ₹2.5L,5,5,9,7,6,4,6,6,7,7,6,8,3,8,5,6
+278,Urban Student,23,Female,"Guwahati, Assam",Urban,Undergraduate,Below ₹2.5L,5,5,8,5,6,6,4,9,6,3,4,4,9,4,7,3
+279,Retired Government Officer,74,Male,"Noida, Uttar Pradesh",Urban,Graduate,₹5L-10L,8,5,7,7,3,2,6,3,5,8,9,6,7,8,6,7
+280,Retired Government Officer,73,Male,"Bangalore, Karnataka",Urban,Postgraduate,₹20L-50L,8,6,7,7,3,2,6,3,5,9,8,6,7,7,7,6
+281,Small Business Owner,53,Male,"Indore, Madhya Pradesh",Urban,Secondary,₹5L-10L,5,5,5,8,4,4,5,4,8,6,7,7,4,5,6,6
+282,Startup Founder,34,Male,"Pune, Maharashtra",Urban,Graduate,₹20L-50L,3,4,7,5,7,7,3,7,7,5,4,3,10,5,9,2
+283,Urban Student,24,Male,"Lucknow, Uttar Pradesh",Urban,Undergraduate,Below ₹2.5L,5,4,7,7,7,8,3,9,6,3,3,4,9,5,7,3
+284,Homemaker,60,Female,"Amravati, Maharashtra",Semi-Urban,Secondary,₹2.5L-5L,5,5,4,8,6,5,6,5,9,4,7,7,3,5,5,7
+285,Rural Farmer,41,Male,"Murshidabad district, West Bengal",Rural,Illiterate,Below ₹2.5L,6,4,3,8,4,3,7,4,6,4,6,9,2,6,5,8
+286,Rural Farmer,48,Female,"Mehsana district, Gujarat",Rural,Secondary,Below ₹2.5L,5,4,4,8,4,3,8,4,5,4,6,9,2,7,5,7
+287,Retired Government Officer,77,Female,"Belgaum, Karnataka",Semi-Urban,Graduate,₹20L-50L,8,6,7,8,4,1,6,3,5,7,9,6,6,8,6,7
+288,Startup Founder,45,Female,"Hyderabad, Telangana",Urban,Graduate,₹10L-20L,4,4,6,5,7,6,3,7,7,6,4,3,10,4,9,3
+289,Small Business Owner,44,Male,"Mumbai, Maharashtra",Urban,Higher Secondary,₹5L-10L,4,5,4,8,5,4,6,5,7,6,5,7,4,5,7,6
+290,Urban Student,18,Female,"Bangalore, Karnataka",Urban,Undergraduate,Below ₹2.5L,5,5,8,6,8,7,3,9,8,2,3,4,9,4,6,3
+291,Small Business Owner,45,Male,Delhi,Urban,Higher Secondary,₹2.5L-5L,6,5,4,7,5,4,6,5,8,6,6,7,4,6,6,6
+292,Corporate Employee,33,Female,"Indore, Madhya Pradesh",Urban,Postgraduate,₹5L-10L,5,5,5,5,6,5,5,6,7,5,5,5,8,5,6,5
+293,Small Business Owner,37,Male,"Mumbai, Maharashtra",Urban,Higher Secondary,₹10L-20L,5,5,4,8,5,3,6,5,8,6,6,6,4,6,7,5
+294,Small Business Owner,41,Male,"Guntur, Andhra Pradesh",Semi-Urban,Undergraduate,₹2.5L-5L,5,5,4,7,6,4,6,5,9,6,6,7,4,6,6,5
+295,Urban Student,18,Male,"Thiruvananthapuram, Kerala",Urban,Undergraduate,₹5L-10L,6,5,8,6,7,8,3,9,7,3,3,3,9,5,6,3
+296,Startup Founder,31,Male,"Hyderabad, Telangana",Urban,Graduate,₹10L-20L,4,4,6,5,7,6,2,7,7,5,4,3,9,6,9,3
+297,Homemaker,30,Female,"Bangalore, Karnataka",Urban,Graduate,Below ₹2.5L,5,5,4,9,6,5,7,4,9,4,6,8,3,5,4,8
+298,Retired Government Officer,77,Female,"Hyderabad, Telangana",Urban,Graduate,₹20L-50L,8,6,7,7,3,2,7,3,6,8,8,6,7,8,6,7
+299,Homemaker,49,Female,"Nashik rural, Maharashtra",Rural,Undergraduate,Below ₹2.5L,5,5,4,8,5,5,7,5,9,4,6,7,3,4,4,7
+300,Regional Language Aspirant,34,Female,"Nashik rural, Maharashtra",Rural,Undergraduate,₹2.5L-5L,6,5,8,8,6,4,6,6,7,7,6,9,4,9,5,8
+301,Retired Government Officer,75,Male,"Thiruvananthapuram, Kerala",Urban,Doctorate,₹10L-20L,8,6,7,6,3,2,7,3,5,7,8,6,7,8,6,6
+302,Retired Government Officer,67,Female,"Lucknow, Uttar Pradesh",Urban,Postgraduate,₹5L-10L,7,6,7,7,2,2,8,3,5,9,8,7,7,8,6,7
+303,Retired Government Officer,68,Male,"Hyderabad, Telangana",Urban,Postgraduate,₹5L-10L,7,6,7,7,2,2,6,4,5,8,7,6,7,8,6,7
+304,Startup Founder,28,Male,"Pune, Maharashtra",Urban,Graduate,Above ₹50L,4,4,6,6,7,7,4,7,7,6,4,2,9,5,9,3
+305,Homemaker,54,Female,"Nashik rural, Maharashtra",Rural,Graduate,Below ₹2.5L,5,5,4,7,6,5,7,5,9,5,7,7,4,3,6,8
+306,Regional Language Aspirant,29,Female,"Kolhapur, Maharashtra",Semi-Urban,Graduate,₹5L-10L,5,5,8,7,5,5,7,6,7,8,6,10,3,8,6,7
+307,Retired Government Officer,61,Male,"Vadodara, Gujarat",Urban,Doctorate,₹20L-50L,9,6,7,7,3,1,6,3,5,8,8,6,7,8,6,6
+308,Retired Government Officer,68,Male,"Ahmedabad, Gujarat",Urban,Graduate,₹10L-20L,8,7,7,7,3,3,6,3,4,8,7,6,7,8,6,7
+309,Corporate Employee,36,Female,"Bhopal, Madhya Pradesh",Urban,Graduate,₹10L-20L,4,5,6,5,6,5,4,6,7,5,5,6,8,5,5,5
+310,Rural Farmer,41,Male,"Thanjavur rural, Tamil Nadu",Rural,Secondary,₹2.5L-5L,5,4,3,8,4,2,8,5,6,4,6,9,3,6,5,9
+311,Regional Language Aspirant,26,Female,"Ujjain, Madhya Pradesh",Semi-Urban,Postgraduate,₹2.5L-5L,5,5,8,6,4,3,6,6,7,6,6,9,2,8,5,7
+312,Small Business Owner,45,Male,"Aligarh, Uttar Pradesh",Semi-Urban,Graduate,₹2.5L-5L,5,5,4,8,5,4,7,5,8,6,5,7,4,5,6,5
+313,Corporate Employee,25,Male,"Gurugram, Haryana",Urban,Graduate,₹5L-10L,4,5,6,5,6,6,3,6,7,5,5,5,8,5,6,5
+314,Urban Student,24,Female,"Nagpur, Maharashtra",Urban,Higher Secondary,Below ₹2.5L,5,5,8,6,7,7,4,9,7,3,4,5,9,5,7,3
+315,Homemaker,52,Female,"Kannur rural, Kerala",Rural,Graduate,Below ₹2.5L,5,4,4,8,6,5,7,5,9,4,7,7,4,5,5,7
+316,Startup Founder,36,Male,"Gurugram, Haryana",Urban,Doctorate,₹20L-50L,3,4,6,5,7,5,3,7,7,4,4,3,9,5,8,3
+317,Regional Language Aspirant,20,Female,"Siliguri, West Bengal",Semi-Urban,Undergraduate,₹2.5L-5L,6,5,8,7,5,4,6,5,6,7,7,9,3,8,5,7
+318,Retired Government Officer,75,Male,"Bilaspur, Chhattisgarh",Semi-Urban,Graduate,₹5L-10L,8,7,7,7,3,3,6,2,5,8,8,6,7,8,6,7
+319,Urban Student,24,Female,"Kochi, Kerala",Urban,Higher Secondary,₹2.5L-5L,5,4,8,6,7,7,3,9,7,3,3,3,9,5,7,3
+320,Small Business Owner,32,Male,"Jamshedpur, Jharkhand",Semi-Urban,Secondary,₹5L-10L,4,5,4,8,5,3,6,5,8,6,7,7,5,5,6,5
+321,Urban Student,16,Female,"Hyderabad, Telangana",Urban,Higher Secondary,Below ₹2.5L,5,5,9,6,7,8,5,10,7,3,3,4,9,4,7,3
+322,Homemaker,61,Female,"Guntur, Andhra Pradesh",Semi-Urban,Undergraduate,₹2.5L-5L,5,5,4,8,6,5,7,5,9,4,8,8,3,4,5,7
+323,Regional Language Aspirant,29,Female,"Bikaner rural, Rajasthan",Rural,Postgraduate,₹2.5L-5L,5,6,9,7,5,5,6,5,7,7,5,9,3,7,4,7
+324,Urban Student,17,Female,"Mumbai, Maharashtra",Urban,Undergraduate,₹5L-10L,5,5,9,6,7,7,3,9,7,3,3,3,10,4,7,3
+325,Corporate Employee,37,Male,"Thiruvananthapuram, Kerala",Urban,Graduate,₹20L-50L,5,5,7,4,6,5,4,6,7,5,5,6,8,5,6,5
+326,Small Business Owner,43,Female,"Kolkata, West Bengal",Urban,Graduate,₹10L-20L,6,4,3,7,5,4,6,6,9,6,6,6,4,5,6,6
+327,Urban Student,21,Male,Delhi,Urban,Higher Secondary,₹5L-10L,5,5,8,6,7,7,3,9,7,2,3,3,9,4,7,3
+328,Rural Farmer,38,Male,"Kannur rural, Kerala",Rural,Higher Secondary,₹2.5L-5L,4,3,3,8,4,3,8,4,7,3,5,9,1,7,5,8
+329,Retired Government Officer,77,Male,"Aligarh, Uttar Pradesh",Semi-Urban,Postgraduate,₹10L-20L,7,7,7,7,2,2,6,3,5,8,8,5,7,8,6,7
+330,Retired Government Officer,61,Female,"Hubli, Karnataka",Semi-Urban,Graduate,₹10L-20L,8,6,6,7,3,2,8,3,6,9,9,6,7,8,6,7
+331,Small Business Owner,55,Female,"Kolkata, West Bengal",Urban,Graduate,₹10L-20L,5,5,4,8,5,5,6,5,8,5,6,7,4,6,6,7
+332,Startup Founder,26,Female,"Mumbai, Maharashtra",Urban,Graduate,₹10L-20L,4,4,6,5,7,6,3,7,6,5,4,3,10,6,9,3
+333,Startup Founder,39,Female,"Bangalore, Karnataka",Urban,Graduate,Above ₹50L,4,4,6,4,7,5,2,7,7,6,4,3,10,5,9,4
+334,Regional Language Aspirant,23,Male,"Hoshiarpur district, Punjab",Rural,Undergraduate,₹2.5L-5L,5,4,7,7,5,4,6,6,7,8,5,9,3,8,5,6
+335,Urban Student,21,Male,"Noida, Uttar Pradesh",Urban,Undergraduate,Below ₹2.5L,5,5,8,6,7,7,3,9,7,3,4,3,9,4,7,3
+336,Corporate Employee,48,Female,"Chennai, Tamil Nadu",Urban,Graduate,₹20L-50L,4,5,6,5,6,6,4,6,7,5,5,5,8,6,5,6
+337,Urban Student,23,Male,"Mumbai, Maharashtra",Urban,Undergraduate,Below ₹2.5L,5,5,8,6,7,7,3,8,7,2,2,5,9,6,8,3
+338,Rural Farmer,45,Male,"Sitamarhi district, Bihar",Rural,Primary,₹2.5L-5L,4,4,2,9,4,2,7,4,7,4,6,8,1,6,5,8
+339,Regional Language Aspirant,33,Male,"Kolhapur, Maharashtra",Semi-Urban,Graduate,₹5L-10L,6,5,8,8,5,4,6,5,7,7,7,9,3,8,5,7
+340,Retired Government Officer,60,Female,"Aligarh, Uttar Pradesh",Semi-Urban,Graduate,₹10L-20L,8,7,7,7,3,2,5,3,5,8,9,6,8,8,5,7
+341,Homemaker,38,Male,"Coimbatore, Tamil Nadu",Urban,Graduate,₹10L-20L,5,5,5,8,6,6,7,5,9,4,7,6,3,4,5,7
+342,Corporate Employee,45,Male,"Jaipur, Rajasthan",Urban,Graduate,₹5L-10L,4,5,6,5,6,5,5,6,7,5,6,5,7,5,7,5
+343,Homemaker,44,Male,"Kannur rural, Kerala",Rural,Secondary,Below ₹2.5L,5,5,4,7,6,6,6,5,9,4,6,8,4,5,5,7
+344,Retired Government Officer,73,Male,"Visakhapatnam, Andhra Pradesh",Urban,Graduate,₹20L-50L,8,6,7,8,3,2,8,3,6,8,9,6,6,8,6,6
+345,Regional Language Aspirant,19,Other,"Erode, Tamil Nadu",Semi-Urban,Undergraduate,₹5L-10L,4,5,7,7,4,4,6,6,6,7,6,9,3,8,5,8
+346,Urban Student,21,Female,"Patna, Bihar",Urban,Higher Secondary,Below ₹2.5L,5,5,8,6,7,7,4,9,8,3,4,4,9,3,7,3
+347,Rural Farmer,31,Male,"Village near Varanasi, Uttar Pradesh",Rural,Secondary,₹5L-10L,5,4,4,9,4,3,7,4,6,4,6,9,2,5,6,8
+348,Homemaker,54,Female,"Visakhapatnam, Andhra Pradesh",Urban,Primary,₹5L-10L,5,5,4,8,6,6,7,5,10,4,8,7,3,4,5,7
+349,Homemaker,32,Female,"Jaipur, Rajasthan",Urban,Graduate,₹2.5L-5L,5,6,4,8,6,5,7,4,9,5,7,7,3,4,5,7
+350,Retired Government Officer,65,Male,Delhi,Urban,Graduate,₹5L-10L,8,6,7,7,2,2,6,3,5,8,8,5,8,8,6,7
+351,Urban Student,16,Female,"Noida, Uttar Pradesh",Urban,Undergraduate,Below ₹2.5L,5,5,8,6,8,7,3,9,7,3,3,3,9,4,7,3
+352,Retired Government Officer,73,Female,"Jamshedpur, Jharkhand",Semi-Urban,Graduate,₹10L-20L,8,7,7,7,3,1,7,3,4,8,8,6,7,8,6,8
+353,Corporate Employee,40,Male,"Indore, Madhya Pradesh",Urban,Undergraduate,₹10L-20L,4,5,6,5,6,5,4,6,7,5,5,5,9,5,6,4
+354,Regional Language Aspirant,23,Female,"Jamshedpur, Jharkhand",Semi-Urban,Graduate,₹2.5L-5L,5,4,8,7,5,4,5,6,7,7,6,9,2,7,6,7
+355,Small Business Owner,54,Male,"Jhansi, Uttar Pradesh",Semi-Urban,Secondary,₹5L-10L,6,5,4,8,5,4,6,5,8,6,5,7,3,6,6,7
+356,Regional Language Aspirant,33,Male,"Ratnagiri district, Maharashtra",Rural,Graduate,₹2.5L-5L,5,6,8,7,5,5,6,5,7,7,6,9,4,9,6,8
+357,Small Business Owner,33,Male,"Bhubaneswar, Odisha",Urban,Secondary,₹2.5L-5L,5,4,5,8,5,4,5,4,8,6,6,7,4,5,6,6
+358,Retired Government Officer,63,Male,"Kochi, Kerala",Urban,Graduate,₹10L-20L,8,6,7,8,3,2,7,3,5,8,7,6,7,8,6,6
+359,Regional Language Aspirant,26,Female,"Amravati, Maharashtra",Semi-Urban,Undergraduate,₹5L-10L,5,6,8,7,4,4,6,6,8,7,6,8,3,8,5,6
+360,Homemaker,64,Female,Delhi,Urban,Graduate,Below ₹2.5L,5,4,4,9,6,4,6,5,10,5,7,7,3,4,5,7
+361,Urban Student,23,Male,"Surat, Gujarat",Urban,Higher Secondary,Below ₹2.5L,4,5,7,5,6,7,3,8,7,3,3,5,9,4,6,3
+362,Retired Government Officer,74,Female,"Chennai, Tamil Nadu",Urban,Postgraduate,₹20L-50L,8,6,8,8,3,2,6,3,5,9,7,5,7,8,6,7
+363,Startup Founder,42,Male,"Gurugram, Haryana",Urban,Postgraduate,₹10L-20L,3,4,6,5,7,6,2,6,7,5,4,3,9,5,10,3
+364,Urban Student,22,Male,"Bhopal, Madhya Pradesh",Urban,Undergraduate,Below ₹2.5L,5,5,8,6,7,7,3,9,7,3,2,4,9,5,7,2
+365,Small Business Owner,46,Male,"Aligarh, Uttar Pradesh",Semi-Urban,Undergraduate,₹2.5L-5L,5,5,4,8,5,4,6,5,8,6,6,8,4,6,7,7
+366,Rural Farmer,42,Male,"Dhar district, Madhya Pradesh",Rural,Secondary,Below ₹2.5L,5,5,3,7,4,3,7,4,6,4,6,9,2,5,5,7
+367,Corporate Employee,44,Female,"Noida, Uttar Pradesh",Urban,Graduate,₹5L-10L,5,5,6,6,5,5,4,6,7,5,5,6,8,5,5,5
+368,Small Business Owner,46,Male,"Patna, Bihar",Urban,Secondary,₹2.5L-5L,5,5,4,8,5,5,6,6,9,7,6,7,4,7,6,5
+369,Rural Farmer,41,Male,"Kolar district, Karnataka",Rural,Primary,Below ₹2.5L,5,4,3,8,4,3,7,3,6,4,6,9,2,6,5,8
+370,Rural Farmer,50,Female,"Sangli district, Maharashtra",Rural,Secondary,₹2.5L-5L,5,3,3,8,4,3,8,4,6,4,6,9,3,6,5,8
+371,Homemaker,40,Female,"Chennai, Tamil Nadu",Urban,Higher Secondary,₹5L-10L,5,5,4,8,6,5,7,5,9,5,7,6,3,4,5,7
+372,Corporate Employee,48,Female,"Coimbatore, Tamil Nadu",Urban,Postgraduate,₹5L-10L,6,5,6,5,6,5,5,7,7,5,5,5,9,5,5,5
+373,Homemaker,35,Female,"Sangli district, Maharashtra",Rural,Higher Secondary,₹2.5L-5L,4,4,3,7,5,5,7,5,10,4,8,7,4,4,6,7
+374,Startup Founder,43,Female,"Pune, Maharashtra",Urban,Doctorate,₹20L-50L,4,4,6,5,8,6,2,7,7,5,4,3,10,6,9,3
+375,Retired Government Officer,78,Male,"Guntur, Andhra Pradesh",Semi-Urban,Postgraduate,₹10L-20L,8,7,7,8,2,2,7,3,4,8,8,6,7,8,6,8
+376,Rural Farmer,43,Male,"Hoshiarpur district, Punjab",Rural,Higher Secondary,Below ₹2.5L,5,4,3,8,4,3,7,4,6,3,7,9,2,6,4,8
+377,Corporate Employee,42,Male,"Hyderabad, Telangana",Urban,Postgraduate,₹20L-50L,5,5,6,5,6,5,4,6,7,5,5,5,8,5,7,5
+378,Rural Farmer,62,Male,"Hoshiarpur district, Punjab",Rural,Primary,₹5L-10L,5,4,3,8,4,3,7,4,6,4,6,10,2,6,6,8
+379,Small Business Owner,59,Female,"Surat, Gujarat",Urban,Secondary,₹5L-10L,4,4,4,8,5,4,6,5,9,7,5,7,4,5,5,6
+380,Startup Founder,36,Female,"Gurugram, Haryana",Urban,Graduate,Above ₹50L,4,4,5,5,7,6,3,6,7,5,4,3,9,5,8,3
+381,Rural Farmer,38,Male,"Kolar district, Karnataka",Rural,Higher Secondary,Below ₹2.5L,5,4,3,8,4,3,7,4,6,4,5,9,2,6,5,8
+382,Corporate Employee,31,Other,"Jaipur, Rajasthan",Urban,Graduate,₹5L-10L,5,5,5,6,6,4,3,6,7,5,5,5,7,5,6,5
+383,Retired Government Officer,61,Female,"Siliguri, West Bengal",Semi-Urban,Postgraduate,₹5L-10L,8,5,7,7,3,2,6,4,4,8,8,6,7,7,6,7
+384,Regional Language Aspirant,21,Female,"Madurai, Tamil Nadu",Semi-Urban,Postgraduate,₹2.5L-5L,5,5,8,6,5,5,6,5,7,7,6,10,3,8,5,7
+385,Small Business Owner,47,Female,"Hubli, Karnataka",Semi-Urban,Graduate,₹5L-10L,5,6,3,8,5,5,6,5,8,6,6,8,4,6,5,7
+386,Urban Student,23,Male,"Visakhapatnam, Andhra Pradesh",Urban,Higher Secondary,₹2.5L-5L,5,4,8,5,6,7,4,9,8,3,3,4,9,3,7,3
+387,Rural Farmer,54,Male,"Kannur rural, Kerala",Rural,Illiterate,Below ₹2.5L,5,3,4,8,3,4,8,4,7,4,6,9,2,6,5,8
+388,Rural Farmer,39,Male,"Sitamarhi district, Bihar",Rural,Secondary,₹2.5L-5L,5,4,3,8,4,3,7,4,5,4,7,8,2,6,4,8
+389,Regional Language Aspirant,28,Male,"Dhar district, Madhya Pradesh",Rural,Graduate,₹2.5L-5L,5,5,8,7,5,4,6,6,6,6,6,9,3,8,5,7
+390,Small Business Owner,59,Male,"Erode, Tamil Nadu",Semi-Urban,Secondary,₹2.5L-5L,5,5,4,8,5,4,6,4,8,7,6,7,4,5,6,5
+391,Small Business Owner,44,Male,"Tirupati, Andhra Pradesh",Semi-Urban,Graduate,₹5L-10L,5,5,4,8,5,5,6,5,8,5,6,7,4,6,6,7
+392,Regional Language Aspirant,35,Male,"Rohtak, Haryana",Semi-Urban,Postgraduate,₹2.5L-5L,5,5,8,8,5,3,6,6,7,7,5,9,2,8,4,7
+393,Retired Government Officer,68,Female,"Thiruvananthapuram, Kerala",Urban,Graduate,₹10L-20L,8,6,7,7,3,2,6,3,5,9,8,7,7,8,6,7
+394,Startup Founder,28,Male,"Bangalore, Karnataka",Urban,Postgraduate,₹20L-50L,4,3,6,5,7,6,3,8,7,5,5,3,9,5,9,3
+395,Corporate Employee,38,Male,"Vadodara, Gujarat",Urban,Postgraduate,₹20L-50L,5,5,6,5,6,5,4,5,7,5,5,4,8,6,6,5
+396,Rural Farmer,39,Male,"Kolar district, Karnataka",Rural,Higher Secondary,₹2.5L-5L,4,4,3,8,4,4,6,4,7,4,6,9,2,6,5,8
+397,Startup Founder,32,Female,"Pune, Maharashtra",Urban,Graduate,Above ₹50L,4,5,6,5,7,6,3,6,7,5,4,3,9,5,8,4
+398,Corporate Employee,38,Female,Delhi,Urban,Postgraduate,₹20L-50L,5,5,6,6,7,6,5,6,7,5,5,5,8,5,6,5
+399,Rural Farmer,41,Male,"Sundargarh district, Odisha",Rural,Primary,₹2.5L-5L,5,4,3,8,4,3,8,4,6,4,5,8,3,6,5,8
+400,Rural Farmer,57,Male,"Kannur rural, Kerala",Rural,Higher Secondary,Below ₹2.5L,5,4,3,7,4,2,6,4,6,4,6,9,2,6,6,9
+401,Small Business Owner,50,Male,"Madurai, Tamil Nadu",Semi-Urban,Higher Secondary,₹2.5L-5L,6,5,4,8,5,5,6,4,7,6,7,8,3,6,6,6
+402,Corporate Employee,34,Female,"Ahmedabad, Gujarat",Urban,Postgraduate,₹10L-20L,5,5,6,4,6,6,5,6,7,6,5,5,9,5,6,5
+403,Homemaker,51,Female,"Jhansi, Uttar Pradesh",Semi-Urban,Undergraduate,₹5L-10L,5,5,4,8,6,5,6,5,9,5,7,7,4,4,5,7
+404,Homemaker,55,Female,"Lucknow, Uttar Pradesh",Urban,Undergraduate,₹5L-10L,5,4,4,8,6,5,7,4,9,4,6,7,4,4,5,6
+405,Urban Student,17,Male,"Thiruvananthapuram, Kerala",Urban,Undergraduate,Below ₹2.5L,5,5,8,6,7,7,4,9,8,4,3,4,9,5,8,3
+406,Corporate Employee,31,Male,"Patna, Bihar",Urban,Undergraduate,₹20L-50L,5,4,6,5,6,5,4,6,7,4,5,5,8,5,6,5
+407,Urban Student,21,Male,Delhi,Urban,Higher Secondary,₹2.5L-5L,5,5,8,6,8,7,4,9,8,3,3,4,9,5,7,2
+408,Homemaker,45,Female,"Kolar district, Karnataka",Rural,Higher Secondary,₹10L-20L,5,5,4,8,7,5,6,5,9,4,7,6,3,4,5,6
+409,Homemaker,52,Female,"Kolar district, Karnataka",Rural,Secondary,Below ₹2.5L,5,5,5,8,6,5,7,5,8,4,7,7,3,4,5,8
+410,Retired Government Officer,77,Female,"Hyderabad, Telangana",Urban,Postgraduate,₹10L-20L,8,6,7,7,3,3,7,3,6,8,7,7,7,8,6,7
+411,Regional Language Aspirant,30,Female,"Jamshedpur, Jharkhand",Semi-Urban,Postgraduate,Below ₹2.5L,5,5,9,6,6,3,6,7,7,7,6,9,3,8,5,7
+412,Retired Government Officer,68,Male,"Amravati, Maharashtra",Semi-Urban,Graduate,₹10L-20L,8,6,6,7,3,2,6,3,5,7,8,5,7,8,6,7
+413,Corporate Employee,24,Male,"Thiruvananthapuram, Kerala",Urban,Graduate,₹10L-20L,4,5,6,5,6,6,4,6,7,5,6,5,7,5,6,5
+414,Retired Government Officer,65,Male,"Noida, Uttar Pradesh",Urban,Graduate,₹5L-10L,8,6,7,7,4,2,7,3,5,8,8,6,7,8,6,7
+415,Startup Founder,26,Male,"Chennai, Tamil Nadu",Urban,Graduate,₹20L-50L,4,3,6,5,7,7,3,7,7,5,4,3,9,6,9,4
+416,Retired Government Officer,60,Male,"Nagpur, Maharashtra",Urban,Graduate,₹5L-10L,7,6,6,6,2,2,7,3,5,8,7,6,7,9,7,7
+417,Retired Government Officer,74,Male,"Tirupati, Andhra Pradesh",Semi-Urban,Postgraduate,₹10L-20L,8,5,7,7,3,2,6,3,4,9,8,6,7,9,6,7
+418,Rural Farmer,31,Male,"Dhar district, Madhya Pradesh",Rural,Illiterate,₹2.5L-5L,5,4,3,8,4,3,7,4,6,4,6,9,2,5,5,7
+419,Homemaker,52,Female,"Jaipur, Rajasthan",Urban,Undergraduate,₹2.5L-5L,6,5,4,8,6,5,7,5,9,3,6,7,3,4,6,6
+420,Regional Language Aspirant,24,Male,"Davangere, Karnataka",Semi-Urban,Graduate,₹2.5L-5L,5,5,9,7,6,4,6,6,7,6,6,9,4,8,5,7
+421,Small Business Owner,50,Male,Chandigarh,Urban,Secondary,₹5L-10L,6,5,5,8,5,5,7,5,9,6,7,7,4,5,7,6
+422,Regional Language Aspirant,24,Female,"Hoshiarpur district, Punjab",Rural,Graduate,₹2.5L-5L,5,5,8,7,5,5,7,6,7,7,7,9,4,8,5,7
+423,Urban Student,17,Female,"Kochi, Kerala",Urban,Postgraduate,₹2.5L-5L,5,5,9,5,7,7,4,10,7,3,3,3,8,4,7,2
+424,Regional Language Aspirant,18,Female,"Bikaner rural, Rajasthan",Rural,Undergraduate,₹5L-10L,6,6,8,7,4,4,6,6,7,6,5,9,4,9,4,7
+425,Homemaker,30,Female,"Sangli district, Maharashtra",Rural,Higher Secondary,₹10L-20L,5,4,4,8,5,5,8,5,9,3,6,7,3,5,5,7
+426,Startup Founder,40,Male,"Pune, Maharashtra",Urban,Postgraduate,Above ₹50L,4,4,5,4,8,6,3,7,7,5,4,3,10,6,9,3
+427,Homemaker,54,Female,"Belgaum, Karnataka",Semi-Urban,Graduate,Below ₹2.5L,4,5,5,8,6,5,7,6,9,4,7,8,3,5,5,7
+428,Startup Founder,38,Male,"Hyderabad, Telangana",Urban,Postgraduate,₹20L-50L,4,5,6,4,7,6,3,7,7,5,4,3,9,5,9,3
+429,Startup Founder,44,Male,"Hyderabad, Telangana",Urban,Doctorate,₹20L-50L,4,3,6,5,7,7,3,7,7,5,4,3,10,5,8,3
+430,Small Business Owner,57,Female,"Bangalore, Karnataka",Urban,Higher Secondary,₹5L-10L,5,5,4,8,5,4,6,6,8,6,6,7,4,5,6,6
+431,Rural Farmer,55,Female,"Sangrur district, Punjab",Rural,Higher Secondary,₹2.5L-5L,6,4,3,7,5,3,8,4,6,4,6,9,2,6,6,9
+432,Regional Language Aspirant,33,Male,"Tirupati, Andhra Pradesh",Semi-Urban,Postgraduate,₹5L-10L,6,6,8,7,5,4,6,6,7,7,6,9,3,8,5,7
+433,Corporate Employee,43,Female,"Chennai, Tamil Nadu",Urban,Graduate,₹20L-50L,4,5,5,5,5,5,4,6,7,6,5,5,8,6,6,5
+434,Rural Farmer,55,Male,"Ratnagiri district, Maharashtra",Rural,Higher Secondary,Below ₹2.5L,5,3,3,8,5,3,7,4,5,4,6,8,2,5,5,8
+435,Homemaker,51,Female,"Indore, Madhya Pradesh",Urban,Higher Secondary,₹2.5L-5L,5,6,4,8,6,5,7,5,9,5,7,7,5,5,6,7
+436,Homemaker,39,Female,"Anantapur district, Andhra Pradesh",Rural,Secondary,₹5L-10L,5,6,4,8,5,5,7,5,10,5,7,7,4,4,5,7
+437,Corporate Employee,35,Male,"Indore, Madhya Pradesh",Urban,Graduate,₹10L-20L,5,6,6,5,6,5,5,6,7,5,5,5,9,4,6,6
+438,Startup Founder,28,Male,"Chennai, Tamil Nadu",Urban,Postgraduate,Above ₹50L,4,5,6,5,7,6,3,8,7,5,3,3,9,5,9,3
+439,Corporate Employee,40,Male,Chandigarh,Urban,Postgraduate,₹5L-10L,4,6,6,4,6,5,3,6,8,5,5,5,8,5,6,5
+440,Retired Government Officer,65,Male,"Surat, Gujarat",Urban,Graduate,₹10L-20L,8,6,7,7,4,3,6,2,5,7,8,6,7,8,6,8
+441,Startup Founder,39,Male,Delhi,Urban,Postgraduate,₹10L-20L,4,4,5,5,7,7,3,7,7,5,4,3,9,5,9,3
+442,Small Business Owner,43,Female,"Patna, Bihar",Urban,Higher Secondary,₹5L-10L,5,5,5,8,5,4,6,5,8,6,6,7,4,6,6,7
+443,Regional Language Aspirant,25,Female,"Madurai, Tamil Nadu",Semi-Urban,Postgraduate,₹2.5L-5L,4,5,8,6,5,4,6,6,8,7,5,8,3,9,4,7
+444,Homemaker,43,Female,"Gurugram, Haryana",Urban,Primary,₹2.5L-5L,5,5,4,9,6,6,7,5,9,4,8,7,4,4,5,7
+445,Homemaker,60,Female,"Hubli, Karnataka",Semi-Urban,Higher Secondary,Below ₹2.5L,5,5,3,9,6,5,7,5,9,4,7,8,2,4,5,6
+446,Retired Government Officer,68,Male,"Belgaum, Karnataka",Semi-Urban,Doctorate,₹5L-10L,8,6,7,7,3,2,7,3,4,7,8,6,7,8,6,7
+447,Regional Language Aspirant,18,Male,"Rohtak, Haryana",Semi-Urban,Postgraduate,₹5L-10L,5,5,8,7,5,4,6,6,7,7,7,9,4,8,5,7
+448,Homemaker,34,Female,"Guwahati, Assam",Urban,Secondary,Below ₹2.5L,5,5,4,7,6,4,7,5,9,3,7,7,2,4,5,7
+449,Corporate Employee,41,Male,"Vadodara, Gujarat",Urban,Graduate,₹20L-50L,5,5,6,5,6,5,5,6,8,6,5,5,7,5,5,6
+450,Rural Farmer,46,Male,"Sitamarhi district, Bihar",Rural,Secondary,Below ₹2.5L,5,5,3,8,3,3,8,4,7,4,6,9,2,6,4,8
+451,Corporate Employee,32,Male,"Bhubaneswar, Odisha",Urban,Graduate,₹5L-10L,5,6,6,5,6,4,4,6,8,5,5,6,9,5,6,5
+452,Startup Founder,27,Female,"Gurugram, Haryana",Urban,Postgraduate,₹20L-50L,4,4,6,5,7,6,3,7,7,5,4,3,9,5,9,3
+453,Corporate Employee,29,Other,"Bangalore, Karnataka",Urban,Undergraduate,₹10L-20L,5,5,6,5,7,5,4,6,7,5,5,6,7,4,6,6
+454,Urban Student,19,Male,"Gurugram, Haryana",Urban,Undergraduate,Below ₹2.5L,4,5,8,6,8,6,3,9,7,3,3,4,10,5,7,4
+455,Homemaker,41,Male,"Aligarh, Uttar Pradesh",Semi-Urban,Higher Secondary,₹2.5L-5L,5,5,4,8,6,5,7,5,10,4,7,7,3,5,5,7
+456,Rural Farmer,31,Male,"Mehsana district, Gujarat",Rural,Primary,Below ₹2.5L,4,4,3,8,4,3,8,3,5,4,5,9,3,7,5,8
+457,Retired Government Officer,62,Male,"Bhubaneswar, Odisha",Urban,Postgraduate,₹5L-10L,8,6,7,6,3,2,6,3,4,8,8,6,7,8,6,7
+458,Small Business Owner,36,Male,"Ujjain, Madhya Pradesh",Semi-Urban,Higher Secondary,₹2.5L-5L,5,5,4,8,5,4,6,5,8,6,6,7,5,6,6,5
+459,Rural Farmer,50,Male,"Sangrur district, Punjab",Rural,Higher Secondary,Below ₹2.5L,5,3,3,8,4,4,8,4,6,4,6,9,2,5,5,8
+460,Small Business Owner,50,Male,"Ahmedabad, Gujarat",Urban,Higher Secondary,₹10L-20L,5,6,3,8,6,5,6,5,8,6,7,7,4,5,7,6
+461,Rural Farmer,30,Male,"Sangrur district, Punjab",Rural,Secondary,Below ₹2.5L,5,4,4,8,5,4,9,4,6,4,6,10,2,6,5,8
+462,Retired Government Officer,68,Male,"Noida, Uttar Pradesh",Urban,Doctorate,₹5L-10L,8,6,7,6,3,2,7,3,5,8,8,6,7,9,6,8
+463,Rural Farmer,38,Male,"Ratnagiri district, Maharashtra",Rural,Secondary,₹2.5L-5L,5,4,3,9,4,3,8,4,7,5,5,9,2,6,5,8
+464,Urban Student,17,Male,"Nagpur, Maharashtra",Urban,Higher Secondary,Below ₹2.5L,5,5,8,5,7,7,4,9,7,2,2,4,9,3,8,4
+465,Homemaker,51,Female,"Karimnagar district, Telangana",Rural,Undergraduate,₹5L-10L,5,5,4,8,7,4,7,5,8,3,7,7,4,4,5,8
+466,Regional Language Aspirant,34,Female,"Guntur, Andhra Pradesh",Semi-Urban,Graduate,Below ₹2.5L,6,5,9,7,5,4,6,6,7,7,6,9,3,8,5,7
+467,Homemaker,34,Female,"Kannur rural, Kerala",Rural,Secondary,Below ₹2.5L,5,5,4,8,6,5,7,5,9,4,7,7,4,5,5,7
+468,Corporate Employee,37,Female,"Gurugram, Haryana",Urban,Graduate,₹5L-10L,5,4,6,5,7,6,5,6,6,5,5,5,8,5,6,5
+469,Retired Government Officer,74,Female,"Kochi, Kerala",Urban,Postgraduate,₹10L-20L,7,5,7,7,3,3,7,3,5,9,8,6,6,8,6,7
+470,Regional Language Aspirant,32,Male,"Kolhapur, Maharashtra",Semi-Urban,Graduate,Below ₹2.5L,5,5,8,7,5,4,6,6,7,7,5,9,3,8,4,8
+471,Regional Language Aspirant,27,Male,"Bikaner rural, Rajasthan",Rural,Graduate,₹2.5L-5L,6,5,7,8,5,4,7,6,7,7,7,9,4,9,4,7
+472,Urban Student,24,Male,"Surat, Gujarat",Urban,Higher Secondary,Below ₹2.5L,5,5,7,6,7,7,3,9,7,3,3,3,8,4,7,3
+473,Startup Founder,34,Female,"Noida, Uttar Pradesh",Urban,Postgraduate,Above ₹50L,4,4,7,4,7,5,3,7,7,5,4,3,9,5,9,3
+474,Retired Government Officer,77,Female,"Nagpur, Maharashtra",Urban,Doctorate,₹5L-10L,8,7,7,6,3,2,7,2,5,8,8,5,7,9,6,7
+475,Regional Language Aspirant,34,Male,"Thanjavur rural, Tamil Nadu",Rural,Graduate,Below ₹2.5L,5,5,8,7,5,4,7,5,7,7,6,9,3,8,5,7
+476,Urban Student,21,Female,"Bhopal, Madhya Pradesh",Urban,Postgraduate,₹2.5L-5L,5,5,8,6,7,7,5,9,8,2,3,4,9,5,7,3
+477,Corporate Employee,46,Male,"Thiruvananthapuram, Kerala",Urban,Undergraduate,₹5L-10L,4,6,6,5,6,5,4,6,7,5,4,6,9,5,6,5
+478,Rural Farmer,49,Male,"Bikaner rural, Rajasthan",Rural,Illiterate,Below ₹2.5L,5,4,3,8,3,3,7,4,6,4,6,9,2,6,6,8
+479,Corporate Employee,49,Male,"Hyderabad, Telangana",Urban,Graduate,₹10L-20L,6,4,6,4,6,5,5,6,6,5,5,5,8,6,6,5
+480,Regional Language Aspirant,33,Female,"Aligarh, Uttar Pradesh",Semi-Urban,Undergraduate,₹2.5L-5L,5,5,8,7,5,4,6,7,7,7,6,8,3,8,5,7
+481,Corporate Employee,30,Female,"Thiruvananthapuram, Kerala",Urban,Undergraduate,₹10L-20L,5,4,6,5,6,6,4,6,7,5,5,5,8,4,6,5
+482,Corporate Employee,39,Male,"Nagpur, Maharashtra",Urban,Postgraduate,₹5L-10L,4,5,6,4,6,4,4,6,7,5,4,5,8,5,6,5
+483,Retired Government Officer,71,Female,"Belgaum, Karnataka",Semi-Urban,Graduate,₹10L-20L,8,6,7,7,2,2,7,2,5,8,8,6,7,8,5,8
+484,Urban Student,16,Female,"Ahmedabad, Gujarat",Urban,Undergraduate,₹5L-10L,6,5,8,6,7,6,4,9,7,3,3,4,9,5,7,3
+485,Small Business Owner,30,Male,"Jaipur, Rajasthan",Urban,Graduate,₹5L-10L,5,5,4,8,5,5,6,5,9,6,5,7,3,6,6,5
+486,Regional Language Aspirant,26,Male,"Belgaum, Karnataka",Semi-Urban,Graduate,Below ₹2.5L,5,5,7,7,5,4,6,6,7,7,6,9,3,8,5,7
+487,Rural Farmer,57,Female,"Thanjavur rural, Tamil Nadu",Rural,Illiterate,Below ₹2.5L,5,4,3,8,4,3,8,5,6,4,5,9,2,6,5,8
+488,Regional Language Aspirant,31,Male,"Ujjain, Madhya Pradesh",Semi-Urban,Postgraduate,Below ₹2.5L,5,5,8,7,5,4,6,6,7,7,6,9,3,8,5,7
+489,Rural Farmer,39,Male,"Kannur rural, Kerala",Rural,Secondary,Below ₹2.5L,5,4,2,8,4,3,9,5,7,3,7,9,2,6,5,8
+490,Corporate Employee,27,Female,"Gurugram, Haryana",Urban,Graduate,₹20L-50L,5,5,6,5,6,5,6,7,7,5,5,5,8,5,6,5
+491,Retired Government Officer,73,Male,"Chennai, Tamil Nadu",Urban,Postgraduate,₹10L-20L,8,6,6,6,3,3,6,3,5,8,7,6,7,8,6,6
+492,Homemaker,40,Female,"Bastar district, Chhattisgarh",Rural,Undergraduate,Below ₹2.5L,6,5,4,8,6,5,7,6,9,4,7,7,4,4,4,7
+493,Small Business Owner,54,Female,"Surat, Gujarat",Urban,Higher Secondary,₹5L-10L,5,6,3,8,4,3,6,6,8,6,5,7,4,6,6,6
+494,Homemaker,46,Female,"Sangli district, Maharashtra",Rural,Secondary,₹10L-20L,5,5,4,9,6,5,6,5,9,4,6,6,4,5,6,7
+495,Corporate Employee,32,Male,"Surat, Gujarat",Urban,Postgraduate,₹20L-50L,5,6,6,5,6,5,5,6,7,5,5,5,8,5,6,5
+496,Homemaker,60,Female,"Chennai, Tamil Nadu",Urban,Primary,₹5L-10L,6,5,3,8,6,5,7,5,9,3,7,8,3,4,5,7
+497,Rural Farmer,40,Male,"Kannur rural, Kerala",Rural,Secondary,Below ₹2.5L,5,4,2,8,4,3,8,4,6,4,6,8,2,7,5,8
+498,Regional Language Aspirant,28,Other,"Jamshedpur, Jharkhand",Semi-Urban,Undergraduate,Below ₹2.5L,4,5,8,7,5,3,6,6,7,7,6,9,3,8,5,7
+499,Startup Founder,32,Female,"Hyderabad, Telangana",Urban,Doctorate,Above ₹50L,4,4,6,5,7,7,3,7,7,5,4,3,10,4,9,3
+500,Small Business Owner,43,Male,Chandigarh,Urban,Undergraduate,₹5L-10L,5,5,4,7,5,4,6,5,8,6,6,7,3,6,6,6
+501,Startup Founder,44,Male,Delhi,Urban,Postgraduate,₹10L-20L,3,4,7,6,6,7,3,8,7,5,5,2,9,5,9,3
+502,Homemaker,52,Female,"Nashik rural, Maharashtra",Rural,Undergraduate,₹2.5L-5L,5,4,4,8,6,5,7,5,9,4,8,7,5,5,5,6
+503,Startup Founder,44,Male,"Noida, Uttar Pradesh",Urban,Postgraduate,₹20L-50L,4,4,6,4,8,6,3,7,7,5,4,3,10,5,9,3
+504,Startup Founder,38,Male,"Bangalore, Karnataka",Urban,Postgraduate,Above ₹50L,5,4,6,4,6,6,3,7,7,5,4,3,9,6,8,2
+505,Rural Farmer,39,Female,"Sangrur district, Punjab",Rural,Secondary,Below ₹2.5L,6,3,2,8,4,3,7,4,7,3,5,9,2,5,6,8
+506,Retired Government Officer,64,Male,"Vadodara, Gujarat",Urban,Postgraduate,₹20L-50L,7,6,7,7,2,2,7,2,5,7,8,6,7,8,6,6
+507,Rural Farmer,59,Male,"Kolar district, Karnataka",Rural,Secondary,Below ₹2.5L,5,4,3,8,4,3,7,4,5,4,6,10,2,6,5,8
+508,Regional Language Aspirant,21,Male,"Mehsana district, Gujarat",Rural,Undergraduate,₹5L-10L,5,5,9,7,4,4,6,6,8,7,6,9,4,8,5,8
+509,Small Business Owner,59,Male,"Ahmedabad, Gujarat",Urban,Secondary,₹10L-20L,5,5,4,8,6,3,7,5,8,5,6,7,4,5,6,6
+510,Retired Government Officer,62,Male,"Surat, Gujarat",Urban,Postgraduate,₹20L-50L,8,7,7,7,3,2,7,3,5,8,8,6,7,8,6,7
+511,Rural Farmer,52,Male,"Dhar district, Madhya Pradesh",Rural,Illiterate,Below ₹2.5L,5,4,3,8,4,3,8,3,6,4,6,10,2,6,5,9
+512,Homemaker,42,Male,"Vadodara, Gujarat",Urban,Higher Secondary,₹2.5L-5L,5,5,4,7,6,6,7,4,9,4,7,7,5,4,5,7
+513,Retired Government Officer,65,Female,"Hyderabad, Telangana",Urban,Doctorate,₹10L-20L,8,7,8,6,3,2,6,3,5,8,8,7,7,7,5,7
+514,Small Business Owner,34,Male,"Vadodara, Gujarat",Urban,Graduate,₹2.5L-5L,5,5,4,8,5,4,6,4,7,6,5,7,3,4,6,6
+515,Urban Student,21,Female,Delhi,Urban,Higher Secondary,₹5L-10L,5,5,8,6,8,7,4,9,7,3,3,4,9,4,7,3
+516,Startup Founder,39,Female,"Chennai, Tamil Nadu",Urban,Postgraduate,₹20L-50L,4,4,6,5,7,6,3,7,6,5,4,3,10,6,9,2
+517,Corporate Employee,44,Female,Chandigarh,Urban,Graduate,₹20L-50L,5,6,6,5,6,5,4,7,7,6,4,5,7,5,6,5
+518,Rural Farmer,65,Male,"Bikaner rural, Rajasthan",Rural,Secondary,Below ₹2.5L,5,4,3,8,4,3,8,4,6,4,6,9,2,6,5,9
+519,Startup Founder,37,Male,"Hyderabad, Telangana",Urban,Graduate,₹20L-50L,4,3,6,5,7,6,3,7,8,4,4,3,9,5,9,4
+520,Startup Founder,39,Female,Delhi,Urban,Postgraduate,Above ₹50L,4,5,5,5,6,6,4,7,7,5,5,3,9,5,10,3
+521,Rural Farmer,50,Male,"Hoshiarpur district, Punjab",Rural,Secondary,Below ₹2.5L,5,4,3,8,4,3,8,4,6,4,6,9,2,7,5,8
+522,Rural Farmer,43,Male,"Karimnagar district, Telangana",Rural,Illiterate,Below ₹2.5L,5,4,3,9,4,3,6,4,6,4,6,8,2,6,5,8
+523,Urban Student,20,Female,"Hyderabad, Telangana",Urban,Undergraduate,₹2.5L-5L,5,5,8,6,7,7,3,8,7,3,3,5,10,5,7,3
+524,Urban Student,22,Male,"Lucknow, Uttar Pradesh",Urban,Higher Secondary,₹2.5L-5L,5,5,9,6,7,6,3,9,7,3,3,3,9,4,7,4
+525,Startup Founder,31,Male,Delhi,Urban,Doctorate,₹20L-50L,4,4,6,5,7,6,3,7,7,5,3,3,10,6,9,3
+526,Corporate Employee,50,Male,"Ahmedabad, Gujarat",Urban,Postgraduate,₹10L-20L,5,4,6,5,7,5,5,7,7,5,5,5,9,5,6,4
+527,Startup Founder,36,Female,"Hyderabad, Telangana",Urban,Graduate,Above ₹50L,4,3,6,5,8,6,3,7,6,5,4,3,9,5,9,3
+528,Urban Student,16,Female,"Thiruvananthapuram, Kerala",Urban,Postgraduate,Below ₹2.5L,5,6,8,6,7,6,5,9,7,3,4,4,10,4,6,3
+529,Startup Founder,31,Female,"Pune, Maharashtra",Urban,Postgraduate,Above ₹50L,4,4,6,5,7,6,3,6,7,6,3,3,9,5,9,3
+530,Small Business Owner,38,Male,"Nellore, Andhra Pradesh",Semi-Urban,Graduate,₹10L-20L,6,5,4,8,4,4,6,5,8,6,6,7,4,5,5,6
+531,Homemaker,59,Female,"Kolhapur, Maharashtra",Semi-Urban,Undergraduate,Below ₹2.5L,5,5,4,9,6,5,7,5,9,5,7,7,2,5,5,6
+532,Corporate Employee,40,Female,"Patna, Bihar",Urban,Graduate,₹20L-50L,5,5,6,5,6,6,5,7,7,5,6,4,7,5,7,6
+533,Rural Farmer,42,Male,"Thanjavur rural, Tamil Nadu",Rural,Primary,Below ₹2.5L,6,4,3,8,4,3,9,5,6,5,6,9,2,6,5,8
+534,Small Business Owner,51,Male,"Chennai, Tamil Nadu",Urban,Graduate,₹5L-10L,5,5,4,8,5,4,6,5,9,6,6,7,5,5,6,6
+535,Homemaker,42,Female,"Murshidabad district, West Bengal",Rural,Primary,₹2.5L-5L,5,5,4,7,6,5,6,5,10,4,6,7,3,5,5,6
+536,Startup Founder,41,Female,"Bangalore, Karnataka",Urban,Graduate,₹20L-50L,4,3,5,6,7,6,3,6,7,5,4,3,10,5,9,3
+537,Startup Founder,25,Male,"Pune, Maharashtra",Urban,Postgraduate,₹10L-20L,4,3,6,5,7,7,3,6,7,4,4,4,10,6,9,3
+538,Startup Founder,41,Female,"Noida, Uttar Pradesh",Urban,Graduate,Above ₹50L,4,3,6,6,7,6,3,7,7,5,3,2,9,5,9,3
+539,Corporate Employee,32,Female,"Bangalore, Karnataka",Urban,Undergraduate,₹20L-50L,5,4,6,5,6,4,5,6,7,5,5,4,7,5,6,6
+540,Urban Student,17,Male,"Nagpur, Maharashtra",Urban,Higher Secondary,Below ₹2.5L,5,5,8,6,7,8,4,9,6,3,3,4,9,6,8,3
+541,Urban Student,24,Female,"Kochi, Kerala",Urban,Higher Secondary,₹2.5L-5L,5,6,8,6,6,7,4,9,7,4,3,4,9,6,7,3
+542,Corporate Employee,49,Male,"Patna, Bihar",Urban,Graduate,₹20L-50L,4,4,5,5,6,6,4,6,7,5,5,5,8,5,6,5
+543,Retired Government Officer,70,Male,"Noida, Uttar Pradesh",Urban,Graduate,₹10L-20L,7,6,8,8,3,2,7,2,5,8,8,6,7,8,5,6
+544,Urban Student,18,Male,"Hyderabad, Telangana",Urban,Undergraduate,₹2.5L-5L,5,5,8,5,7,7,2,9,7,3,3,3,10,4,6,3
+545,Urban Student,17,Female,"Guwahati, Assam",Urban,Undergraduate,Below ₹2.5L,5,5,8,5,7,7,5,9,7,2,3,5,8,4,7,3
+546,Rural Farmer,59,Female,"Hoshiarpur district, Punjab",Rural,Secondary,Below ₹2.5L,6,4,3,8,5,4,8,4,6,4,6,9,2,5,5,8
+547,Corporate Employee,45,Female,"Lucknow, Uttar Pradesh",Urban,Graduate,₹10L-20L,5,5,6,5,6,5,4,6,7,5,5,5,9,5,6,5
+548,Homemaker,49,Female,"Nellore, Andhra Pradesh",Semi-Urban,Graduate,₹2.5L-5L,5,5,5,8,6,5,8,5,9,4,7,8,3,5,5,7
+549,Corporate Employee,45,Male,"Thiruvananthapuram, Kerala",Urban,Graduate,₹20L-50L,5,5,7,5,6,4,6,6,8,6,5,5,8,5,6,5
+550,Urban Student,22,Male,"Surat, Gujarat",Urban,Postgraduate,Below ₹2.5L,5,5,9,7,7,7,4,9,7,3,3,4,8,4,8,4
+551,Rural Farmer,39,Male,"Murshidabad district, West Bengal",Rural,Secondary,Below ₹2.5L,5,3,3,7,4,3,8,4,5,3,6,9,2,6,5,9
+552,Startup Founder,26,Male,"Gurugram, Haryana",Urban,Graduate,₹20L-50L,4,4,6,5,7,6,3,8,7,6,4,2,9,5,9,3
+553,Startup Founder,31,Female,"Bangalore, Karnataka",Urban,Graduate,₹20L-50L,4,4,7,5,7,6,3,7,8,5,4,3,10,4,10,3
+554,Retired Government Officer,66,Male,"Nellore, Andhra Pradesh",Semi-Urban,Graduate,₹10L-20L,9,6,7,7,3,2,6,4,5,7,9,6,7,7,6,6
+555,Corporate Employee,40,Male,"Gurugram, Haryana",Urban,Graduate,₹5L-10L,5,5,6,4,5,5,4,6,7,5,5,5,8,5,6,5
+556,Small Business Owner,58,Female,"Bhubaneswar, Odisha",Urban,Secondary,₹5L-10L,5,4,4,9,5,4,6,5,8,6,7,7,4,5,6,6
+557,Homemaker,59,Female,"Kannur rural, Kerala",Rural,Primary,₹5L-10L,5,4,4,8,5,5,7,5,10,4,7,6,4,5,5,7
+558,Regional Language Aspirant,25,Female,"Thanjavur rural, Tamil Nadu",Rural,Postgraduate,₹5L-10L,4,5,9,7,5,4,6,6,7,7,7,9,3,9,5,6
+559,Corporate Employee,29,Male,"Kochi, Kerala",Urban,Graduate,₹10L-20L,5,5,5,5,6,5,4,6,7,5,5,5,8,5,6,5
+560,Urban Student,21,Female,"Vadodara, Gujarat",Urban,Undergraduate,Below ₹2.5L,4,5,8,7,7,7,4,9,7,4,2,5,10,5,7,3
+561,Rural Farmer,49,Male,"Bhagalpur rural, Bihar",Rural,Secondary,Below ₹2.5L,5,4,3,8,4,3,8,4,5,4,6,9,1,6,5,8
+562,Retired Government Officer,70,Male,"Guwahati, Assam",Urban,Postgraduate,₹10L-20L,7,6,7,8,3,2,7,3,4,8,8,6,7,8,6,8
+563,Retired Government Officer,75,Male,"Jhansi, Uttar Pradesh",Semi-Urban,Doctorate,₹20L-50L,8,7,8,7,3,1,8,3,5,8,8,6,7,8,6,7
+564,Retired Government Officer,65,Female,"Jaipur, Rajasthan",Urban,Postgraduate,₹5L-10L,8,6,7,7,3,2,6,3,5,8,9,6,7,8,6,7
+565,Regional Language Aspirant,24,Female,"Thanjavur rural, Tamil Nadu",Rural,Postgraduate,₹2.5L-5L,5,5,8,7,4,4,7,6,6,7,6,9,3,9,5,7
+566,Rural Farmer,41,Female,"Bikaner rural, Rajasthan",Rural,Secondary,Below ₹2.5L,5,4,3,8,4,2,8,4,6,4,6,8,3,6,5,8
+567,Homemaker,46,Female,"Guntur, Andhra Pradesh",Semi-Urban,Higher Secondary,₹10L-20L,5,5,4,8,6,5,7,5,9,4,7,6,4,5,6,7
+568,Rural Farmer,52,Male,"Village near Varanasi, Uttar Pradesh",Rural,Primary,Below ₹2.5L,6,5,4,8,4,3,7,4,6,3,5,9,3,6,5,7
+569,Rural Farmer,65,Male,"Village near Varanasi, Uttar Pradesh",Rural,Secondary,₹2.5L-5L,5,3,3,8,4,3,8,5,6,4,5,9,2,5,6,8
+570,Rural Farmer,38,Male,"Mehsana district, Gujarat",Rural,Primary,Below ₹2.5L,4,4,3,7,3,3,8,4,6,4,5,9,2,6,5,7
+571,Small Business Owner,55,Female,"Kolkata, West Bengal",Urban,Secondary,₹2.5L-5L,5,4,4,8,5,4,6,5,8,6,7,6,4,5,7,6
+572,Regional Language Aspirant,23,Male,"Sundargarh district, Odisha",Rural,Undergraduate,₹2.5L-5L,6,6,9,7,5,4,6,6,7,7,6,9,3,8,5,7
+573,Regional Language Aspirant,20,Male,"Ratnagiri district, Maharashtra",Rural,Undergraduate,₹2.5L-5L,5,5,8,7,5,3,6,6,7,7,6,9,3,8,4,7
+574,Urban Student,20,Female,"Pune, Maharashtra",Urban,Undergraduate,Below ₹2.5L,5,6,8,6,7,7,3,8,7,3,3,4,9,5,7,2
+575,Urban Student,19,Male,"Chennai, Tamil Nadu",Urban,Higher Secondary,Below ₹2.5L,5,6,8,6,6,7,4,8,7,3,3,5,9,4,7,3
+576,Corporate Employee,38,Female,"Hyderabad, Telangana",Urban,Postgraduate,₹10L-20L,5,5,6,4,7,5,5,6,7,5,5,5,8,5,6,5
+577,Rural Farmer,61,Male,"Bastar district, Chhattisgarh",Rural,Secondary,Below ₹2.5L,6,5,2,8,4,3,7,4,6,4,6,9,2,6,6,8
+578,Small Business Owner,36,Female,"Aligarh, Uttar Pradesh",Semi-Urban,Secondary,₹2.5L-5L,6,6,3,8,5,4,6,5,8,6,5,7,3,6,6,5
+579,Homemaker,29,Female,"Visakhapatnam, Andhra Pradesh",Urban,Undergraduate,₹10L-20L,5,5,4,8,6,5,7,5,9,4,7,7,4,4,5,7
+580,Homemaker,51,Female,"Siliguri, West Bengal",Semi-Urban,Higher Secondary,Below ₹2.5L,5,5,4,8,6,4,8,5,9,4,7,7,3,5,5,6
+581,Startup Founder,41,Male,"Noida, Uttar Pradesh",Urban,Graduate,₹10L-20L,4,5,6,5,8,6,2,7,8,5,3,3,10,4,9,3
+582,Regional Language Aspirant,28,Female,"Aligarh, Uttar Pradesh",Semi-Urban,Undergraduate,₹2.5L-5L,6,5,7,7,5,4,6,5,7,6,7,9,3,8,5,6
+583,Rural Farmer,50,Female,"Murshidabad district, West Bengal",Rural,Illiterate,₹2.5L-5L,5,4,3,8,4,3,7,4,6,4,6,9,2,6,5,7
+584,Startup Founder,28,Male,"Gurugram, Haryana",Urban,Postgraduate,₹20L-50L,4,4,6,5,7,6,3,7,8,5,4,3,10,5,10,3
+585,Corporate Employee,41,Female,"Bhubaneswar, Odisha",Urban,Graduate,₹5L-10L,4,5,5,5,6,4,5,7,6,6,5,5,9,6,6,5
+586,Small Business Owner,53,Male,"Guntur, Andhra Pradesh",Semi-Urban,Graduate,₹2.5L-5L,5,5,3,9,5,4,6,4,8,6,6,7,4,5,6,6
+587,Small Business Owner,44,Female,"Tirupati, Andhra Pradesh",Semi-Urban,Secondary,₹5L-10L,5,6,4,7,6,3,6,5,8,6,6,6,4,6,6,6
+588,Regional Language Aspirant,30,Male,"Bikaner rural, Rajasthan",Rural,Undergraduate,₹5L-10L,5,6,8,7,5,3,6,6,8,6,6,8,3,8,5,7
+589,Retired Government Officer,76,Female,"Kolkata, West Bengal",Urban,Postgraduate,₹5L-10L,8,6,7,6,3,2,7,2,5,8,8,6,7,8,6,7
+590,Urban Student,24,Male,"Surat, Gujarat",Urban,Higher Secondary,Below ₹2.5L,4,6,7,6,7,7,4,8,7,3,3,4,9,4,8,3
+591,Retired Government Officer,69,Male,"Kolhapur, Maharashtra",Semi-Urban,Graduate,₹5L-10L,8,6,6,8,2,2,7,3,4,8,8,5,7,8,7,7
+592,Urban Student,23,Male,"Nagpur, Maharashtra",Urban,Undergraduate,Below ₹2.5L,5,6,8,7,7,7,3,8,7,3,3,3,9,4,7,2
+593,Corporate Employee,34,Male,"Ahmedabad, Gujarat",Urban,Postgraduate,₹5L-10L,5,5,6,5,6,5,4,5,7,5,6,6,9,5,6,5
+594,Retired Government Officer,66,Female,"Gurugram, Haryana",Urban,Postgraduate,₹20L-50L,8,6,8,6,2,3,6,3,5,7,8,6,7,8,5,7
+595,Small Business Owner,58,Female,"Patna, Bihar",Urban,Graduate,₹2.5L-5L,5,4,4,9,5,3,6,5,8,6,6,8,4,5,6,6
+596,Regional Language Aspirant,19,Male,"Kannur rural, Kerala",Rural,Postgraduate,₹5L-10L,5,5,8,8,5,4,6,5,7,8,6,9,3,8,4,7
+597,Retired Government Officer,66,Male,"Jaipur, Rajasthan",Urban,Postgraduate,₹5L-10L,7,7,7,6,3,2,7,4,6,9,8,7,7,8,6,7
+598,Rural Farmer,59,Female,"Bhagalpur rural, Bihar",Rural,Primary,₹2.5L-5L,5,5,3,8,4,3,8,4,6,4,6,9,2,6,5,9
+599,Rural Farmer,63,Male,"Sundargarh district, Odisha",Rural,Higher Secondary,Below ₹2.5L,5,4,3,8,4,3,7,4,7,5,6,9,2,7,5,7
+600,Regional Language Aspirant,26,Male,"Bastar district, Chhattisgarh",Rural,Graduate,Below ₹2.5L,5,5,7,8,5,4,6,5,7,7,5,9,2,8,5,7
+601,Corporate Employee,42,Male,"Mumbai, Maharashtra",Urban,Graduate,₹10L-20L,5,5,6,5,6,5,4,5,7,4,5,6,8,4,6,5
+602,Regional Language Aspirant,32,Male,"Sangrur district, Punjab",Rural,Undergraduate,₹5L-10L,4,6,8,7,5,5,6,6,7,7,6,8,4,8,5,7
+603,Urban Student,16,Male,"Vadodara, Gujarat",Urban,Undergraduate,Below ₹2.5L,5,4,7,6,7,7,5,9,6,3,3,5,9,4,7,3
+604,Urban Student,16,Male,"Hyderabad, Telangana",Urban,Undergraduate,₹2.5L-5L,5,5,9,7,7,7,3,9,8,3,3,4,10,5,6,3
+605,Small Business Owner,44,Female,Chandigarh,Urban,Graduate,₹5L-10L,5,5,4,7,5,3,6,5,8,6,5,7,4,5,6,6
+606,Startup Founder,43,Male,"Chennai, Tamil Nadu",Urban,Doctorate,Above ₹50L,4,4,6,5,7,6,3,7,7,5,5,2,9,4,9,3
+607,Startup Founder,28,Female,Delhi,Urban,Postgraduate,Above ₹50L,4,4,6,5,7,6,3,7,8,4,4,3,10,5,9,3
+608,Startup Founder,28,Male,"Bangalore, Karnataka",Urban,Postgraduate,₹20L-50L,5,4,6,5,7,6,3,7,8,4,4,3,9,5,9,3
+609,Startup Founder,34,Female,Delhi,Urban,Doctorate,₹20L-50L,4,4,6,5,8,6,3,8,7,5,4,3,9,6,8,3
+610,Corporate Employee,41,Male,"Thiruvananthapuram, Kerala",Urban,Graduate,₹20L-50L,5,6,6,4,6,5,4,6,7,5,4,5,8,5,6,5
+611,Rural Farmer,53,Male,"Mehsana district, Gujarat",Rural,Illiterate,Below ₹2.5L,6,4,3,8,5,3,7,4,5,4,6,9,2,6,5,8
+612,Small Business Owner,34,Male,"Hubli, Karnataka",Semi-Urban,Undergraduate,₹5L-10L,5,5,4,8,5,4,6,5,8,6,6,6,4,5,6,5
+613,Startup Founder,43,Male,"Mumbai, Maharashtra",Urban,Graduate,₹10L-20L,4,4,7,4,7,6,3,8,7,5,4,3,10,4,8,3
+614,Small Business Owner,35,Female,Delhi,Urban,Higher Secondary,₹5L-10L,4,5,4,8,5,4,6,5,9,5,6,7,4,7,6,6
+615,Regional Language Aspirant,33,Male,"Kannur rural, Kerala",Rural,Undergraduate,Below ₹2.5L,5,5,8,6,6,4,6,6,7,7,7,10,3,8,5,7
+616,Homemaker,62,Female,"Kolhapur, Maharashtra",Semi-Urban,Undergraduate,Below ₹2.5L,5,5,4,8,6,5,6,5,9,3,7,7,4,4,6,7
+617,Urban Student,23,Female,"Kolkata, West Bengal",Urban,Higher Secondary,Below ₹2.5L,6,5,8,6,6,7,4,10,7,4,3,4,9,4,7,3
+618,Small Business Owner,49,Male,"Indore, Madhya Pradesh",Urban,Undergraduate,₹10L-20L,6,5,3,8,4,4,6,5,9,6,6,7,3,6,5,6
+619,Regional Language Aspirant,22,Female,"Kolar district, Karnataka",Rural,Graduate,₹2.5L-5L,4,5,7,7,5,4,6,6,7,7,6,9,2,8,5,8
+620,Corporate Employee,44,Male,"Ahmedabad, Gujarat",Urban,Graduate,₹20L-50L,5,5,6,5,5,5,4,6,7,5,4,6,8,4,6,4
+621,Regional Language Aspirant,32,Male,"Sundargarh district, Odisha",Rural,Postgraduate,₹2.5L-5L,5,5,8,7,5,4,6,6,7,7,6,9,3,8,6,7
+622,Corporate Employee,29,Female,"Surat, Gujarat",Urban,Postgraduate,₹5L-10L,5,5,6,4,6,5,4,6,7,5,5,5,8,6,6,5
+623,Retired Government Officer,69,Female,"Belgaum, Karnataka",Semi-Urban,Doctorate,₹10L-20L,8,6,7,7,3,2,6,4,5,8,7,7,6,8,6,7
+624,Regional Language Aspirant,26,Female,"Sangli district, Maharashtra",Rural,Postgraduate,₹5L-10L,5,6,9,7,5,4,5,6,7,8,7,9,3,8,5,7
+625,Rural Farmer,53,Female,"Karimnagar district, Telangana",Rural,Secondary,₹2.5L-5L,5,3,4,8,4,3,7,4,6,4,6,9,2,6,4,7
+626,Startup Founder,45,Female,Delhi,Urban,Graduate,Above ₹50L,4,4,7,5,6,7,3,7,7,5,4,3,9,4,9,3
+627,Regional Language Aspirant,33,Female,"Bilaspur, Chhattisgarh",Semi-Urban,Postgraduate,₹2.5L-5L,5,5,7,7,4,3,5,7,7,7,6,9,3,8,5,7
+628,Regional Language Aspirant,26,Female,"Hoshiarpur district, Punjab",Rural,Postgraduate,₹2.5L-5L,5,5,7,7,5,4,6,6,7,7,6,9,3,8,5,7
+629,Rural Farmer,65,Female,"Kolar district, Karnataka",Rural,Illiterate,Below ₹2.5L,6,4,3,8,5,3,7,3,5,4,6,9,2,7,5,8
+630,Rural Farmer,57,Male,"Kannur rural, Kerala",Rural,Primary,₹2.5L-5L,5,5,3,7,4,3,7,4,6,4,6,9,2,5,5,8
+631,Rural Farmer,46,Female,"Karimnagar district, Telangana",Rural,Primary,Below ₹2.5L,4,4,3,8,4,3,7,4,5,4,6,10,2,5,6,8
+632,Urban Student,17,Male,"Kolkata, West Bengal",Urban,Higher Secondary,₹2.5L-5L,5,5,8,6,7,7,3,9,6,2,3,4,8,4,7,3
+633,Startup Founder,30,Female,"Mumbai, Maharashtra",Urban,Doctorate,Above ₹50L,4,4,6,5,7,6,3,7,7,4,4,2,10,5,10,2
+634,Homemaker,65,Female,"Patna, Bihar",Urban,Higher Secondary,Below ₹2.5L,5,5,4,8,6,5,7,5,9,5,8,7,5,3,5,7
+635,Retired Government Officer,64,Female,"Siliguri, West Bengal",Semi-Urban,Doctorate,₹5L-10L,7,6,8,8,3,2,6,3,6,8,8,7,6,9,7,7
+636,Regional Language Aspirant,25,Female,"Guntur, Andhra Pradesh",Semi-Urban,Graduate,Below ₹2.5L,6,5,8,7,5,4,5,6,8,7,6,9,4,8,5,7
+637,Urban Student,20,Female,"Noida, Uttar Pradesh",Urban,Higher Secondary,₹2.5L-5L,5,5,8,6,7,8,4,9,7,3,3,4,9,5,7,3
+638,Small Business Owner,35,Female,Delhi,Urban,Secondary,₹2.5L-5L,5,5,4,8,6,4,6,5,8,6,6,7,4,5,7,6
+639,Rural Farmer,47,Male,"Murshidabad district, West Bengal",Rural,Secondary,Below ₹2.5L,6,4,4,8,4,3,7,4,7,5,6,9,2,7,5,7
+640,Homemaker,51,Female,"Bhubaneswar, Odisha",Urban,Higher Secondary,₹2.5L-5L,5,5,4,7,6,5,7,5,9,4,7,7,2,5,4,7
+641,Urban Student,17,Female,"Bhubaneswar, Odisha",Urban,Postgraduate,₹2.5L-5L,5,4,8,6,7,7,4,9,7,3,3,4,10,4,7,4
+642,Urban Student,23,Female,Chandigarh,Urban,Higher Secondary,Below ₹2.5L,5,4,8,6,7,7,5,9,7,3,3,4,9,5,7,3
+643,Regional Language Aspirant,28,Male,"Tirupati, Andhra Pradesh",Semi-Urban,Postgraduate,₹2.5L-5L,5,6,8,7,5,4,6,6,7,7,6,9,3,8,5,7
+644,Corporate Employee,33,Male,"Lucknow, Uttar Pradesh",Urban,Postgraduate,₹5L-10L,5,5,6,5,6,5,4,6,6,5,5,5,7,6,6,5
+645,Corporate Employee,24,Female,"Indore, Madhya Pradesh",Urban,Postgraduate,₹5L-10L,5,5,6,5,6,5,5,6,7,5,5,5,8,5,6,5
+646,Startup Founder,33,Female,"Bangalore, Karnataka",Urban,Postgraduate,Above ₹50L,4,4,7,4,7,6,3,7,7,5,4,3,9,5,9,3
+647,Regional Language Aspirant,21,Female,"Sundargarh district, Odisha",Rural,Postgraduate,Below ₹2.5L,5,4,9,7,5,4,6,6,8,7,6,9,3,8,5,7
+648,Startup Founder,43,Female,"Noida, Uttar Pradesh",Urban,Postgraduate,₹20L-50L,3,4,6,5,8,6,2,8,7,5,4,3,9,5,9,2
+649,Retired Government Officer,70,Male,"Jamshedpur, Jharkhand",Semi-Urban,Doctorate,₹10L-20L,8,6,7,6,3,2,7,3,5,8,7,6,7,8,6,7
+650,Small Business Owner,38,Female,Delhi,Urban,Higher Secondary,₹10L-20L,5,4,4,8,5,4,6,6,8,6,6,7,4,5,6,6
+651,Rural Farmer,30,Female,"Sundargarh district, Odisha",Rural,Primary,Below ₹2.5L,5,4,3,8,5,3,8,4,6,4,7,9,2,6,5,8
+652,Retired Government Officer,76,Male,"Jamshedpur, Jharkhand",Semi-Urban,Postgraduate,₹5L-10L,7,6,7,7,2,2,7,3,5,7,9,6,7,9,6,7
+653,Rural Farmer,65,Female,"Anantapur district, Andhra Pradesh",Rural,Higher Secondary,₹2.5L-5L,5,5,3,7,4,3,8,5,6,4,7,8,2,6,5,8
+654,Urban Student,16,Male,"Visakhapatnam, Andhra Pradesh",Urban,Undergraduate,Below ₹2.5L,5,6,8,7,8,8,4,8,7,3,3,4,9,5,8,3
+655,Corporate Employee,50,Female,"Bhubaneswar, Odisha",Urban,Graduate,₹5L-10L,5,5,6,4,6,5,4,5,7,5,5,4,8,6,6,5
+656,Corporate Employee,40,Male,"Guwahati, Assam",Urban,Undergraduate,₹5L-10L,4,6,5,5,6,5,5,6,8,5,5,5,8,5,6,5
+657,Retired Government Officer,62,Male,"Aligarh, Uttar Pradesh",Semi-Urban,Doctorate,₹10L-20L,8,5,7,7,4,2,8,3,5,9,8,6,7,8,6,6
+658,Rural Farmer,34,Female,"Kannur rural, Kerala",Rural,Illiterate,₹2.5L-5L,4,4,2,8,3,3,7,4,6,4,7,9,1,6,5,8
+659,Rural Farmer,42,Female,"Sitamarhi district, Bihar",Rural,Secondary,Below ₹2.5L,4,3,2,7,4,3,8,4,5,5,6,9,2,5,5,8
+660,Startup Founder,29,Male,"Chennai, Tamil Nadu",Urban,Postgraduate,₹20L-50L,4,4,6,4,7,6,3,7,7,5,3,3,9,5,9,2
+661,Homemaker,34,Female,"Bhagalpur rural, Bihar",Rural,Secondary,₹10L-20L,6,5,4,9,6,5,6,4,9,4,6,7,3,5,5,7
+662,Small Business Owner,34,Male,"Ujjain, Madhya Pradesh",Semi-Urban,Higher Secondary,₹5L-10L,5,5,4,8,5,4,6,6,8,6,6,7,4,7,7,6
+663,Startup Founder,29,Male,"Chennai, Tamil Nadu",Urban,Postgraduate,₹20L-50L,4,3,6,5,7,7,3,6,7,4,4,3,10,5,10,3
+664,Homemaker,44,Female,"Anantapur district, Andhra Pradesh",Rural,Higher Secondary,₹2.5L-5L,5,5,4,8,6,6,7,5,9,4,7,7,4,4,5,7
+665,Startup Founder,42,Male,Delhi,Urban,Postgraduate,₹10L-20L,4,4,6,5,7,7,3,7,6,4,3,3,10,5,9,3
+666,Small Business Owner,50,Male,"Indore, Madhya Pradesh",Urban,Graduate,₹5L-10L,6,4,4,8,5,5,7,5,8,6,6,7,5,5,6,6
+667,Regional Language Aspirant,30,Female,"Belgaum, Karnataka",Semi-Urban,Undergraduate,₹5L-10L,6,4,8,6,5,5,6,5,6,6,7,9,3,9,5,7
+668,Regional Language Aspirant,18,Male,"Sangli district, Maharashtra",Rural,Graduate,₹2.5L-5L,5,5,8,7,6,4,6,6,8,7,5,9,3,7,5,6
+669,Corporate Employee,48,Female,"Bhopal, Madhya Pradesh",Urban,Graduate,₹10L-20L,5,5,6,5,7,5,5,6,7,5,5,5,8,5,6,5
+670,Startup Founder,39,Female,"Gurugram, Haryana",Urban,Postgraduate,₹20L-50L,5,4,6,5,7,6,2,7,7,5,4,3,10,4,9,3
+671,Retired Government Officer,61,Male,"Thiruvananthapuram, Kerala",Urban,Doctorate,₹10L-20L,9,6,7,7,3,2,6,2,4,8,8,7,7,9,6,7
+672,Homemaker,56,Female,"Erode, Tamil Nadu",Semi-Urban,Graduate,Below ₹2.5L,5,5,4,8,7,4,7,5,10,4,7,7,3,4,5,7
+673,Startup Founder,45,Male,"Gurugram, Haryana",Urban,Doctorate,₹20L-50L,4,3,6,5,7,6,4,7,6,5,4,4,9,6,9,3
+674,Urban Student,24,Female,"Jaipur, Rajasthan",Urban,Higher Secondary,Below ₹2.5L,5,5,8,6,7,7,2,9,7,3,3,4,9,3,7,3
+675,Homemaker,62,Female,"Sundargarh district, Odisha",Rural,Undergraduate,₹5L-10L,5,5,4,8,7,5,8,4,9,4,8,7,4,5,5,7
+676,Regional Language Aspirant,34,Male,"Ujjain, Madhya Pradesh",Semi-Urban,Graduate,Below ₹2.5L,5,5,8,7,5,4,6,6,7,7,6,10,3,8,5,7
+677,Regional Language Aspirant,34,Female,"Madurai, Tamil Nadu",Semi-Urban,Graduate,₹5L-10L,5,4,8,7,5,4,6,7,7,7,6,9,3,8,5,7
+678,Homemaker,32,Female,"Jhansi, Uttar Pradesh",Semi-Urban,Secondary,₹2.5L-5L,5,5,4,8,6,5,8,5,9,4,7,7,4,4,5,7
+679,Retired Government Officer,63,Female,"Bilaspur, Chhattisgarh",Semi-Urban,Postgraduate,₹5L-10L,8,6,6,7,3,2,7,3,5,7,8,7,6,8,5,8
+680,Corporate Employee,37,Female,"Bangalore, Karnataka",Urban,Undergraduate,₹5L-10L,5,4,6,5,6,5,4,6,7,4,6,5,8,5,5,6
+681,Homemaker,42,Female,"Erode, Tamil Nadu",Semi-Urban,Primary,Below ₹2.5L,5,5,4,8,6,5,7,5,10,5,7,7,3,4,6,7
+682,Retired Government Officer,65,Male,"Rohtak, Haryana",Semi-Urban,Doctorate,₹10L-20L,9,6,7,7,3,3,6,4,4,9,9,5,7,7,6,7
+683,Urban Student,16,Female,"Guwahati, Assam",Urban,Higher Secondary,Below ₹2.5L,5,5,9,7,7,7,4,9,7,3,4,4,9,6,8,3
+684,Urban Student,20,Female,"Kochi, Kerala",Urban,Undergraduate,Below ₹2.5L,5,5,8,6,7,7,4,8,7,3,3,4,9,4,8,3
+685,Homemaker,38,Female,"Kolkata, West Bengal",Urban,Undergraduate,Below ₹2.5L,5,4,4,8,6,5,7,6,8,4,7,7,4,4,5,8
+686,Retired Government Officer,72,Male,"Ujjain, Madhya Pradesh",Semi-Urban,Postgraduate,₹20L-50L,8,5,7,6,4,2,7,3,5,9,8,6,8,9,6,7
+687,Small Business Owner,49,Male,"Kolhapur, Maharashtra",Semi-Urban,Higher Secondary,₹5L-10L,5,5,4,8,5,4,6,5,8,6,6,6,4,5,6,7
+688,Homemaker,65,Female,"Hoshiarpur district, Punjab",Rural,Secondary,₹2.5L-5L,5,6,4,9,7,5,7,5,9,4,7,6,4,3,6,8
+689,Rural Farmer,61,Male,"Anantapur district, Andhra Pradesh",Rural,Secondary,₹2.5L-5L,5,4,2,8,5,3,8,4,7,4,6,9,2,6,5,7
+690,Retired Government Officer,65,Male,"Ujjain, Madhya Pradesh",Semi-Urban,Postgraduate,₹20L-50L,8,6,7,7,3,2,7,2,5,8,8,6,7,8,6,8
+691,Homemaker,43,Female,"Vadodara, Gujarat",Urban,Primary,₹2.5L-5L,5,5,4,9,6,5,7,6,10,4,7,7,2,5,4,7
+692,Corporate Employee,43,Female,Chandigarh,Urban,Graduate,₹20L-50L,5,5,6,5,6,5,5,6,7,5,6,5,8,5,6,4
+693,Homemaker,48,Female,"Bangalore, Karnataka",Urban,Higher Secondary,Below ₹2.5L,5,5,4,7,6,5,8,4,8,4,7,6,3,3,5,7
+694,Urban Student,23,Male,"Noida, Uttar Pradesh",Urban,Undergraduate,₹5L-10L,5,5,9,7,7,7,3,8,7,4,2,4,9,5,7,3
+695,Small Business Owner,56,Male,"Indore, Madhya Pradesh",Urban,Undergraduate,₹5L-10L,5,5,4,8,5,4,6,5,8,6,6,7,3,6,6,6
+696,Urban Student,24,Male,Chandigarh,Urban,Undergraduate,Below ₹2.5L,6,5,8,6,7,7,3,9,7,4,3,3,9,4,7,2
+697,Small Business Owner,34,Male,"Aligarh, Uttar Pradesh",Semi-Urban,Secondary,₹2.5L-5L,5,5,4,8,6,4,6,5,8,7,6,6,4,6,6,6
+698,Rural Farmer,56,Male,"Bhagalpur rural, Bihar",Rural,Secondary,₹2.5L-5L,5,4,3,8,4,3,7,4,6,4,5,9,2,6,5,8
+699,Rural Farmer,39,Female,"Bastar district, Chhattisgarh",Rural,Secondary,₹2.5L-5L,5,4,3,8,4,3,7,4,6,4,7,9,2,6,5,7
+700,Homemaker,41,Male,"Jhansi, Uttar Pradesh",Semi-Urban,Higher Secondary,₹5L-10L,5,5,4,8,6,5,7,5,8,4,7,7,4,4,5,7
+701,Regional Language Aspirant,35,Female,"Jamshedpur, Jharkhand",Semi-Urban,Postgraduate,₹2.5L-5L,5,5,7,8,5,4,6,6,6,8,6,9,2,8,6,7
+702,Urban Student,21,Female,"Bangalore, Karnataka",Urban,Undergraduate,Below ₹2.5L,5,4,8,6,6,7,3,9,6,3,3,4,8,3,7,3
+703,Retired Government Officer,63,Male,"Ujjain, Madhya Pradesh",Semi-Urban,Graduate,₹10L-20L,8,5,7,8,4,3,6,3,5,8,8,6,7,8,6,8
+704,Small Business Owner,41,Female,"Patna, Bihar",Urban,Secondary,₹2.5L-5L,5,6,4,8,5,4,6,5,9,6,7,7,3,6,6,7
+705,Small Business Owner,50,Male,"Thiruvananthapuram, Kerala",Urban,Graduate,₹5L-10L,5,5,4,8,6,4,7,5,8,6,6,7,4,6,6,6
+706,Retired Government Officer,65,Female,"Vadodara, Gujarat",Urban,Graduate,₹20L-50L,8,6,7,7,3,2,7,2,5,8,8,6,7,8,6,7
+707,Corporate Employee,39,Male,"Bhubaneswar, Odisha",Urban,Undergraduate,₹10L-20L,5,5,5,5,7,5,4,6,6,6,5,5,8,6,6,5
+708,Corporate Employee,27,Male,"Lucknow, Uttar Pradesh",Urban,Graduate,₹10L-20L,4,4,6,4,7,5,6,7,7,5,5,5,8,5,6,5
+709,Regional Language Aspirant,18,Female,"Tirupati, Andhra Pradesh",Semi-Urban,Graduate,₹5L-10L,4,5,8,7,5,4,6,5,7,7,6,9,3,9,5,7
+710,Regional Language Aspirant,20,Male,"Jhansi, Uttar Pradesh",Semi-Urban,Undergraduate,₹2.5L-5L,4,5,9,7,5,4,6,6,7,7,6,9,4,8,5,7
+711,Retired Government Officer,64,Female,Chandigarh,Urban,Doctorate,₹5L-10L,8,6,7,7,3,3,7,3,5,8,8,6,7,7,6,7
+712,Startup Founder,32,Male,"Gurugram, Haryana",Urban,Postgraduate,Above ₹50L,4,4,6,5,7,6,3,7,6,5,4,3,10,5,9,3
+713,Startup Founder,37,Male,"Chennai, Tamil Nadu",Urban,Graduate,₹10L-20L,5,4,6,5,7,6,3,7,7,5,3,3,10,5,9,4
+714,Homemaker,61,Female,"Madurai, Tamil Nadu",Semi-Urban,Primary,₹5L-10L,5,5,3,8,6,5,6,5,9,4,8,7,4,4,5,7
+715,Homemaker,30,Female,"Village near Varanasi, Uttar Pradesh",Rural,Undergraduate,Below ₹2.5L,4,5,4,8,6,5,6,4,9,3,8,7,3,4,4,7
+716,Corporate Employee,39,Female,"Chennai, Tamil Nadu",Urban,Graduate,₹10L-20L,6,5,5,5,6,5,4,6,7,5,5,5,8,5,7,5
+717,Homemaker,44,Female,"Thiruvananthapuram, Kerala",Urban,Secondary,₹5L-10L,5,5,4,9,6,5,8,6,9,4,7,7,3,5,4,8
+718,Homemaker,62,Female,"Nashik rural, Maharashtra",Rural,Undergraduate,Below ₹2.5L,5,6,5,8,6,5,7,5,9,4,7,6,3,4,6,7
+719,Retired Government Officer,60,Female,"Madurai, Tamil Nadu",Semi-Urban,Graduate,₹5L-10L,7,6,7,7,3,2,7,3,5,8,8,6,7,8,6,7
+720,Small Business Owner,38,Female,"Tirupati, Andhra Pradesh",Semi-Urban,Secondary,₹5L-10L,5,5,4,8,6,3,6,5,9,6,6,8,4,6,6,6
+721,Rural Farmer,34,Male,"Village near Varanasi, Uttar Pradesh",Rural,Primary,Below ₹2.5L,5,4,3,8,4,3,7,4,6,4,6,9,2,5,5,8
+722,Rural Farmer,47,Female,"Bikaner rural, Rajasthan",Rural,Secondary,Below ₹2.5L,5,4,4,7,3,3,7,4,7,5,6,9,3,6,5,8
+723,Urban Student,16,Male,"Kochi, Kerala",Urban,Postgraduate,Below ₹2.5L,5,5,8,6,7,7,4,10,8,3,4,4,9,5,7,3
+724,Homemaker,61,Female,"Coimbatore, Tamil Nadu",Urban,Graduate,Below ₹2.5L,5,5,4,8,5,5,8,6,9,5,7,7,3,5,5,7
+725,Retired Government Officer,62,Female,"Guwahati, Assam",Urban,Postgraduate,₹5L-10L,8,6,7,6,3,2,6,3,5,8,7,6,7,8,7,7
+726,Rural Farmer,30,Male,"Bhagalpur rural, Bihar",Rural,Higher Secondary,₹2.5L-5L,5,4,3,8,5,3,7,4,6,4,5,10,2,7,5,8
+727,Regional Language Aspirant,23,Male,"Belgaum, Karnataka",Semi-Urban,Postgraduate,₹5L-10L,5,6,8,7,5,4,6,6,7,7,6,9,3,8,5,7
+728,Homemaker,53,Female,"Rajahmundry, Andhra Pradesh",Semi-Urban,Primary,₹2.5L-5L,5,5,4,8,6,6,7,5,8,4,8,7,4,4,5,7
+729,Homemaker,64,Female,"Ujjain, Madhya Pradesh",Semi-Urban,Undergraduate,Below ₹2.5L,6,5,5,8,7,5,7,5,9,4,7,7,3,4,6,7
+730,Small Business Owner,37,Female,"Noida, Uttar Pradesh",Urban,Undergraduate,₹10L-20L,5,6,4,9,5,4,5,5,8,6,5,7,3,5,6,7
+731,Rural Farmer,45,Female,"Sundargarh district, Odisha",Rural,Primary,₹2.5L-5L,5,4,3,7,3,3,8,4,6,4,6,9,2,6,5,8
+732,Regional Language Aspirant,32,Male,"Belgaum, Karnataka",Semi-Urban,Graduate,Below ₹2.5L,6,5,8,7,4,4,6,6,8,7,5,9,3,7,5,7
+733,Retired Government Officer,75,Female,"Ahmedabad, Gujarat",Urban,Postgraduate,₹10L-20L,8,6,6,7,3,3,6,3,5,8,8,7,7,8,6,7
+734,Homemaker,29,Female,"Patna, Bihar",Urban,Secondary,₹5L-10L,5,5,4,8,6,5,7,5,9,3,7,7,4,5,5,7
+735,Homemaker,44,Female,"Sangli district, Maharashtra",Rural,Undergraduate,₹5L-10L,5,5,4,8,5,5,7,5,10,4,7,7,3,4,5,7
+736,Small Business Owner,59,Male,"Bangalore, Karnataka",Urban,Graduate,₹2.5L-5L,5,5,4,8,5,4,6,5,8,6,6,6,4,6,6,6
+737,Rural Farmer,40,Female,"Bikaner rural, Rajasthan",Rural,Secondary,₹2.5L-5L,5,4,3,8,4,3,8,4,6,4,5,10,1,6,5,8
+738,Corporate Employee,42,Male,"Indore, Madhya Pradesh",Urban,Postgraduate,₹10L-20L,5,6,6,5,6,5,5,6,7,5,6,4,8,5,6,5
+739,Urban Student,18,Female,"Surat, Gujarat",Urban,Postgraduate,₹2.5L-5L,5,5,8,6,6,7,4,8,7,3,3,4,9,4,7,2
+740,Retired Government Officer,71,Male,"Guntur, Andhra Pradesh",Semi-Urban,Postgraduate,₹20L-50L,7,6,7,7,3,3,6,3,5,8,8,6,7,8,6,7
+741,Homemaker,42,Female,"Davangere, Karnataka",Semi-Urban,Graduate,Below ₹2.5L,5,5,4,7,6,5,7,5,10,4,6,7,2,4,5,8
+742,Rural Farmer,33,Male,"Mehsana district, Gujarat",Rural,Primary,₹2.5L-5L,5,5,2,8,4,3,7,4,7,5,6,9,2,6,5,8
+743,Small Business Owner,32,Male,"Amravati, Maharashtra",Semi-Urban,Graduate,₹10L-20L,5,5,4,7,5,3,6,5,8,6,6,7,4,6,6,6
+744,Urban Student,23,Male,"Patna, Bihar",Urban,Undergraduate,Below ₹2.5L,4,5,8,6,7,7,3,9,6,3,3,3,8,4,6,2
+745,Homemaker,48,Female,"Kolar district, Karnataka",Rural,Graduate,₹2.5L-5L,4,5,4,8,6,5,7,5,9,4,7,7,5,4,4,7
+746,Retired Government Officer,77,Female,"Ahmedabad, Gujarat",Urban,Graduate,₹5L-10L,8,6,7,7,4,2,6,4,4,8,8,6,7,8,6,7
+747,Retired Government Officer,74,Male,"Hyderabad, Telangana",Urban,Graduate,₹20L-50L,7,6,7,7,3,2,7,2,5,9,8,6,8,8,7,7
+748,Homemaker,45,Female,"Kolkata, West Bengal",Urban,Undergraduate,₹5L-10L,5,5,4,8,6,5,7,5,9,4,7,8,4,5,5,7
+749,Corporate Employee,44,Female,"Ahmedabad, Gujarat",Urban,Graduate,₹10L-20L,5,4,6,6,5,5,4,6,7,5,5,5,9,5,6,5
+750,Retired Government Officer,62,Female,"Hubli, Karnataka",Semi-Urban,Postgraduate,₹5L-10L,7,6,7,7,3,2,7,3,5,8,8,6,6,8,6,7
+751,Small Business Owner,56,Female,"Bhubaneswar, Odisha",Urban,Higher Secondary,₹5L-10L,5,5,3,8,5,4,5,5,8,6,6,7,4,6,6,6
+752,Startup Founder,38,Male,"Bangalore, Karnataka",Urban,Graduate,₹10L-20L,5,4,6,5,7,6,3,7,6,5,4,3,9,5,9,3
+753,Homemaker,33,Female,"Thanjavur rural, Tamil Nadu",Rural,Undergraduate,Below ₹2.5L,5,4,4,7,5,6,6,5,9,4,8,7,4,5,5,7
+754,Startup Founder,36,Female,Delhi,Urban,Graduate,₹20L-50L,4,4,5,5,7,6,3,7,6,5,5,3,9,6,9,3
+755,Startup Founder,25,Male,Delhi,Urban,Doctorate,Above ₹50L,4,3,6,5,6,6,3,7,8,5,4,2,9,5,9,3
+756,Urban Student,24,Male,"Noida, Uttar Pradesh",Urban,Undergraduate,₹2.5L-5L,5,5,7,6,7,7,4,9,7,3,2,4,9,4,7,3
+757,Rural Farmer,54,Female,"Dhar district, Madhya Pradesh",Rural,Higher Secondary,₹2.5L-5L,5,4,2,8,3,2,7,5,6,3,6,10,2,6,6,8
+758,Rural Farmer,61,Female,"Kolar district, Karnataka",Rural,Primary,₹2.5L-5L,5,3,3,9,5,3,7,4,6,4,5,9,3,7,5,8
+759,Regional Language Aspirant,24,Male,"Anantapur district, Andhra Pradesh",Rural,Undergraduate,₹5L-10L,4,5,8,8,5,4,6,5,7,7,6,8,3,8,5,7
+760,Startup Founder,34,Other,"Hyderabad, Telangana",Urban,Doctorate,Above ₹50L,4,4,6,5,7,6,4,7,7,5,4,3,10,5,9,3
+761,Small Business Owner,44,Male,"Belgaum, Karnataka",Semi-Urban,Undergraduate,₹10L-20L,5,5,4,8,5,4,6,5,7,6,7,7,3,5,6,6
+762,Regional Language Aspirant,30,Female,"Sangrur district, Punjab",Rural,Postgraduate,₹5L-10L,5,5,7,6,5,4,6,6,7,7,6,9,3,7,5,7
+763,Rural Farmer,49,Male,"Kannur rural, Kerala",Rural,Illiterate,₹2.5L-5L,5,5,3,9,4,3,9,4,6,4,5,10,3,7,5,8
+764,Small Business Owner,41,Male,"Ahmedabad, Gujarat",Urban,Graduate,₹2.5L-5L,5,5,4,9,5,5,6,6,8,6,6,7,5,6,6,7
+765,Small Business Owner,51,Male,"Rohtak, Haryana",Semi-Urban,Secondary,₹5L-10L,6,5,4,8,5,3,7,6,8,7,6,7,4,5,6,6
+766,Rural Farmer,47,Male,"Sundargarh district, Odisha",Rural,Secondary,Below ₹2.5L,6,4,2,7,4,3,7,4,6,4,6,8,2,5,6,8
+767,Startup Founder,43,Female,"Gurugram, Haryana",Urban,Postgraduate,₹20L-50L,4,4,6,6,6,6,4,7,7,5,4,3,10,5,9,3
+768,Small Business Owner,31,Male,"Visakhapatnam, Andhra Pradesh",Urban,Secondary,₹2.5L-5L,5,5,3,8,5,5,5,5,8,6,6,6,4,6,6,6
+769,Homemaker,51,Female,Chandigarh,Urban,Undergraduate,Below ₹2.5L,6,5,4,9,6,5,7,5,9,4,6,8,4,5,5,7
+770,Startup Founder,27,Female,"Pune, Maharashtra",Urban,Postgraduate,₹20L-50L,4,4,6,5,7,6,3,7,7,5,4,2,10,5,9,3
+771,Homemaker,31,Female,"Sitamarhi district, Bihar",Rural,Primary,₹2.5L-5L,5,4,4,8,6,5,7,4,9,4,6,8,3,4,5,7
+772,Corporate Employee,42,Female,"Thiruvananthapuram, Kerala",Urban,Postgraduate,₹5L-10L,5,5,6,5,5,5,4,6,7,5,5,5,8,5,5,5
+773,Startup Founder,26,Female,"Chennai, Tamil Nadu",Urban,Graduate,Above ₹50L,4,4,6,5,6,6,2,7,7,4,3,3,10,4,9,4
+774,Corporate Employee,45,Male,"Vadodara, Gujarat",Urban,Postgraduate,₹10L-20L,5,4,6,5,6,5,6,6,7,5,5,5,7,4,6,5
+775,Corporate Employee,43,Male,"Bhubaneswar, Odisha",Urban,Graduate,₹10L-20L,5,6,6,5,5,5,5,7,7,5,5,5,8,5,6,5
+776,Homemaker,56,Female,"Dhar district, Madhya Pradesh",Rural,Primary,Below ₹2.5L,5,4,4,8,5,6,7,5,9,4,7,7,4,4,5,7
+777,Regional Language Aspirant,24,Male,"Rajahmundry, Andhra Pradesh",Semi-Urban,Undergraduate,Below ₹2.5L,5,5,7,6,5,4,6,6,7,7,6,9,3,8,4,7
+778,Small Business Owner,42,Male,"Lucknow, Uttar Pradesh",Urban,Secondary,₹10L-20L,5,6,4,8,4,4,6,5,8,6,6,7,4,7,6,7
+779,Small Business Owner,46,Male,"Jhansi, Uttar Pradesh",Semi-Urban,Secondary,₹5L-10L,5,5,4,9,4,4,6,5,8,6,7,7,4,6,5,6
+780,Startup Founder,42,Male,"Mumbai, Maharashtra",Urban,Doctorate,₹10L-20L,4,4,6,5,7,6,3,7,7,5,4,3,9,4,9,3
+781,Urban Student,21,Male,Delhi,Urban,Higher Secondary,Below ₹2.5L,5,5,8,6,7,7,3,9,7,4,3,4,9,5,7,3
+782,Small Business Owner,54,Male,"Bangalore, Karnataka",Urban,Graduate,₹10L-20L,6,6,4,8,5,4,7,5,8,6,6,7,4,5,7,6
+783,Urban Student,16,Female,"Kochi, Kerala",Urban,Postgraduate,Below ₹2.5L,5,5,8,6,7,6,3,9,7,4,2,4,10,5,6,3
+784,Startup Founder,26,Male,Delhi,Urban,Graduate,Above ₹50L,4,4,6,5,7,7,3,7,7,5,4,3,10,5,9,3
+785,Urban Student,21,Female,"Vadodara, Gujarat",Urban,Postgraduate,Below ₹2.5L,6,6,8,6,7,7,5,9,7,3,4,5,9,4,7,4
+786,Retired Government Officer,68,Male,"Ujjain, Madhya Pradesh",Semi-Urban,Postgraduate,₹5L-10L,8,6,7,7,3,2,6,3,5,8,8,6,7,8,6,8
+787,Homemaker,62,Female,"Bilaspur, Chhattisgarh",Semi-Urban,Higher Secondary,Below ₹2.5L,5,5,4,8,6,5,8,5,9,4,7,7,4,3,4,7
+788,Corporate Employee,28,Male,"Mumbai, Maharashtra",Urban,Postgraduate,₹10L-20L,5,5,6,5,6,5,4,6,7,4,5,5,7,5,6,6
+789,Retired Government Officer,76,Male,"Hyderabad, Telangana",Urban,Postgraduate,₹10L-20L,8,6,7,7,3,2,8,3,5,9,7,6,7,8,5,7
+790,Corporate Employee,49,Female,"Noida, Uttar Pradesh",Urban,Postgraduate,₹10L-20L,5,5,6,5,5,5,5,6,7,5,5,5,8,6,6,4
+791,Small Business Owner,47,Male,"Nagpur, Maharashtra",Urban,Higher Secondary,₹10L-20L,5,5,4,8,5,4,6,5,8,6,6,7,4,6,6,6
+792,Rural Farmer,60,Female,"Hoshiarpur district, Punjab",Rural,Primary,Below ₹2.5L,5,3,3,7,4,3,8,4,6,3,7,9,3,6,5,9
+793,Retired Government Officer,71,Female,"Noida, Uttar Pradesh",Urban,Graduate,₹10L-20L,7,6,8,6,3,2,6,2,5,9,8,6,6,9,6,8
+794,Urban Student,24,Female,"Visakhapatnam, Andhra Pradesh",Urban,Postgraduate,₹2.5L-5L,5,5,8,6,6,7,3,9,7,2,4,3,9,4,7,3
+795,Startup Founder,44,Male,"Mumbai, Maharashtra",Urban,Postgraduate,Above ₹50L,4,4,6,5,7,7,3,7,7,6,4,3,9,5,8,2
+796,Small Business Owner,53,Female,"Vadodara, Gujarat",Urban,Undergraduate,₹5L-10L,5,5,4,9,5,4,6,6,8,6,7,7,5,6,6,6
+797,Small Business Owner,46,Male,"Visakhapatnam, Andhra Pradesh",Urban,Graduate,₹2.5L-5L,4,5,4,8,5,3,6,4,8,5,6,7,5,5,6,6
+798,Retired Government Officer,66,Male,"Bilaspur, Chhattisgarh",Semi-Urban,Doctorate,₹10L-20L,8,6,7,7,3,2,7,3,5,8,8,6,7,7,6,7
+799,Homemaker,30,Female,"Vadodara, Gujarat",Urban,Secondary,Below ₹2.5L,5,5,4,8,5,5,7,6,8,5,7,7,4,5,4,7
+800,Startup Founder,41,Male,"Mumbai, Maharashtra",Urban,Postgraduate,₹10L-20L,5,4,6,5,8,6,3,7,7,5,4,3,9,5,9,3
+801,Rural Farmer,35,Female,"Warangal rural, Telangana",Rural,Secondary,Below ₹2.5L,5,4,3,8,5,2,8,4,6,4,6,9,1,6,5,8
+802,Retired Government Officer,73,Male,"Amravati, Maharashtra",Semi-Urban,Postgraduate,₹5L-10L,8,6,6,7,3,2,5,4,5,8,9,6,7,8,6,7
+803,Rural Farmer,59,Female,"Ratnagiri district, Maharashtra",Rural,Higher Secondary,Below ₹2.5L,5,4,3,8,4,4,7,4,6,4,7,9,1,6,5,7
+804,Regional Language Aspirant,25,Female,"Mehsana district, Gujarat",Rural,Graduate,Below ₹2.5L,5,4,8,7,5,4,5,6,7,7,5,9,3,8,5,7
+805,Regional Language Aspirant,28,Male,"Bastar district, Chhattisgarh",Rural,Graduate,Below ₹2.5L,5,5,8,8,6,4,6,7,7,7,6,9,3,8,6,7
+806,Rural Farmer,54,Male,"Bikaner rural, Rajasthan",Rural,Secondary,₹2.5L-5L,5,4,3,8,4,3,8,4,7,4,6,8,2,6,4,8
+807,Corporate Employee,33,Other,"Visakhapatnam, Andhra Pradesh",Urban,Undergraduate,₹5L-10L,5,5,7,5,6,5,5,6,7,5,6,5,8,5,5,5
+808,Homemaker,47,Male,"Bhagalpur rural, Bihar",Rural,Undergraduate,₹2.5L-5L,5,5,4,8,6,5,7,5,9,4,7,7,4,5,5,7
+809,Regional Language Aspirant,30,Other,"Warangal rural, Telangana",Rural,Postgraduate,₹2.5L-5L,5,6,8,7,4,3,6,6,7,7,6,8,3,8,4,7
+810,Homemaker,53,Female,"Mehsana district, Gujarat",Rural,Undergraduate,₹10L-20L,5,5,4,8,6,5,7,5,9,4,7,7,4,4,5,7
+811,Corporate Employee,32,Male,"Bhopal, Madhya Pradesh",Urban,Graduate,₹5L-10L,5,5,6,5,6,5,4,6,7,5,6,5,8,5,6,6
+812,Rural Farmer,50,Male,"Karimnagar district, Telangana",Rural,Secondary,₹2.5L-5L,6,4,3,7,3,3,8,4,5,4,7,9,3,5,5,8
+813,Urban Student,18,Female,"Kolkata, West Bengal",Urban,Undergraduate,Below ₹2.5L,5,5,9,6,6,7,4,9,7,2,3,4,9,5,6,2
+814,Rural Farmer,31,Female,"Sitamarhi district, Bihar",Rural,Secondary,₹2.5L-5L,6,5,3,9,4,3,7,4,6,4,7,9,2,6,4,8
+815,Regional Language Aspirant,35,Male,"Kolhapur, Maharashtra",Semi-Urban,Postgraduate,Below ₹2.5L,5,4,8,7,5,3,6,5,7,7,5,9,4,8,5,6
+816,Rural Farmer,48,Female,"Kannur rural, Kerala",Rural,Higher Secondary,Below ₹2.5L,5,4,2,8,4,3,8,4,6,4,5,9,2,5,4,9
+817,Rural Farmer,53,Female,"Thanjavur rural, Tamil Nadu",Rural,Higher Secondary,₹2.5L-5L,5,3,3,8,4,3,8,4,6,4,6,9,1,6,5,8
+818,Rural Farmer,60,Male,"Anantapur district, Andhra Pradesh",Rural,Primary,₹2.5L-5L,5,4,3,8,4,4,9,3,6,4,6,9,2,7,5,8
+819,Corporate Employee,40,Male,"Chennai, Tamil Nadu",Urban,Graduate,₹20L-50L,5,5,6,5,6,5,4,5,7,5,5,5,8,5,7,5
+820,Homemaker,35,Female,"Kochi, Kerala",Urban,Secondary,₹5L-10L,5,5,5,9,6,5,7,5,9,4,7,7,3,5,5,7
+821,Retired Government Officer,69,Male,"Bangalore, Karnataka",Urban,Graduate,₹5L-10L,8,6,7,7,3,2,6,3,5,8,8,6,7,9,6,7
+822,Corporate Employee,28,Female,"Ahmedabad, Gujarat",Urban,Graduate,₹10L-20L,5,5,6,5,6,6,4,6,7,5,5,5,8,4,6,5
+823,Urban Student,17,Male,"Lucknow, Uttar Pradesh",Urban,Undergraduate,Below ₹2.5L,5,5,8,6,6,7,3,9,7,4,3,4,9,4,6,3
+824,Small Business Owner,57,Male,"Vadodara, Gujarat",Urban,Graduate,₹2.5L-5L,5,5,4,8,5,3,6,5,8,6,6,8,3,5,5,6
+825,Retired Government Officer,64,Male,"Jaipur, Rajasthan",Urban,Postgraduate,₹10L-20L,8,6,6,7,3,2,7,2,5,8,9,6,6,8,6,6
+826,Corporate Employee,36,Female,"Nagpur, Maharashtra",Urban,Graduate,₹5L-10L,5,6,5,5,6,4,5,6,7,5,6,5,9,5,5,6
+827,Urban Student,24,Male,"Noida, Uttar Pradesh",Urban,Undergraduate,₹2.5L-5L,5,4,8,6,7,7,4,9,7,3,3,4,10,5,6,2
+828,Urban Student,23,Male,"Ahmedabad, Gujarat",Urban,Undergraduate,Below ₹2.5L,5,5,8,6,7,7,3,9,6,3,4,4,8,4,7,3
+829,Urban Student,23,Male,"Patna, Bihar",Urban,Undergraduate,₹5L-10L,4,4,7,6,7,7,4,9,7,3,4,4,9,5,7,3
+830,Homemaker,49,Female,"Anantapur district, Andhra Pradesh",Rural,Graduate,₹2.5L-5L,5,5,4,8,6,5,8,5,9,3,7,7,5,5,5,7
+831,Corporate Employee,25,Male,"Visakhapatnam, Andhra Pradesh",Urban,Postgraduate,₹20L-50L,5,5,6,5,6,4,5,6,7,5,5,4,7,5,7,5
+832,Corporate Employee,43,Male,"Thiruvananthapuram, Kerala",Urban,Postgraduate,₹20L-50L,5,5,6,5,6,5,5,6,7,5,6,4,8,5,6,6
+833,Small Business Owner,32,Male,"Nagpur, Maharashtra",Urban,Higher Secondary,₹2.5L-5L,6,5,4,7,4,4,6,5,8,6,6,8,4,5,6,6
+834,Small Business Owner,46,Female,"Mumbai, Maharashtra",Urban,Secondary,₹2.5L-5L,5,5,4,7,5,4,6,5,8,7,6,7,3,5,5,6
+835,Homemaker,39,Female,"Vadodara, Gujarat",Urban,Undergraduate,₹2.5L-5L,5,5,4,8,6,5,7,5,9,4,7,6,2,4,5,7
+836,Corporate Employee,36,Female,Chandigarh,Urban,Postgraduate,₹10L-20L,5,5,6,5,6,5,5,6,7,4,4,5,8,5,5,4
+837,Urban Student,18,Male,"Chennai, Tamil Nadu",Urban,Undergraduate,Below ₹2.5L,5,6,7,6,7,7,3,9,6,3,3,3,9,4,7,3
+838,Startup Founder,38,Male,"Gurugram, Haryana",Urban,Postgraduate,₹20L-50L,4,5,5,5,7,6,4,8,7,6,4,3,10,5,9,4
+839,Urban Student,18,Other,Delhi,Urban,Postgraduate,₹2.5L-5L,4,4,8,6,7,7,2,9,7,4,3,4,10,5,7,3
+840,Homemaker,36,Male,"Coimbatore, Tamil Nadu",Urban,Higher Secondary,Below ₹2.5L,5,5,4,8,6,5,7,5,10,4,7,7,4,5,5,7
+841,Startup Founder,42,Male,"Noida, Uttar Pradesh",Urban,Postgraduate,₹20L-50L,4,5,6,5,7,6,3,8,7,4,4,3,9,5,9,3
+842,Rural Farmer,49,Female,"Ratnagiri district, Maharashtra",Rural,Primary,Below ₹2.5L,5,4,3,8,4,3,8,4,5,4,6,9,2,6,5,8
+843,Small Business Owner,53,Male,"Surat, Gujarat",Urban,Higher Secondary,₹10L-20L,5,5,4,8,4,5,6,6,8,6,5,7,3,5,6,7
+844,Homemaker,62,Female,"Visakhapatnam, Andhra Pradesh",Urban,Undergraduate,₹2.5L-5L,6,6,4,8,6,5,6,5,9,4,7,6,4,4,5,7
+845,Retired Government Officer,68,Female,"Gurugram, Haryana",Urban,Postgraduate,₹10L-20L,8,6,7,8,3,2,7,3,5,8,8,6,8,8,6,7
+846,Rural Farmer,58,Female,"Karimnagar district, Telangana",Rural,Illiterate,₹5L-10L,5,5,3,8,4,4,8,4,6,4,6,9,2,6,5,9
+847,Rural Farmer,51,Male,"Karimnagar district, Telangana",Rural,Primary,₹2.5L-5L,5,5,3,8,4,3,7,4,7,4,6,9,2,6,5,7
+848,Retired Government Officer,72,Female,"Gurugram, Haryana",Urban,Postgraduate,₹5L-10L,9,6,7,7,3,3,7,4,6,8,8,6,7,8,6,7
+849,Small Business Owner,40,Male,"Bilaspur, Chhattisgarh",Semi-Urban,Higher Secondary,₹2.5L-5L,5,5,4,8,5,4,6,5,8,7,6,8,5,6,7,6
+850,Urban Student,22,Male,Chandigarh,Urban,Undergraduate,Below ₹2.5L,5,6,8,6,7,8,3,9,8,3,3,4,9,6,7,3
+851,Retired Government Officer,60,Female,"Pune, Maharashtra",Urban,Doctorate,₹10L-20L,8,6,7,7,3,2,6,3,5,8,8,6,7,7,6,7
+852,Small Business Owner,35,Male,"Rohtak, Haryana",Semi-Urban,Higher Secondary,₹10L-20L,6,5,5,8,5,3,6,5,8,6,5,7,3,7,6,6
+853,Small Business Owner,38,Male,Chandigarh,Urban,Secondary,₹10L-20L,5,5,4,7,5,3,6,5,9,6,6,7,4,5,6,6
+854,Small Business Owner,41,Male,"Bilaspur, Chhattisgarh",Semi-Urban,Undergraduate,₹2.5L-5L,5,5,4,8,5,4,7,4,7,6,6,7,4,6,6,7
+855,Startup Founder,26,Male,"Pune, Maharashtra",Urban,Graduate,₹20L-50L,4,4,6,5,7,6,3,7,7,5,4,3,10,5,9,4
+856,Startup Founder,45,Male,Delhi,Urban,Graduate,₹20L-50L,4,4,6,4,6,6,3,7,7,6,4,4,10,5,8,3
+857,Rural Farmer,46,Male,"Kolar district, Karnataka",Rural,Secondary,₹2.5L-5L,5,4,3,7,4,4,8,4,5,4,6,9,3,5,4,8
+858,Startup Founder,37,Male,"Hyderabad, Telangana",Urban,Postgraduate,₹20L-50L,4,4,7,5,6,6,3,7,7,5,3,3,10,6,10,3
+859,Corporate Employee,25,Female,"Bhopal, Madhya Pradesh",Urban,Postgraduate,₹10L-20L,5,5,6,4,6,5,5,6,8,4,5,5,8,6,6,5
+860,Small Business Owner,35,Male,"Hubli, Karnataka",Semi-Urban,Undergraduate,₹2.5L-5L,5,5,3,7,4,4,6,5,8,6,6,7,4,5,6,6
+861,Startup Founder,36,Male,"Chennai, Tamil Nadu",Urban,Postgraduate,Above ₹50L,5,3,6,5,7,6,2,7,7,5,4,3,9,5,9,3
+862,Rural Farmer,34,Female,"Bhagalpur rural, Bihar",Rural,Secondary,₹2.5L-5L,5,3,4,8,3,3,9,4,6,5,6,8,2,6,6,8
+863,Urban Student,22,Female,"Bhubaneswar, Odisha",Urban,Undergraduate,Below ₹2.5L,6,4,8,6,7,7,4,9,7,3,2,4,9,4,7,3
+864,Small Business Owner,36,Female,"Nellore, Andhra Pradesh",Semi-Urban,Undergraduate,₹10L-20L,5,5,4,9,5,4,5,5,8,6,6,7,4,5,6,6
+865,Small Business Owner,53,Male,"Aligarh, Uttar Pradesh",Semi-Urban,Higher Secondary,₹10L-20L,4,5,4,8,5,5,6,5,8,6,6,8,4,5,5,6
+866,Startup Founder,39,Male,"Pune, Maharashtra",Urban,Graduate,₹20L-50L,5,4,6,6,7,6,3,7,7,5,4,4,10,5,8,3
+867,Regional Language Aspirant,34,Male,"Madurai, Tamil Nadu",Semi-Urban,Graduate,₹5L-10L,5,5,8,7,5,4,6,7,7,7,6,9,3,9,5,7
+868,Corporate Employee,31,Female,"Indore, Madhya Pradesh",Urban,Undergraduate,₹10L-20L,5,5,6,4,6,5,6,6,7,5,5,5,8,5,7,5
+869,Startup Founder,44,Male,"Gurugram, Haryana",Urban,Doctorate,Above ₹50L,4,4,6,4,7,6,3,7,7,5,4,3,10,5,9,3
+870,Corporate Employee,45,Male,"Noida, Uttar Pradesh",Urban,Undergraduate,₹5L-10L,5,5,6,5,6,6,4,6,8,5,5,4,9,5,6,5
+871,Retired Government Officer,60,Female,"Tirupati, Andhra Pradesh",Semi-Urban,Graduate,₹20L-50L,8,6,7,6,2,2,8,3,4,8,8,6,7,8,6,7
+872,Regional Language Aspirant,22,Female,"Anantapur district, Andhra Pradesh",Rural,Undergraduate,₹2.5L-5L,6,5,8,7,5,5,6,6,7,7,6,8,3,8,5,7
+873,Urban Student,17,Female,"Pune, Maharashtra",Urban,Postgraduate,₹5L-10L,5,5,8,6,7,6,3,8,7,3,3,3,9,4,7,2
+874,Urban Student,23,Male,"Mumbai, Maharashtra",Urban,Undergraduate,Below ₹2.5L,5,5,8,7,6,7,2,8,7,3,3,4,9,4,7,3
+875,Retired Government Officer,65,Male,"Ujjain, Madhya Pradesh",Semi-Urban,Postgraduate,₹5L-10L,8,5,7,7,3,1,6,4,5,8,7,6,7,8,6,8
+876,Regional Language Aspirant,34,Female,"Rajahmundry, Andhra Pradesh",Semi-Urban,Postgraduate,₹5L-10L,5,5,8,8,5,4,6,7,7,7,7,9,3,8,6,7
+877,Retired Government Officer,71,Male,"Mumbai, Maharashtra",Urban,Postgraduate,₹10L-20L,8,6,7,8,3,1,6,3,5,9,8,6,7,8,6,6
+878,Corporate Employee,32,Female,"Bhubaneswar, Odisha",Urban,Postgraduate,₹20L-50L,4,5,6,5,6,4,4,5,7,5,5,4,9,5,6,6
+879,Corporate Employee,28,Female,"Guwahati, Assam",Urban,Undergraduate,₹10L-20L,5,5,6,4,5,6,4,6,7,5,5,5,8,5,6,5
+880,Homemaker,58,Female,"Lucknow, Uttar Pradesh",Urban,Higher Secondary,₹5L-10L,4,6,4,8,6,5,7,5,9,4,7,8,4,4,5,7
+881,Corporate Employee,31,Male,"Bangalore, Karnataka",Urban,Postgraduate,₹10L-20L,5,5,6,4,6,5,4,6,7,6,5,5,8,6,5,5
+882,Startup Founder,36,Male,"Pune, Maharashtra",Urban,Postgraduate,Above ₹50L,4,4,6,5,7,7,3,8,7,5,4,3,10,5,9,3
+883,Regional Language Aspirant,32,Female,"Sundargarh district, Odisha",Rural,Postgraduate,₹5L-10L,5,6,8,7,5,3,6,6,7,7,6,9,3,8,5,7
+884,Rural Farmer,51,Male,"Kolar district, Karnataka",Rural,Illiterate,Below ₹2.5L,5,4,4,8,4,3,8,4,7,3,6,9,1,6,5,8
+885,Regional Language Aspirant,29,Female,"Murshidabad district, West Bengal",Rural,Graduate,₹2.5L-5L,5,5,8,8,5,4,6,6,7,7,6,9,3,9,5,7
+886,Retired Government Officer,76,Female,"Vadodara, Gujarat",Urban,Graduate,₹10L-20L,8,6,7,6,3,2,6,4,5,8,8,6,7,8,6,7
+887,Rural Farmer,65,Male,"Sangli district, Maharashtra",Rural,Primary,₹2.5L-5L,5,4,4,8,4,3,7,4,6,4,6,9,2,6,5,8
+888,Startup Founder,27,Male,"Gurugram, Haryana",Urban,Graduate,₹10L-20L,5,5,6,4,8,6,3,7,8,4,4,3,9,5,9,4
+889,Rural Farmer,50,Female,"Ratnagiri district, Maharashtra",Rural,Primary,₹5L-10L,4,4,3,8,4,3,8,3,6,4,6,9,2,7,6,8
+890,Retired Government Officer,71,Male,"Thiruvananthapuram, Kerala",Urban,Doctorate,₹5L-10L,9,6,6,7,4,2,7,3,5,8,8,6,7,8,6,7
+891,Small Business Owner,31,Male,"Bhopal, Madhya Pradesh",Urban,Secondary,₹2.5L-5L,5,6,4,8,5,4,6,4,8,6,6,7,5,5,6,6
+892,Startup Founder,41,Male,"Chennai, Tamil Nadu",Urban,Postgraduate,₹10L-20L,3,3,6,5,6,6,3,6,7,5,4,3,10,5,9,3
+893,Corporate Employee,40,Female,"Nagpur, Maharashtra",Urban,Postgraduate,₹5L-10L,5,6,6,5,7,5,4,6,6,4,5,5,8,5,6,5
+894,Regional Language Aspirant,24,Male,"Bastar district, Chhattisgarh",Rural,Undergraduate,₹5L-10L,5,5,8,8,5,4,7,6,8,6,6,9,4,7,5,7
+895,Rural Farmer,47,Male,"Murshidabad district, West Bengal",Rural,Secondary,Below ₹2.5L,5,4,3,9,4,2,7,4,6,4,6,9,2,6,5,8
+896,Homemaker,34,Female,"Hubli, Karnataka",Semi-Urban,Higher Secondary,₹2.5L-5L,5,6,4,8,6,5,6,6,10,5,8,7,4,3,5,8
+897,Rural Farmer,35,Male,"Karimnagar district, Telangana",Rural,Secondary,₹2.5L-5L,5,4,3,8,5,3,8,4,6,4,6,9,2,6,6,8
+898,Retired Government Officer,65,Female,"Patna, Bihar",Urban,Doctorate,₹10L-20L,8,6,7,7,3,2,8,3,5,8,8,6,7,8,5,7
+899,Corporate Employee,37,Female,"Ahmedabad, Gujarat",Urban,Graduate,₹20L-50L,5,5,7,5,6,5,3,6,7,4,5,4,8,4,6,5
+900,Regional Language Aspirant,18,Female,"Bastar district, Chhattisgarh",Rural,Graduate,Below ₹2.5L,5,5,8,7,5,4,6,6,6,7,6,10,3,8,4,6
+901,Small Business Owner,45,Male,"Visakhapatnam, Andhra Pradesh",Urban,Undergraduate,₹10L-20L,5,5,4,8,5,3,7,4,9,6,7,7,4,4,6,5
+902,Urban Student,22,Male,Chandigarh,Urban,Undergraduate,Below ₹2.5L,5,5,8,6,7,7,4,9,7,3,3,3,9,6,6,3
+903,Retired Government Officer,78,Male,"Noida, Uttar Pradesh",Urban,Postgraduate,₹5L-10L,8,6,7,7,3,2,7,2,5,8,8,6,7,8,6,6
+904,Small Business Owner,53,Male,"Amravati, Maharashtra",Semi-Urban,Secondary,₹2.5L-5L,5,5,4,8,5,4,5,5,8,6,6,7,4,6,5,6
+905,Rural Farmer,35,Male,"Ratnagiri district, Maharashtra",Rural,Secondary,₹2.5L-5L,4,4,3,8,4,3,8,5,6,5,7,9,2,6,4,8
+906,Retired Government Officer,65,Male,"Hubli, Karnataka",Semi-Urban,Graduate,₹10L-20L,8,6,8,6,3,3,6,3,5,8,9,6,7,9,7,6
+907,Homemaker,49,Female,"Surat, Gujarat",Urban,Primary,Below ₹2.5L,6,6,5,8,6,5,7,6,9,4,7,7,3,5,6,6
+908,Startup Founder,45,Female,"Bangalore, Karnataka",Urban,Graduate,₹10L-20L,4,3,7,5,7,6,3,7,8,5,4,3,10,6,8,3
+909,Homemaker,37,Male,"Bilaspur, Chhattisgarh",Semi-Urban,Higher Secondary,₹2.5L-5L,5,5,4,7,5,5,7,5,9,4,7,6,3,4,4,7
+910,Startup Founder,32,Female,"Noida, Uttar Pradesh",Urban,Doctorate,Above ₹50L,3,5,5,4,7,6,2,7,7,5,4,3,9,5,10,3
+911,Startup Founder,38,Male,"Gurugram, Haryana",Urban,Graduate,₹20L-50L,4,4,5,5,8,6,3,7,7,5,3,2,9,5,8,3
+912,Homemaker,57,Female,"Bilaspur, Chhattisgarh",Semi-Urban,Secondary,Below ₹2.5L,4,6,4,8,7,5,7,6,9,4,7,7,5,4,5,7
+913,Startup Founder,30,Male,"Gurugram, Haryana",Urban,Postgraduate,₹10L-20L,5,4,6,5,7,5,3,7,7,5,5,3,9,5,9,3
+914,Regional Language Aspirant,21,Female,"Amravati, Maharashtra",Semi-Urban,Graduate,Below ₹2.5L,5,6,8,7,5,4,5,6,6,7,7,9,4,8,5,7
+915,Retired Government Officer,68,Female,"Nellore, Andhra Pradesh",Semi-Urban,Postgraduate,₹5L-10L,8,6,7,8,3,2,7,3,5,8,8,6,7,8,6,8
+916,Homemaker,32,Female,"Anantapur district, Andhra Pradesh",Rural,Undergraduate,₹2.5L-5L,5,4,4,8,6,5,7,5,9,4,7,8,3,5,5,6
+917,Small Business Owner,40,Male,"Coimbatore, Tamil Nadu",Urban,Secondary,₹2.5L-5L,5,5,4,8,5,4,6,5,8,6,7,7,4,5,6,6
+918,Rural Farmer,49,Female,"Sundargarh district, Odisha",Rural,Secondary,Below ₹2.5L,5,4,3,8,4,4,9,4,6,4,7,9,2,6,5,8
+919,Homemaker,54,Female,"Bhopal, Madhya Pradesh",Urban,Secondary,Below ₹2.5L,5,4,4,8,6,5,7,5,8,4,7,7,3,5,6,7
+920,Urban Student,24,Female,"Nagpur, Maharashtra",Urban,Postgraduate,Below ₹2.5L,6,5,8,6,8,8,4,8,7,3,4,3,9,5,7,2
+921,Corporate Employee,25,Female,"Kolkata, West Bengal",Urban,Graduate,₹20L-50L,4,4,7,5,6,5,4,6,7,6,5,5,8,5,7,5
+922,Startup Founder,45,Female,"Chennai, Tamil Nadu",Urban,Postgraduate,₹20L-50L,4,3,5,4,7,7,3,7,7,6,3,3,10,6,9,3
+923,Regional Language Aspirant,32,Male,"Kolhapur, Maharashtra",Semi-Urban,Undergraduate,₹2.5L-5L,5,5,8,7,5,4,6,6,7,7,5,9,3,9,6,7
+924,Regional Language Aspirant,31,Female,"Hubli, Karnataka",Semi-Urban,Postgraduate,₹5L-10L,5,5,8,7,5,4,6,6,7,7,6,9,3,8,4,7
+925,Startup Founder,39,Female,"Chennai, Tamil Nadu",Urban,Postgraduate,Above ₹50L,4,4,5,5,7,5,2,7,7,5,4,3,9,4,9,4
+926,Startup Founder,37,Female,"Hyderabad, Telangana",Urban,Postgraduate,₹20L-50L,4,4,6,5,7,5,3,7,7,4,4,3,9,5,8,3
+927,Small Business Owner,60,Female,"Jhansi, Uttar Pradesh",Semi-Urban,Graduate,₹5L-10L,5,6,4,8,6,4,7,6,8,6,7,6,4,5,5,6
+928,Rural Farmer,31,Male,"Bikaner rural, Rajasthan",Rural,Secondary,Below ₹2.5L,5,4,3,7,4,3,7,4,6,4,6,9,2,5,5,8
+929,Startup Founder,26,Male,"Noida, Uttar Pradesh",Urban,Graduate,₹10L-20L,4,4,6,5,6,6,3,7,7,5,5,3,9,6,10,4
+930,Retired Government Officer,63,Male,"Kolkata, West Bengal",Urban,Graduate,₹20L-50L,8,6,7,7,3,2,8,2,5,8,8,7,7,8,5,7
+931,Corporate Employee,47,Male,"Surat, Gujarat",Urban,Postgraduate,₹5L-10L,5,5,6,6,6,5,4,7,7,4,4,4,8,5,6,5
+932,Small Business Owner,51,Male,"Lucknow, Uttar Pradesh",Urban,Undergraduate,₹5L-10L,5,5,4,8,4,4,5,6,7,7,6,7,3,4,6,6
+933,Corporate Employee,48,Female,"Kochi, Kerala",Urban,Postgraduate,₹20L-50L,6,4,7,5,6,5,5,6,7,5,5,6,8,6,6,4
+934,Regional Language Aspirant,30,Male,"Hubli, Karnataka",Semi-Urban,Postgraduate,₹5L-10L,5,5,7,7,5,3,6,6,7,7,6,9,3,7,5,7
+935,Homemaker,54,Female,"Dhar district, Madhya Pradesh",Rural,Primary,₹2.5L-5L,5,5,4,8,6,5,7,5,9,4,7,7,3,5,6,6
+936,Regional Language Aspirant,29,Male,"Erode, Tamil Nadu",Semi-Urban,Undergraduate,Below ₹2.5L,5,6,8,6,5,5,7,6,7,7,7,8,3,9,5,8
+937,Retired Government Officer,70,Male,"Vadodara, Gujarat",Urban,Postgraduate,₹10L-20L,8,6,7,7,3,1,7,4,5,8,7,6,6,7,6,7
+938,Corporate Employee,37,Male,"Chennai, Tamil Nadu",Urban,Postgraduate,₹20L-50L,5,5,7,5,6,5,4,6,7,5,5,5,8,4,6,6
+939,Startup Founder,31,Male,"Noida, Uttar Pradesh",Urban,Doctorate,Above ₹50L,4,3,6,5,7,6,4,7,7,4,4,3,9,5,9,2
+940,Corporate Employee,26,Female,"Visakhapatnam, Andhra Pradesh",Urban,Graduate,₹20L-50L,5,5,6,4,6,5,5,6,7,5,5,6,8,5,7,5
+941,Corporate Employee,26,Female,"Kochi, Kerala",Urban,Graduate,₹5L-10L,5,5,6,5,6,5,5,6,7,5,5,4,8,5,6,5
+942,Retired Government Officer,78,Male,"Bhopal, Madhya Pradesh",Urban,Postgraduate,₹5L-10L,8,7,7,7,3,2,6,3,5,7,8,6,7,8,6,6
+943,Retired Government Officer,61,Female,"Nellore, Andhra Pradesh",Semi-Urban,Graduate,₹10L-20L,8,6,8,7,3,2,6,3,5,8,7,6,7,8,6,7
+944,Urban Student,20,Male,"Bangalore, Karnataka",Urban,Postgraduate,₹2.5L-5L,5,5,8,6,7,6,4,9,7,3,3,4,10,5,7,3
+945,Urban Student,23,Female,"Pune, Maharashtra",Urban,Undergraduate,Below ₹2.5L,5,5,8,7,7,7,4,8,8,3,3,3,8,4,6,3
+946,Regional Language Aspirant,32,Male,"Siliguri, West Bengal",Semi-Urban,Graduate,₹2.5L-5L,5,4,8,8,6,4,6,7,6,7,6,9,3,8,6,6
+947,Small Business Owner,58,Female,"Siliguri, West Bengal",Semi-Urban,Secondary,₹5L-10L,4,5,4,7,5,4,6,5,8,7,7,7,4,5,6,6
+948,Regional Language Aspirant,19,Female,"Ujjain, Madhya Pradesh",Semi-Urban,Graduate,₹5L-10L,6,4,8,6,5,5,6,5,7,7,7,9,3,8,5,7
+949,Rural Farmer,32,Female,"Sundargarh district, Odisha",Rural,Illiterate,Below ₹2.5L,5,4,3,8,4,3,7,4,6,4,6,9,1,5,5,8
+950,Startup Founder,27,Male,"Mumbai, Maharashtra",Urban,Graduate,₹20L-50L,4,3,6,5,7,6,3,8,8,5,4,3,9,5,8,3
+951,Urban Student,23,Male,"Vadodara, Gujarat",Urban,Higher Secondary,Below ₹2.5L,5,5,8,6,7,7,4,9,7,4,3,4,10,4,7,3
+952,Startup Founder,32,Male,"Gurugram, Haryana",Urban,Postgraduate,₹10L-20L,4,4,6,5,7,6,3,7,7,5,4,3,9,5,9,3
+953,Urban Student,18,Female,"Ahmedabad, Gujarat",Urban,Higher Secondary,Below ₹2.5L,5,6,7,6,7,7,4,10,7,3,3,4,8,4,7,3
+954,Startup Founder,45,Female,"Gurugram, Haryana",Urban,Graduate,₹10L-20L,4,4,6,4,6,6,3,8,7,5,4,2,10,5,9,3
+955,Retired Government Officer,62,Male,"Chennai, Tamil Nadu",Urban,Graduate,₹10L-20L,9,6,7,7,3,3,6,2,5,8,8,6,6,8,6,7
+956,Corporate Employee,28,Female,"Patna, Bihar",Urban,Undergraduate,₹20L-50L,5,5,5,5,7,5,4,6,7,5,6,4,7,5,6,5
+957,Startup Founder,39,Male,"Gurugram, Haryana",Urban,Doctorate,₹10L-20L,4,3,7,5,7,7,4,7,7,5,4,3,9,5,8,3
+958,Small Business Owner,56,Male,"Davangere, Karnataka",Semi-Urban,Secondary,₹2.5L-5L,5,5,3,8,4,4,5,4,8,6,6,8,4,5,6,6
+959,Homemaker,30,Female,"Ahmedabad, Gujarat",Urban,Secondary,₹2.5L-5L,5,5,4,8,6,5,7,4,9,3,7,7,3,5,5,7
+960,Regional Language Aspirant,21,Male,"Bikaner rural, Rajasthan",Rural,Postgraduate,₹2.5L-5L,6,5,8,7,5,4,6,6,7,7,6,9,3,8,6,7
+961,Urban Student,24,Female,"Bhubaneswar, Odisha",Urban,Undergraduate,Below ₹2.5L,5,5,8,6,7,7,3,8,7,3,3,4,9,4,8,3
+962,Startup Founder,28,Male,"Bangalore, Karnataka",Urban,Postgraduate,Above ₹50L,4,4,6,5,7,6,3,6,7,5,4,3,10,5,9,3
+963,Regional Language Aspirant,22,Other,"Sitamarhi district, Bihar",Rural,Graduate,Below ₹2.5L,5,6,8,7,5,4,6,6,7,7,6,9,2,8,6,7
+964,Urban Student,21,Male,"Thiruvananthapuram, Kerala",Urban,Undergraduate,Below ₹2.5L,5,5,8,6,7,7,4,9,6,2,4,4,10,5,8,3
+965,Retired Government Officer,71,Male,"Pune, Maharashtra",Urban,Postgraduate,₹20L-50L,8,5,8,7,3,2,6,3,5,8,8,6,7,8,6,7
+966,Retired Government Officer,65,Male,"Jamshedpur, Jharkhand",Semi-Urban,Postgraduate,₹10L-20L,8,6,6,7,3,2,7,3,5,8,7,6,7,8,5,7
+967,Urban Student,17,Female,"Bhubaneswar, Odisha",Urban,Undergraduate,₹2.5L-5L,5,6,8,5,7,8,3,9,7,3,3,5,9,4,7,3
+968,Retired Government Officer,76,Male,"Lucknow, Uttar Pradesh",Urban,Doctorate,₹10L-20L,9,6,6,7,3,2,7,3,5,8,8,6,7,7,6,7
+969,Urban Student,16,Female,"Kochi, Kerala",Urban,Postgraduate,Below ₹2.5L,4,5,8,6,7,7,3,9,7,4,3,3,9,4,7,3
+970,Homemaker,49,Male,"Jamshedpur, Jharkhand",Semi-Urban,Graduate,Below ₹2.5L,6,5,4,8,6,5,7,4,9,4,8,7,4,5,6,7
+971,Regional Language Aspirant,24,Male,"Guntur, Andhra Pradesh",Semi-Urban,Graduate,₹2.5L-5L,5,5,8,8,5,4,6,6,7,8,6,9,3,9,5,7
+972,Urban Student,24,Female,"Jaipur, Rajasthan",Urban,Postgraduate,₹5L-10L,6,5,8,6,7,7,4,8,7,2,3,4,9,3,7,3
+973,Startup Founder,28,Male,"Pune, Maharashtra",Urban,Graduate,Above ₹50L,3,3,7,4,7,6,3,8,7,5,4,3,10,4,9,3
+974,Retired Government Officer,61,Male,"Nagpur, Maharashtra",Urban,Graduate,₹5L-10L,8,5,7,6,3,3,7,3,5,7,8,6,7,8,6,7
+975,Retired Government Officer,66,Female,"Mumbai, Maharashtra",Urban,Graduate,₹10L-20L,8,6,7,8,3,3,7,3,5,8,8,6,7,8,6,8
+976,Urban Student,21,Female,"Jaipur, Rajasthan",Urban,Undergraduate,₹2.5L-5L,4,5,8,5,7,7,3,9,7,3,3,4,9,6,6,3
+977,Rural Farmer,57,Female,"Kannur rural, Kerala",Rural,Secondary,Below ₹2.5L,5,4,3,8,5,2,7,4,7,4,7,9,2,6,5,8
+978,Startup Founder,37,Female,"Pune, Maharashtra",Urban,Postgraduate,₹20L-50L,4,4,7,5,7,7,3,7,7,4,5,3,9,4,8,3
+979,Corporate Employee,37,Female,"Chennai, Tamil Nadu",Urban,Postgraduate,₹5L-10L,4,5,6,4,6,5,5,7,7,4,5,5,8,5,6,6
+980,Small Business Owner,32,Male,"Madurai, Tamil Nadu",Semi-Urban,Higher Secondary,₹5L-10L,5,5,3,8,4,3,6,5,8,7,6,6,4,6,6,6
+981,Startup Founder,42,Female,"Noida, Uttar Pradesh",Urban,Postgraduate,Above ₹50L,4,4,5,5,7,6,2,7,7,4,5,3,9,5,9,3
+982,Rural Farmer,35,Male,"Sitamarhi district, Bihar",Rural,Primary,₹2.5L-5L,6,4,3,8,4,3,8,4,6,4,6,9,2,6,5,8
+983,Corporate Employee,44,Female,"Lucknow, Uttar Pradesh",Urban,Postgraduate,₹20L-50L,6,6,6,6,6,5,5,7,8,5,6,5,8,5,6,6
+984,Retired Government Officer,68,Female,"Guwahati, Assam",Urban,Postgraduate,₹20L-50L,8,6,8,7,3,2,6,3,4,8,8,6,7,8,6,8
+985,Homemaker,33,Female,"Gurugram, Haryana",Urban,Secondary,Below ₹2.5L,6,5,5,8,7,5,8,5,8,4,7,7,4,4,5,6
+986,Homemaker,40,Male,"Pune, Maharashtra",Urban,Higher Secondary,₹10L-20L,5,5,5,8,6,5,7,6,9,4,7,7,3,4,5,8
+987,Regional Language Aspirant,23,Female,"Ujjain, Madhya Pradesh",Semi-Urban,Postgraduate,Below ₹2.5L,5,5,8,7,5,4,7,6,7,6,6,8,4,8,5,7
+988,Homemaker,42,Female,"Guntur, Andhra Pradesh",Semi-Urban,Secondary,₹2.5L-5L,5,6,3,8,6,5,8,6,9,4,7,7,3,5,5,7
+989,Startup Founder,35,Female,"Bangalore, Karnataka",Urban,Postgraduate,₹20L-50L,4,4,7,5,7,5,3,7,7,5,5,4,9,5,9,3
+990,Small Business Owner,50,Female,"Bilaspur, Chhattisgarh",Semi-Urban,Secondary,₹5L-10L,5,5,4,9,5,5,6,5,8,7,5,7,4,5,7,6
+991,Small Business Owner,38,Male,"Lucknow, Uttar Pradesh",Urban,Undergraduate,₹5L-10L,5,5,4,8,5,4,5,5,8,6,6,7,4,7,5,7
+992,Small Business Owner,35,Male,"Tirupati, Andhra Pradesh",Semi-Urban,Graduate,₹2.5L-5L,5,5,4,8,5,4,6,5,8,6,6,7,4,6,6,6
+993,Regional Language Aspirant,28,Male,"Bikaner rural, Rajasthan",Rural,Graduate,Below ₹2.5L,5,4,8,8,4,4,6,7,7,7,6,10,2,8,5,7
+994,Corporate Employee,32,Female,"Kolkata, West Bengal",Urban,Graduate,₹5L-10L,5,5,7,5,7,5,5,6,7,5,5,6,8,4,5,5
+995,Rural Farmer,59,Male,"Bhagalpur rural, Bihar",Rural,Illiterate,Below ₹2.5L,6,3,3,8,5,3,8,5,5,4,7,10,2,6,5,9
+996,Startup Founder,28,Female,"Chennai, Tamil Nadu",Urban,Graduate,₹10L-20L,3,4,6,4,7,6,2,7,7,5,4,3,9,5,8,4
+997,Homemaker,39,Female,"Jhansi, Uttar Pradesh",Semi-Urban,Undergraduate,₹2.5L-5L,6,4,3,8,6,5,7,5,8,3,7,7,3,4,5,7
+998,Urban Student,21,Female,"Chennai, Tamil Nadu",Urban,Undergraduate,₹2.5L-5L,5,5,8,6,7,7,3,9,6,3,3,4,9,5,7,3
+999,Regional Language Aspirant,18,Male,"Erode, Tamil Nadu",Semi-Urban,Undergraduate,₹5L-10L,5,5,8,7,5,4,6,6,7,7,6,9,4,7,5,7
+1000,Rural Farmer,45,Male,"Murshidabad district, West Bengal",Rural,Primary,Below ₹2.5L,5,5,3,8,4,3,7,4,5,4,5,10,2,5,5,8
