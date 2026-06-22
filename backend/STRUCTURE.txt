@@ -1,0 +1,11 @@
+backend/
+├── .env.example      ← COPY THIS to .env and fill in your keys
+├── .env              ← NEVER COMMIT (in .gitignore)
+├── requirements.txt
+├── config.py         ← Key pool + settings
+├── personas.py       ← 12 persona definitions
+├── sources.py        ← 17 credible Indian news sources
+├── llm_client.py     ← Async Gemini REST wrapper
+├── cache.py          ← Pre-baked fallback for 3 demo headlines
+├── pipeline.py       ← 3 discrete stage functions
+└── main.py           ← FastAPI app + /analyze endpoint
