@@ -1,12 +1,235 @@
 import { useState, useEffect, useCallback, useRef } from "react"
 import { Canvas } from "@react-three/fiber"
 import { motion, AnimatePresence } from "motion/react"
-import {
-  AlertTriangle, HelpCircle, CheckCircle, Eye,
-  ArrowRight, Shield, Zap, RefreshCw, RotateCcw,
-  Loader2, ChevronDown,
-} from "lucide-react"
+interface IconProps {
+  size?: number
+  className?: string
+  strokeWidth?: number | string
+}
+
+function AlertTriangle({ size = 24, className, strokeWidth = 2 }: IconProps) {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" className={className}>
+      <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/>
+      <line x1="12" y1="9" x2="12" y2="13"/>
+      <line x1="12" y1="17" x2="12.01" y2="17"/>
+    </svg>
+  )
+}
+
+function HelpCircle({ size = 24, className, strokeWidth = 2 }: IconProps) {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" className={className}>
+      <circle cx="12" cy="12" r="10"/>
+      <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/>
+      <line x1="12" y1="17" x2="12.01" y2="17"/>
+    </svg>
+  )
+}
+
+function CheckCircle({ size = 24, className, strokeWidth = 2 }: IconProps) {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" className={className}>
+      <circle cx="12" cy="12" r="10"/>
+      <path d="m9 12 2 2 4-4"/>
+    </svg>
+  )
+}
+
+function Eye({ size = 24, className, strokeWidth = 2 }: IconProps) {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" className={className}>
+      <path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0z"/>
+      <circle cx="12" cy="12" r="3"/>
+    </svg>
+  )
+}
+
+function ArrowRight({ size = 24, className, strokeWidth = 2 }: IconProps) {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" className={className}>
+      <line x1="5" y1="12" x2="19" y2="12"/>
+      <polyline points="12 5 19 12 12 19"/>
+    </svg>
+  )
+}
+
+function Shield({ size = 24, className, strokeWidth = 2 }: IconProps) {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" className={className}>
+      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+    </svg>
+  )
+}
+
+function Zap({ size = 24, className, strokeWidth = 2 }: IconProps) {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" className={className}>
+      <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+    </svg>
+  )
+}
+
+function RefreshCw({ size = 24, className, strokeWidth = 2 }: IconProps) {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" className={className}>
+      <path d="M21 12a9 9 0 0 0-9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/>
+      <path d="M3 3v5h5"/>
+      <path d="M3 12a9 9 0 0 0 9 9 9.75 9.75 0 0 0 6.74-2.74L21 16"/>
+      <path d="M16 16h5v5"/>
+    </svg>
+  )
+}
+
+function RotateCcw({ size = 24, className, strokeWidth = 2 }: IconProps) {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" className={className}>
+      <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/>
+      <path d="M3 3v5h5"/>
+    </svg>
+  )
+}
+
+function Loader2({ size = 24, className, strokeWidth = 2 }: IconProps) {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" className={className}>
+      <path d="M21 12a9 9 0 1 1-6.219-8.56"/>
+    </svg>
+  )
+}
+
+function ChevronDown({ size = 24, className, strokeWidth = 2 }: IconProps) {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" className={className}>
+      <polyline points="6 9 12 15 18 9"/>
+    </svg>
+  )
+}
+
+function LogOut({ size = 24, className, strokeWidth = 2 }: IconProps) {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" className={className}>
+      <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/>
+      <polyline points="16 17 21 12 16 7"/>
+      <line x1="21" y1="12" x2="9" y2="12"/>
+    </svg>
+  )
+}
+function PersonaIcon({ id, size = 18, className }: { id: string; size?: number; className?: string }) {
+  switch (id) {
+    case "startup_founder_pune": // Rocket
+      return (
+        <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" className={className}>
+          <path d="M4.5 16.5c-1.5 1.25-2.5 3.5-2.5 3.5s2.25-1 3.5-2.5" />
+          <path d="M12 9c-1.5-1.5-4-1.5-5.5 0-1.5 1.5-1.5 4 0 5.5" />
+          <path d="M19 5c-3-3-9-2-12 1s-4 9-1 12c3 3 9 2 12-1s4-9 1-12z" />
+          <circle cx="12" cy="12" r="1.5" />
+        </svg>
+      )
+    case "urban_student_vadodara": // Graduation Cap
+      return (
+        <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" className={className}>
+          <path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z" />
+          <path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5" />
+          <path d="M21.5 12v6" />
+        </svg>
+      )
+    case "corporate_employee_chennai": // Laptop
+      return (
+        <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" className={className}>
+          <rect x="2" y="4" width="20" height="12" rx="2" ry="2" />
+          <line x1="2" y1="20" x2="22" y2="20" />
+          <line x1="12" y1="16" x2="12" y2="20" />
+        </svg>
+      )
+    case "homemaker_thanjavur": // ChefHat / Cooking
+      return (
+        <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" className={className}>
+          <path d="M6 18V9a6 6 0 0 1 12 0v9" />
+          <path d="M18 14a4 4 0 1 1 0-8 4 4 0 1 1 0 8z" />
+          <path d="M6 14a4 4 0 1 0 0-8 4 4 0 1 0 0 8z" />
+          <path d="M3 18h18" />
+          <path d="M17 18a2.5 2.5 0 0 1-10 0" />
+        </svg>
+      )
+    case "homemaker_hoshiarpur": // Home
+      return (
+        <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" className={className}>
+          <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      )
+    case "business_owner_surat": // Briefcase
+      return (
+        <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" className={className}>
+          <rect x="2" y="7" width="20" height="14" rx="2" ry="2" />
+          <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+        </svg>
+      )
+    case "farmer_kannur": // Palm Tree
+      return (
+        <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" className={className}>
+          <path d="M13 22H4" />
+          <path d="M10 22C10 12 16 6 21 6" />
+          <path d="M13 6c-2.4 0-4.4 2-5 4.5" />
+          <path d="M13 6c-1.5-1.5-3-2-4.5-2" />
+          <path d="M13 6c2 1.5 3.5 3.5 4 5.5" />
+          <path d="M17 11.5c-1-1.5-2.5-2-4-2" />
+          <path d="M21 6c-1.5 1-3.5 1-5 0.5" />
+          <path d="M21 6c1 1.5 1.5 3.5 1 5" />
+          <path d="M17 11.5c.5-1.5 1.5-2.5 3-3" />
+        </svg>
+      )
+    case "farmer_anantapur": // Wheat / Grain
+      return (
+        <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" className={className}>
+          <path d="M2 22 22 2" />
+          <path d="M8 12c.5-2.5 2.5-4 4.5-4.5" />
+          <path d="M12 8c.5-2.5 2.5-4 4.5-4.5" />
+          <path d="M12 16c2.5-.5 4-2.5 4.5-4.5" />
+          <path d="M16 12c2.5-.5 4-2.5 4.5-4.5" />
+        </svg>
+      )
+    case "business_owner_aligarh": // Key
+      return (
+        <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" className={className}>
+          <path d="m21 2-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0 1.5 1.5M15.5 7.5 14 6" />
+        </svg>
+      )
+    case "aspirant_sangli": // BookOpen
+      return (
+        <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" className={className}>
+          <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
+          <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+        </svg>
+      )
+    case "retired_officer_ujjain": // UserCheck / Award
+      return (
+        <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" className={className}>
+          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+          <path d="m9 12 2 2 4-4" />
+        </svg>
+      )
+    case "retired_officer_guntur": // ClipboardList / FileText
+      return (
+        <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" className={className}>
+          <rect x="8" y="2" width="8" height="4" rx="1" ry="1" />
+          <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" />
+          <line x1="8" y1="11" x2="16" y2="11" />
+          <line x1="8" y1="16" x2="16" y2="16" />
+        </svg>
+      )
+    default:
+      return (
+        <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" className={className}>
+          <circle cx="12" cy="12" r="10" />
+        </svg>
+      )
+  }
+}
+
 import { ShaderPlane, EnergyRing, FloatingParticles, GridLines } from "./ShaderScene"
+import type { GoogleUser } from "./LoginPage"
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 type Stage     = "idle" | "checking" | "revealing" | "complete" | "error"
@@ -117,7 +340,12 @@ function PulsingDots() {
 }
 
 // ─── Main App ─────────────────────────────────────────────────────────────────
-export default function App() {
+interface AppProps {
+  user:      GoogleUser
+  onSignOut: () => void
+}
+
+export default function App({ user, onSignOut }: AppProps) {
   const [text, setText]               = useState("")
   const [stage, setStage]             = useState<Stage>("idle")
   const [visibleCount, setVisibleCount] = useState(0)
@@ -125,6 +353,7 @@ export default function App() {
   const [errorMsg, setErrorMsg]       = useState("")
   const [useCache, setUseCache]       = useState(true)
   const [showRewrite, setShowRewrite] = useState(false)
+  const [showUserMenu, setShowUserMenu] = useState(false)
   const abortRef = useRef<AbortController | null>(null)
 
   // Stagger persona cards
@@ -211,10 +440,57 @@ export default function App() {
               Context Collapse Visualizer
             </span>
           </div>
-          <div className="flex items-center gap-4 font-mono text-[11px] text-muted-foreground">
-            <span className="hidden sm:block">12 AUDIENCE SEGMENTS</span>
-            <span className="hidden sm:block">·</span>
-            <span>3-IN-1 PIPELINE</span>
+          <div className="flex items-center gap-4">
+            <span className="font-mono text-[11px] text-muted-foreground hidden sm:block">12 SEGMENTS</span>
+            {/* User avatar */}
+            <div className="relative">
+              <button
+                id="prizm-user-menu-btn"
+                onClick={() => setShowUserMenu(v => !v)}
+                className="flex items-center gap-2 hover:opacity-80 transition-opacity"
+              >
+                {user.picture ? (
+                  <img src={user.picture} alt={user.name} className="w-8 h-8 rounded-full border border-border" />
+                ) : (
+                  <div className="w-8 h-8 rounded-full border border-border bg-secondary flex items-center justify-center font-display font-bold text-xs text-primary">
+                    {user.name.charAt(0).toUpperCase()}
+                  </div>
+                )}
+                <span className="font-mono text-[11px] text-muted-foreground hidden sm:block max-w-[100px] truncate">{user.email}</span>
+              </button>
+              {showUserMenu && (
+                <motion.div
+                  initial={{ opacity: 0, y: -6 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  className="absolute right-0 top-full mt-2 w-52 border border-border bg-card/95 backdrop-blur-md z-50"
+                >
+                  <div className="px-4 py-3 border-b border-border">
+                    <p className="font-display font-bold text-sm text-foreground truncate">{user.name}</p>
+                    <p className="font-mono text-[10px] text-muted-foreground truncate">{user.email}</p>
+                  </div>
+                  <button
+                    id="prizm-signout-btn"
+                    onClick={() => { setShowUserMenu(false); onSignOut() }}
+                    className="w-full flex items-center gap-2 px-4 py-3 font-mono text-xs text-muted-foreground hover:text-foreground hover:bg-secondary/40 transition-colors"
+                  >
+                    <LogOut size={13} strokeWidth={1.8} /> Sign out
+                  </button>
+                </motion.div>
+              )}
+            </div>
+            {/* Logout button */}
+            <button
+              id="prizm-direct-logout-btn"
+              onClick={onSignOut}
+              className="flex items-center gap-1.5 px-3 py-1.5 border border-border hover:border-primary/40 font-mono text-xs text-muted-foreground hover:text-foreground transition-all duration-150"
+              style={{
+                borderRadius: "3px",
+                background: "rgba(255,255,255,0.02)",
+              }}
+            >
+              <LogOut size={13} strokeWidth={1.8} />
+              <span>LOGOUT</span>
+            </button>
           </div>
         </header>
 
@@ -278,7 +554,7 @@ export default function App() {
                       disabled={!text.trim()}
                       className="bg-primary text-primary-foreground font-display font-black text-sm px-5 py-2 flex items-center gap-2 hover:opacity-90 active:opacity-80 transition-opacity disabled:opacity-25 disabled:cursor-not-allowed"
                     >
-                      ANALYZE <ArrowRight size={13} />
+                      ANALYZE <ArrowRight size={14} strokeWidth={1.8} />
                     </button>
                   </div>
                 </div>
@@ -310,7 +586,7 @@ export default function App() {
               <p className="font-mono text-xs text-red-400 mb-1 uppercase tracking-widest">Pipeline Error</p>
               <p className="text-sm text-foreground/80 mb-4">{errorMsg}</p>
               <button onClick={handleReset} className="font-mono text-xs text-muted-foreground hover:text-foreground flex items-center gap-2 transition-colors">
-                <RotateCcw size={12} /> RESET
+                <RotateCcw size={13} strokeWidth={1.8} /> RESET
               </button>
             </motion.div>
           )}
@@ -330,7 +606,7 @@ export default function App() {
                 onClick={handleReset}
                 className="shrink-0 border border-border px-3 py-3 font-mono text-xs text-muted-foreground hover:text-foreground hover:border-white/20 transition-all flex items-center gap-2"
               >
-                <RotateCcw size={12} />
+                <RotateCcw size={13} strokeWidth={1.8} />
                 <span className="hidden sm:inline">RESET</span>
               </button>
             </motion.div>
@@ -344,7 +620,7 @@ export default function App() {
               className="mb-8"
             >
               <div className="flex items-center gap-2 mb-3">
-                <Shield size={12} className="text-muted-foreground" />
+                <Shield size={13} strokeWidth={1.8} className="text-muted-foreground" />
                 <span className="font-mono text-[11px] text-muted-foreground uppercase tracking-widest">
                   Stage 01 — Source Signal
                 </span>
@@ -385,7 +661,7 @@ export default function App() {
             <section className="mb-10">
               <div className="flex flex-wrap items-center justify-between gap-3 mb-4">
                 <div className="flex items-center gap-2">
-                  <Zap size={12} className="text-muted-foreground" />
+                  <Zap size={13} strokeWidth={1.8} className="text-muted-foreground" />
                   <span className="font-mono text-[11px] text-muted-foreground uppercase tracking-widest">
                     Stage 02 — Context Collapse
                   </span>
@@ -393,16 +669,17 @@ export default function App() {
                 <div className="flex items-center gap-4 font-mono text-[11px]">
                   {visibleCount < personas.length ? (
                     <span className="text-muted-foreground flex items-center gap-2">
-                      <Loader2 size={10} className="animate-spin" />
+                      <Loader2 size={12} strokeWidth={1.8} className="animate-spin" />
                       {visibleCount} / {personas.length} segments
                     </span>
                   ) : (
                     <>
                       {(["alarm","confusion","agreement","skepticism"] as const).map(s => {
                         const rs = REACTION_STYLES[s]
+                        const SentimentIcon = rs.Icon
                         return sentimentCounts[s] > 0 ? (
                           <span key={s} className={`flex items-center gap-1.5 ${rs.textColor}`}>
-                            <span className={`w-1.5 h-1.5 rounded-full ${rs.dot} shrink-0`} />
+                            <SentimentIcon size={12} strokeWidth={1.5} className="shrink-0" />
                             {sentimentCounts[s]} {rs.label}
                           </span>
                         ) : null
@@ -427,13 +704,13 @@ export default function App() {
                     >
                       <div className="flex items-start justify-between gap-2 mb-3">
                         <div className="min-w-0 flex items-center gap-2">
-                          <span className="text-xl leading-none">{persona.emoji}</span>
+                          <PersonaIcon id={persona.id} size={18} className="text-muted-foreground shrink-0" />
                           <p className="font-display font-bold text-[15px] text-foreground leading-tight truncate">
                             {persona.label}
                           </p>
                         </div>
-                        <span className={`shrink-0 font-mono text-[9px] px-1.5 py-0.5 ${rs.badge} flex items-center gap-1 uppercase tracking-wide`}>
-                          <Icon size={9} />{rs.label}
+                        <span className={`shrink-0 font-mono text-[9px] px-1.5 py-0.5 ${rs.badge} flex items-center gap-1.5 uppercase tracking-wide`}>
+                          <Icon size={11} strokeWidth={1.5} />{rs.label}
                         </span>
                       </div>
                       <p className="text-[13px] text-foreground/75 leading-relaxed font-sans italic">
@@ -456,7 +733,7 @@ export default function App() {
                 className="mb-12"
               >
                 <div className="flex items-center gap-2 mb-4">
-                  <RefreshCw size={12} className="text-muted-foreground" />
+                  <RefreshCw size={13} strokeWidth={1.8} className="text-muted-foreground" />
                   <span className="font-mono text-[11px] text-muted-foreground uppercase tracking-widest">
                     Stage 03 — Safe Phrasing Suggester
                   </span>
@@ -497,15 +774,16 @@ export default function App() {
                 {/* Expandable analysis */}
                 <details className="mt-3 border border-border group">
                   <summary className="px-4 py-2.5 font-mono text-[10px] text-muted-foreground uppercase tracking-widest cursor-pointer flex items-center gap-2 hover:text-foreground transition-colors select-none">
-                    <ChevronDown size={11} className="transition-transform group-open:rotate-180" />
+                    <ChevronDown size={12} strokeWidth={1.8} className="transition-transform group-open:rotate-180" />
                     Interpretation Breakdown
                   </summary>
                   <div className="px-4 py-3 grid grid-cols-2 sm:grid-cols-4 gap-3 border-t border-border">
                     {(["alarm","confusion","agreement","skepticism"] as const).map(s => {
                       const rs = REACTION_STYLES[s]
+                      const SentimentIcon = rs.Icon
                       return (
                         <div key={s} className="flex items-center gap-2">
-                          <span className={`w-2 h-2 rounded-full ${rs.dot} shrink-0`} />
+                          <SentimentIcon size={12} strokeWidth={1.5} className="shrink-0" />
                           <span className={`font-mono text-[11px] ${rs.textColor}`}>
                             {sentimentCounts[s]} {rs.label}
                           </span>
