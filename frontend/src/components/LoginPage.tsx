@@ -32,7 +32,7 @@ const loginFragmentShader = `
 function LoginShaderPlane({ position }: { position: [number, number, number] }) {
   const mesh = useRef<THREE.Mesh>(null)
   const uniforms = useMemo(() => ({
-    time:   { value: 0 },
+    time: { value: 0 },
     color1: { value: new THREE.Color("#01021b") },
     color2: { value: new THREE.Color("#00b4d8") },
   }), [])
@@ -50,9 +50,9 @@ function LoginParticles() {
   const pos = useMemo(() => {
     const arr = new Float32Array(80 * 3)
     for (let i = 0; i < 80; i++) {
-      arr[i*3]   = (Math.random() - 0.5) * 10
-      arr[i*3+1] = (Math.random() - 0.5) * 6
-      arr[i*3+2] = (Math.random() - 0.5) * 3
+      arr[i * 3] = (Math.random() - 0.5) * 10
+      arr[i * 3 + 1] = (Math.random() - 0.5) * 6
+      arr[i * 3 + 2] = (Math.random() - 0.5) * 3
     }
     return arr
   }, [])
@@ -72,7 +72,7 @@ function LoginCanvas() {
     <Canvas camera={{ position: [0, 0, 4], fov: 55 }} dpr={[1, 1.2]}>
       <LoginParticles />
       <LoginShaderPlane position={[-2.5, 1.2, -1.5]} />
-      <LoginShaderPlane position={[ 2.5, -1.2, -1.5]} />
+      <LoginShaderPlane position={[2.5, -1.2, -1.5]} />
     </Canvas>
   )
 }
@@ -81,10 +81,10 @@ function LoginCanvas() {
 function GoogleIcon() {
   return (
     <svg width="18" height="18" viewBox="0 0 48 48" fill="none">
-      <path fill="#EA4335" d="M24 9.5c3.5 0 6.6 1.2 9.1 3.2l6.8-6.8C35.8 2.2 30.3 0 24 0 14.7 0 6.7 5.5 2.7 13.5l7.9 6.1C12.4 13.2 17.8 9.5 24 9.5z"/>
-      <path fill="#4285F4" d="M46.5 24.5c0-1.5-.1-3-.4-4.5H24v8.5h12.7c-.5 3-2.2 5.5-4.7 7.2l7.3 5.7c4.3-4 6.8-9.9 7.2-16.9z"/>
-      <path fill="#FBBC05" d="M10.6 28.6A14.7 14.7 0 0 1 9.5 24c0-1.6.3-3.2.7-4.6l-7.9-6.1A23.8 23.8 0 0 0 0 24c0 3.9.9 7.5 2.7 10.7l7.9-6.1z"/>
-      <path fill="#34A853" d="M24 48c6.3 0 11.6-2.1 15.4-5.6l-7.3-5.7c-2.1 1.4-4.7 2.3-8.1 2.3-6.2 0-11.5-4.2-13.4-9.8l-7.9 6.1C6.7 42.5 14.7 48 24 48z"/>
+      <path fill="#EA4335" d="M24 9.5c3.5 0 6.6 1.2 9.1 3.2l6.8-6.8C35.8 2.2 30.3 0 24 0 14.7 0 6.7 5.5 2.7 13.5l7.9 6.1C12.4 13.2 17.8 9.5 24 9.5z" />
+      <path fill="#4285F4" d="M46.5 24.5c0-1.5-.1-3-.4-4.5H24v8.5h12.7c-.5 3-2.2 5.5-4.7 7.2l7.3 5.7c4.3-4 6.8-9.9 7.2-16.9z" />
+      <path fill="#FBBC05" d="M10.6 28.6A14.7 14.7 0 0 1 9.5 24c0-1.6.3-3.2.7-4.6l-7.9-6.1A23.8 23.8 0 0 0 0 24c0 3.9.9 7.5 2.7 10.7l7.9-6.1z" />
+      <path fill="#34A853" d="M24 48c6.3 0 11.6-2.1 15.4-5.6l-7.3-5.7c-2.1 1.4-4.7 2.3-8.1 2.3-6.2 0-11.5-4.2-13.4-9.8l-7.9 6.1C6.7 42.5 14.7 48 24 48z" />
     </svg>
   )
 }
@@ -95,10 +95,10 @@ interface LoginPageProps {
 }
 
 export interface GoogleUser {
-  name:    string
-  email:   string
+  name: string
+  email: string
   picture: string
-  sub:     string
+  sub: string
 }
 
 // ─── Google OAuth helper ───────────────────────────────────────────────────────
@@ -120,10 +120,10 @@ export default function LoginPage({ onLogin }: LoginPageProps) {
               atob(parts[1].replace(/-/g, "+").replace(/_/g, "/"))
             )
             onLogin({
-              name:    payload.name || "Google User",
-              email:   payload.email || "",
+              name: payload.name || "Google User",
+              email: payload.email || "",
               picture: payload.picture || "",
-              sub:     payload.sub || "",
+              sub: payload.sub || "",
             })
             // Clear hash from URL
             window.history.replaceState({}, document.title, window.location.pathname)
@@ -229,8 +229,8 @@ export default function LoginPage({ onLogin }: LoginPageProps) {
               </svg>
             </div>
 
-            <h1 style={{ fontFamily: "'Playfair Display', serif", fontSize: "28px", fontWeight: 700, color: "#caf0f8", letterSpacing: "-0.02em", lineHeight: 1.1, textAlign: "center", marginBottom: "8px" }}>
-              SIGN IN
+            <h1 style={{ fontFamily: "'Mokoto glitch 1', serif", fontSize: "28px", fontWeight: 700, color: "#caf0f8", letterSpacing: "-0.02em", lineHeight: 1.1, textAlign: "center", marginBottom: "8px" }}>
+              PRIZM
             </h1>
             <p style={{ fontFamily: "'Plus Jakarta Sans', sans-serif", fontSize: "13px", color: "rgba(144,224,239,0.55)", textAlign: "center", lineHeight: 1.6 }}>
               Access the Context Collapse Visualizer.<br />Authenticate to continue.
