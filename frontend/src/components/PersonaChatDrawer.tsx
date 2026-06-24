@@ -111,7 +111,8 @@ export default function PersonaChatDrawer({ persona, headline, onClose }: Person
     setMessages(newMessages)
 
     try {
-      const res = await fetch("/chat", {
+      const API_URL = import.meta.env.VITE_API_URL || "";
+      const res = await fetch(`${API_URL}/chat`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
