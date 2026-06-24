@@ -283,3 +283,94 @@ async def safe_rewrite(
 
     logger.info("Stage 3 | rewrite_len=%d | fallback=%s", len(text), used_fallback)
     return text, used_fallback
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+#  STAGE 4 — Meaning Half-Life (Semantic Decay)
+# ─────────────────────────────────────────────────────────────────────────────
+
+_HALF_LIFE_PROMPT_TEMPLATE = """\
+You are modeling semantic decay.
+
+Given:
+1. The original statement: "{headline}"
+2. The author's intended meaning: "{intended_meaning}"
+3. Reactions from different audiences:
+{reactions_block}
+
+Determine:
+- How much of the original intent survives.
+- What new meanings emerge.
+- The dominant interpretation after multiple audiences react.
+
+Output raw JSON in the following format:
+{{
+    "original_meaning": "brief description of original meaning",
+    "emergent_meanings": ["meaning 1", "meaning 2"],
+    "meaning_retention_score": 80,
+    "meaning_half_life": "3 steps",
+    "final_interpretation": "description of the final dominant interpretation"
+}}
+
+Meaning half-life is the number of interpretation steps required before the original intent loses dominance.
+
+IMPORTANT: Return ONLY the raw JSON string. Do not wrap it in markdown codeblocks. Do not include any explanations outside the JSON.
+"""
+
+
+async def compute_meaning_half_life(
+    headline: str,
+    intended_meaning: str,
+    reactions: Dict[str, str],
+    fallback_half_life: Dict[str, Any] | None = None,
+) -> tuple[Dict[str, Any], bool]:
+    """
+    Stage 4: Computes semantic decay and meaning half-life of the author's intent.
+    """
+    import json
+    persona_map = {p["id"]: p["label"] for p in PERSONAS}
+    reactions_block = "\n".join(
+        f"- {persona_map.get(pid, pid)}: {text}"
+        for pid, text in reactions.items()
+    )
+
+    prompt = _HALF_LIFE_PROMPT_TEMPLATE.format(
+        headline=headline,
+        intended_meaning=intended_meaning,
+        reactions_block=reactions_block,
+    )
+
+    api_key = key_pool.next()
+
+    default_fallback = {
+        "original_meaning": intended_meaning,
+        "emergent_meanings": ["Misinterpretation of core details", "Alternative framing of the statement"],
+        "meaning_retention_score": 60,
+        "meaning_half_life": "2 steps",
+        "final_interpretation": "Partially preserved core intent but focus shifted to specific audience concerns."
+    }
+
+    fallback_str = json.dumps(fallback_half_life or default_fallback)
+
+    text, used_fallback = await call_groq_with_fallback(
+        prompt=prompt,
+        api_key=api_key,
+        fallback_text=fallback_str,
+        temperature=0.3,
+        max_tokens=400,
+    )
+
+    try:
+        cleaned = text.strip()
+        if cleaned.startswith("```json"):
+            cleaned = cleaned[7:]
+        if cleaned.endswith("```"):
+            cleaned = cleaned[:-3]
+        cleaned = cleaned.strip()
+        result = json.loads(cleaned)
+    except Exception as e:
+        logger.error("Failed to parse meaning half-life JSON response: %s", e)
+        result = fallback_half_life or default_fallback
+        used_fallback = True
+
+    return result, used_fallback

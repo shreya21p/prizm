@@ -59,6 +59,13 @@ app.add_middleware(
 
 # ── Request / Response schemas ────────────────────────────────────────────────
 
+class CognitiveProfile(BaseModel):
+    origin: Optional[str] = None
+    language: Optional[str] = None
+    profession: Optional[str] = None
+    audience: Optional[str] = None
+
+
 class AnalyzeRequest(BaseModel):
     headline: str = Field(
         ...,
@@ -74,6 +81,11 @@ class AnalyzeRequest(BaseModel):
             "rather than making live API calls.  Set to false to always hit the live API."
         ),
     )
+    cognitive_profile: Optional[CognitiveProfile] = None
+    intended_meaning: Optional[str] = Field(
+        default=None,
+        description="The author's intended meaning behind the statement."
+    )
 
 
 class PersonaReaction(BaseModel):
@@ -81,6 +93,30 @@ class PersonaReaction(BaseModel):
     label: str
     emoji: str
     reaction: str
+
+
+class EmpathyPersonaResult(BaseModel):
+    id: str
+    zone: str
+    distance: float
+    similarity: float
+    reached: bool
+
+
+class EmpathyResult(BaseModel):
+    empathy_reach: int
+    profile_benchmark: float
+    reach_sentence: str
+    benchmark_sentence: str
+    personas: list[EmpathyPersonaResult]
+
+
+class MeaningHalfLifeResult(BaseModel):
+    original_meaning: str
+    emergent_meanings: list[str]
+    meaning_retention_score: int
+    meaning_half_life: str
+    final_interpretation: str
 
 
 class AnalyzeResponse(BaseModel):
@@ -95,6 +131,26 @@ class AnalyzeResponse(BaseModel):
     served_from_cache: bool
     any_stage_used_fallback: bool
     elapsed_ms: int
+    empathy_result: Optional[EmpathyResult] = None
+    meaning_half_life: Optional[MeaningHalfLifeResult] = None
+
+
+class ChatMessage(BaseModel):
+    role: str  # "user" or "assistant"
+    content: str
+
+
+class ChatRequest(BaseModel):
+    persona_id: str = Field(..., description="ID of the persona to chat with")
+    headline: str = Field(..., description="The original headline context")
+    initial_reaction: str = Field(..., description="The persona's initial reaction from Stage 2")
+    messages: list[ChatMessage] = Field(default_factory=list, description="Prior conversation turns")
+    user_message: str = Field(..., description="The new user message")
+
+
+class ChatResponse(BaseModel):
+    reply: str
+    persona_id: str
 
 
 # ── Helper ────────────────────────────────────────────────────────────────────
@@ -866,6 +922,71 @@ async def cached_headlines() -> Dict[str, Any]:
     return {"cached_headlines": list_cached_headlines()}
 
 
+@app.post("/chat", response_model=ChatResponse)
+async def chat_with_persona(req: ChatRequest) -> ChatResponse:
+    """
+    Multi-turn in-character chat with a specific persona.
+
+    The persona stays in character based on their description and the original
+    headline context, using their initial reaction as the conversation seed.
+    """
+    from personas import PERSONAS
+    from config import key_pool
+    from llm_client import call_groq_with_fallback
+
+    id_to_persona = {p["id"]: p for p in PERSONAS}
+    persona = id_to_persona.get(req.persona_id)
+    if not persona:
+        raise HTTPException(status_code=404, detail=f"Persona '{req.persona_id}' not found.")
+
+    # Build conversation history for multi-turn context
+    history_text = ""
+    for msg in req.messages[-10:]:  # cap at last 10 turns
+        speaker = "User" if msg.role == "user" else persona["label"]
+        history_text += f"{speaker}: {msg.content}\n"
+
+    prompt = f"""\
+You are {persona['label']}.
+
+Your background: {persona['description']}
+
+Original headline you were asked to react to:
+"{req.headline}"
+
+Your initial reaction was:
+"{req.initial_reaction}"
+
+You are now having a direct conversation with the person who wrote that headline. Stay completely in character. Respond as this specific person would — use their economic reality, their concerns, their cultural lens.
+
+Rules:
+- Stay in character at all times. You ARE this person.
+- Be direct, specific, and authentic. Reference your daily life, income, worries.
+- Do NOT be a spokesperson or lecture. React like a real person would in conversation.
+- Keep responses to 2–4 sentences unless the question demands more.
+- Do NOT break character or add meta-commentary.
+- You may be skeptical, hopeful, worried, or indifferent — whatever is authentic.
+
+{f"Previous conversation:{chr(10)}{history_text}" if history_text else ""}
+User: {req.user_message}
+{persona['label']}:"""
+
+    api_key = key_pool.next()
+    reply, _ = await call_groq_with_fallback(
+        prompt=prompt,
+        api_key=api_key,
+        fallback_text="I'm not sure what to say to that. Can you explain more?",
+        temperature=0.85,
+        max_tokens=300,
+    )
+
+    # Clean up any accidental persona label prefix the model might add
+    label_prefix = f"{persona['label']}:"
+    if reply.startswith(label_prefix):
+        reply = reply[len(label_prefix):].strip()
+
+    return ChatResponse(reply=reply.strip(), persona_id=req.persona_id)
+
+
 @app.post("/analyze", response_model=AnalyzeResponse)
 async def analyze(req: AnalyzeRequest) -> AnalyzeResponse:
     """
@@ -884,6 +1005,31 @@ async def analyze(req: AnalyzeRequest) -> AnalyzeResponse:
         cached = get_cached(headline)
         if cached:
             logger.info("Cache hit for headline: %s", headline)
+            try:
+                from writing_vector import extract_writing_vector
+                from persona_vectors import PERSONA_VECTORS
+                from empathy_engine import compute_empathy_distances
+                w_vec = extract_writing_vector(cached["headline"])
+                cog_prof = req.cognitive_profile.model_dump() if req.cognitive_profile else {}
+                empathy_res = compute_empathy_distances(w_vec, cog_prof, PERSONA_VECTORS)
+            except Exception as e:
+                logger.error("Failed to compute empathy for cached response: %s", e)
+                empathy_res = None
+
+            # Compute meaning half-life if intended_meaning is provided
+            half_life_res = None
+            if req.intended_meaning:
+                try:
+                    from pipeline import compute_meaning_half_life
+                    cached_reactions = cached.get("stage2", {})
+                    half_life_res, _ = await compute_meaning_half_life(
+                        headline=cached["headline"],
+                        intended_meaning=req.intended_meaning,
+                        reactions=cached_reactions
+                    )
+                except Exception as e:
+                    logger.error("Failed to compute meaning half life for cached response: %s", e)
+
             elapsed = int((time.monotonic() - t0) * 1000)
             return AnalyzeResponse(
                 headline=cached["headline"],
@@ -893,6 +1039,8 @@ async def analyze(req: AnalyzeRequest) -> AnalyzeResponse:
                 served_from_cache=True,
                 any_stage_used_fallback=False,
                 elapsed_ms=elapsed,
+                empathy_result=empathy_res,
+                meaning_half_life=half_life_res,
             )
 
     # ── Live pipeline ─────────────────────────────────────────────────────────
@@ -920,6 +1068,31 @@ async def analyze(req: AnalyzeRequest) -> AnalyzeResponse:
         fallback_rewrite=partial_cache.get("stage3", ""),
     )
 
+    # Compute empathy result dynamically
+    try:
+        from writing_vector import extract_writing_vector
+        from persona_vectors import PERSONA_VECTORS
+        from empathy_engine import compute_empathy_distances
+        w_vec = extract_writing_vector(headline)
+        cog_prof = req.cognitive_profile.model_dump() if req.cognitive_profile else {}
+        empathy_res = compute_empathy_distances(w_vec, cog_prof, PERSONA_VECTORS)
+    except Exception as e:
+        logger.error("Failed to compute empathy for live response: %s", e)
+        empathy_res = None
+
+    # Compute meaning half-life if intended_meaning is provided
+    half_life_res = None
+    if req.intended_meaning:
+        try:
+            from pipeline import compute_meaning_half_life
+            half_life_res, _ = await compute_meaning_half_life(
+                headline=headline,
+                intended_meaning=req.intended_meaning,
+                reactions=reactions
+            )
+        except Exception as e:
+            logger.error("Failed to compute meaning half life for live response: %s", e)
+
     elapsed = int((time.monotonic() - t0) * 1000)
     logger.info("Pipeline complete | elapsed=%d ms", elapsed)
 
@@ -931,6 +1104,8 @@ async def analyze(req: AnalyzeRequest) -> AnalyzeResponse:
         served_from_cache=False,
         any_stage_used_fallback=s1_fallback or s2_fallback or s3_fallback,
         elapsed_ms=elapsed,
+        empathy_result=empathy_res,
+        meaning_half_life=half_life_res,
     )
 
 
