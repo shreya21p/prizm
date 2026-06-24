@@ -51,7 +51,7 @@ app = FastAPI(
 # In production, lock this down to your actual domain.
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],       # tighten in production
+    allow_origins=["https://prizm-amber.vercel.app"],       # tighten in production
     allow_methods=["*"],
     allow_headers=["*"],
 )
