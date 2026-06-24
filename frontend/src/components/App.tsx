@@ -459,8 +459,10 @@ export default function App({ user, onSignOut }: AppProps) {
     setViewMode("grid")
     setSelectedPersonaId(null)
 
+    const API_URL = import.meta.env.VITE_API_URL;
+
     try {
-      const res = await fetch("/analyze", {
+      const res = await fetch(`${API_URL}/analyze`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -470,14 +472,16 @@ export default function App({ user, onSignOut }: AppProps) {
           intended_meaning: intendedMeaning.trim() || undefined
         }),
         signal: abortRef.current.signal,
-      })
+      });
+
       if (!res.ok) {
-        const err = await res.json().catch(() => ({ detail: "Unknown error" }))
-        throw new Error(err.detail || `HTTP ${res.status}`)
+        const err = await res.json().catch(() => ({ detail: "Unknown error" }));
+        throw new Error(err.detail || `HTTP ${res.status}`);
       }
-      const json: AnalyzeResponse = await res.json()
-      setData(json)
-      setStage("revealing")
+
+      const json: AnalyzeResponse = await res.json();
+      setData(json);
+      setStage("revealing");
     } catch (e: unknown) {
       if ((e as Error).name === "AbortError") return
       setErrorMsg((e as Error).message || "Pipeline failed.")
@@ -795,7 +799,7 @@ export default function App({ user, onSignOut }: AppProps) {
                     </span>
                   )}
                 </div>
-                
+
                 <div className="flex items-center gap-4">
                   {/* Sentiment summary */}
                   <div className="flex items-center gap-3 font-mono text-[11px] hidden sm:flex">
@@ -825,22 +829,20 @@ export default function App({ user, onSignOut }: AppProps) {
                     <div className="flex items-center gap-1 border border-border bg-[#111118]/60 p-[3px] rounded-[4px] font-mono text-[10px]">
                       <button
                         onClick={() => setViewMode("grid")}
-                        className={`px-3 py-1.5 transition-all ${
-                          viewMode === "grid"
+                        className={`px-3 py-1.5 transition-all ${viewMode === "grid"
                             ? "bg-primary text-primary-foreground font-bold shadow-[0_0_8px_rgba(0,207,255,0.2)]"
                             : "text-muted-foreground hover:text-foreground"
-                        }`}
+                          }`}
                         style={{ borderRadius: "2px" }}
                       >
                         GRID VIEW
                       </button>
                       <button
                         onClick={() => setViewMode("ring")}
-                        className={`px-3 py-1.5 transition-all ${
-                          viewMode === "ring"
+                        className={`px-3 py-1.5 transition-all ${viewMode === "ring"
                             ? "bg-primary text-primary-foreground font-bold shadow-[0_0_8px_rgba(0,207,255,0.2)]"
                             : "text-muted-foreground hover:text-foreground"
-                        }`}
+                          }`}
                         style={{ borderRadius: "2px" }}
                       >
                         COLLAPSE MAP
@@ -883,11 +885,10 @@ export default function App({ user, onSignOut }: AppProps) {
                         return (
                           <div
                             key={idx}
-                            className={`flex-1 transition-all duration-500 rounded-[1px] ${
-                              isReached
+                            className={`flex-1 transition-all duration-500 rounded-[1px] ${isReached
                                 ? "bg-gradient-to-r from-[#00cfff] to-[#00c9b1] shadow-[0_0_8px_rgba(0,201,177,0.4)]"
                                 : "bg-[#111118]"
-                            }`}
+                              }`}
                           />
                         )
                       })}
