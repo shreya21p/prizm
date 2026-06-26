@@ -26,17 +26,17 @@
 
 ---
 
-## Demo
+## Plan
 
->  **Demo recording will be embedded here post-build.** Below is the planned interaction we are building toward — not a placeholder for hype, but the literal spec we are coding against this week.
+
 
 ```
 ┌─────────────────────────────────────────────────┐
 │  INPUT                                          │
 │  "Govt announces new farm loan waiver scheme"   │
 └─────────────────┬───────────────────────────────┘
-                   │
-                   ▼
+                  │
+                  ▼
    ┌───────────────────────────────────┐
    │   12 SIMULATED READINGS           │
    │   appear side-by-side, live       │
@@ -67,8 +67,8 @@ This isn't rare it's the **default condition** of public communication today, an
 | Stat | Source |
 |---|---|
 | **51.2%** of false content shared online is driven by inattention, not malice (33.1% confusion, only 15.8% deliberate) | Pennycook et al., *Nature*, 2021 |
-| **3.1%** of Reddit users post severely toxic content — people *believe* it's 43% | Lee, Neumann, Zaki & Hancock, Stanford / *PNAS Nexus*, 2025 |
-| **8.5%** of Facebook users shared false news — people *believe* it's 47% | Same study, citing Guess, Nagler & Tucker, *Science Advances*, 2019 |
+| **3.1%** of Reddit users post severely toxic content people *believe* it's 43% | Lee, Neumann, Zaki & Hancock, Stanford / *PNAS Nexus*, 2025 |
+| **8.5%** of Facebook users shared false news people *believe* it's 47% | Same study, citing Guess, Nagler & Tucker, *Science Advances*, 2019 |
 | False news is **70% more likely** to be retweeted than true news, and reaches 1,500 people **6x faster** | Vosoughi, Roy & Aral, MIT / *Science*, 2018 |
 
 **Real-world cost of getting this wrong:**
@@ -85,9 +85,9 @@ None of these were bad actors. They were good-faith communicators who never saw 
 Prizm is a three-stage pipeline. 
 | Stage | Answers | Status |
 |---|---|---|
-| **1. Source Check** | Is this claim well-supported, contested, or unverifiable? | 🔨 Planned |
-| **2. Context Collapse Map** | How will this land across 12 different real-world audiences? | 🔨 Planned — core build focus |
-| **3. Safe Rewrite** | How do I phrase this to shrink the gap, without losing the message? | 🔨 Planned |
+| **1. Source Check** | Is this claim well-supported, contested, or unverifiable? | built |
+| **2. Context Collapse Map** | How will this land across 12 different real-world audiences? | built |
+| **3. Safe Rewrite** | How do I phrase this to shrink the gap, without losing the message? | built |
 
 Stage 1 never gates Stage 2 - even unverified or false claims get run through all 12 segments, because knowing how misinformation *lands* is exactly what journalists and policy teams need to counter it.
 
@@ -95,12 +95,12 @@ Stage 1 never gates Stage 2 - even unverified or false claims get run through al
 
 ## Features
 
-- **12-persona simultaneous read** — not a list, a spatial view where divergence is visible at a glance, no reading required to see the shape of the disagreement
-- **Collapse Map (Empathy Ring)** — A 2D spatial visualization mapping audience personas into **Close**, **Distant**, and **Blind Spot** zones based on the linguistic distance from your author profile.
-- **Interactive Persona Chat** — Start an in-character chat with any audience segment to probe their reaction, understand their concerns, and co-create better messaging.
-- **Source-signal check** — a sourcing indicator (well-supported / contested / no credible source), not a fabricated confidence score
-- **Safe phrasing rewrite** — a second-pass suggestion engineered to reduce variance across segments while preserving intent
-- **Editable persona set** — default segments are India-representative (geography, age, occupation, one psychographic marker each); swappable per use case
+- **12-persona simultaneous read** : not a list, a spatial view where divergence is visible at a glance, no reading required to see the shape of the disagreement
+- **Collapse Map (Empathy Ring)** : A 2D spatial visualization mapping audience personas into **Close**, **Distant**, and **Blind Spot** zones based on the linguistic distance from your author profile.
+- **Interactive Persona Chat** : Start an in-character chat with any audience segment to probe their reaction, understand their concerns, and co-create better messaging.
+- **Source-signal check** : a sourcing indicator (well-supported / contested / no credible source), not a fabricated confidence score
+- **Safe phrasing rewrite** : a second-pass suggestion engineered to reduce variance across segments while preserving intent
+- **Editable persona set** : default segments are India-representative (geography, age, occupation, one psychographic marker each); swappable per use case
 
 
 
@@ -109,7 +109,7 @@ Stage 1 never gates Stage 2 - even unverified or false claims get run through al
 
 ## Architecture
 
-> Reflects the system we are building toward over the next two weeks — this is the spec, not a description of completed infrastructure.
+> Reflects the system we are building toward over the next two weeks this is the spec, not a description of completed infrastructure.
 
 ```
                     ┌───────────────────┐
@@ -148,19 +148,19 @@ Stage 1 never gates Stage 2 - even unverified or false claims get run through al
 
 | Layer | Planned Tool |
 |---|---|
-| LLM backbone | Claude / GPT API (persona simulation + rewrite) |
-| Source verification | Web search API + lightweight credibility heuristic |
+| LLM backbone | Groq API (persona simulation + rewrite) |
+| Source verification | Groq API (Low temperature for deterministic verification |
 | Frontend | React + Tailwind |
 | Visualization | Custom spatial divergence UI (D3 or hand-rolled SVG) |
-| Hosting (demo) | Vercel / similar — local fallback if needed |
+| Hosting (demo) | Vercel / Render |
 
 ---
 
 ##  Why This Is Different
 
-Prizm's differentiator is **structural, not stylistic**: the same input produces 12 simultaneous divergent outputs, shown comparatively, so the *gap itself* becomes visible. That comparative structure — not the underlying model call — is the actual product.
+Prizm's differentiator is **structural, not stylistic**: the same input produces 12 simultaneous divergent outputs, shown comparatively, so the *gap itself* becomes visible. That comparative structure , not the underlying model call ,is the actual product.
 
-We are explicit about what this does **not** solve: it does not stop deliberate bad actors. No communication tool ever has. It is built for the much larger population of good-faith communicators who cause harm without knowing it — by the numbers, roughly 5 times the size of the deliberate-harm population.
+We are explicit about what this does **not** solve: it does not stop deliberate bad actors. No communication tool ever has. It is built for the much larger population of good-faith communicators who cause harm without knowing it, by the numbers, roughly 5 times the size of the deliberate-harm population.
 
 ---
 
@@ -173,16 +173,16 @@ We are explicit about what this does **not** solve: it does not stop deliberate 
 | **NGOs & policy communicators** | Stress-test messaging before public campaigns |
 | **Brand & PR teams** | Catch the next #SpreadTheCheer before it goes live |
 
-**Why someone would pay:** the cost of one mishandled message — a PR crisis, a policy backlash, a viral misstep - is orders of magnitude higher than the cost of a tool subscription. This is a prevention product sold against a known, expensive failure mode.
+**Why someone would pay:** the cost of one mishandled message - a PR crisis, a policy backlash, a viral misstep is orders of magnitude higher than the cost of a tool subscription. This is a prevention product sold against a known, expensive failure mode.
 
 ---
 
 ## Roadmap
 
-**Built for this hackathon (48h):**
-- [ ] Stage 2 — 12-persona simulation + divergence visualization (core demo)
-- [ ] Stage 3 — safe rewrite suggestion
-- [ ] Stage 1 — basic source-signal check
+**Built for this hackathon:**
+- [ ] Stage 2 - 12-persona simulation + divergence visualization (core demo)
+- [ ] Stage 3 - safe rewrite suggestion
+- [ ] Stage 1 - basic source-signal check
 - [ ] Polished live demo with 3–5 pre-tested real headlines
 
 **Post-hackathon, if taken further:**
@@ -209,7 +209,7 @@ npm install
 
 # Add your API key
 cp .env.example .env
-# add ANTHROPIC_API_KEY or OPENAI_API_KEY
+# add GROQ_API_KEY
 
 # Run locally
 npm run dev
