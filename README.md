@@ -97,9 +97,11 @@ Stage 1 never gates Stage 2 - even unverified or false claims get run through al
 
 - **12-persona simultaneous read** — not a list, a spatial view where divergence is visible at a glance, no reading required to see the shape of the disagreement
 - **Collapse Map (Empathy Ring)** — A 2D spatial visualization mapping audience personas into **Close**, **Distant**, and **Blind Spot** zones based on the linguistic distance from your author profile.
+- **Interactive Persona Chat** — Start an in-character chat with any audience segment to probe their reaction, understand their concerns, and co-create better messaging.
 - **Source-signal check** — a sourcing indicator (well-supported / contested / no credible source), not a fabricated confidence score
 - **Safe phrasing rewrite** — a second-pass suggestion engineered to reduce variance across segments while preserving intent
 - **Editable persona set** — default segments are India-representative (geography, age, occupation, one psychographic marker each); swappable per use case
+
 
 
 
